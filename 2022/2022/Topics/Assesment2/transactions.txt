@@ -1,0 +1,84 @@
+2022-10-28  Milk 2 Litre, bread 500g, Milk 2 Litre Total: $9.5
+2022-11-04  Milk 2 Litre Total: $3.5
+2022-11-04  Milk 2 Litre Total: $3.5
+2022-11-29 Milk Total: $2.5
+2022-11-29 Milk Total: $2.5
+2022-11-29 Milk Total: $2.5
+2022-12-06 Milk Total: $2.5
+2022-12-06 Milk Total: $2.5
+2022-12-06 Milk Total: $2.5
+2022-12-06 Milk,Cherries Total: $5.0
+2022-12-06 Milk,Milk,Cherries,oatmeal Total: $22.5
+2022-12-06 Milk Total: $2.5
+2022-12-06 Milk,Cherries,oatmeal Total: $20.0
+2022-12-06 Milk Total: $2.5
+2022-12-06 Milk Total: $2.5
+
+
+
+import hashlib
+import SupermarketDAO
+
+credentials = "Andre_Test"  # user name = "abcd" and password = "efgh"
+
+with open("login.bin", "wb") as file:
+    file.write(hashlib.sha512(credentials.encode('utf-8')).digest())
+    file.close()
+
+with open('login.bin', 'rb') as file:
+    user_name = input("enter un: ")
+    pw = input("enter pw: ")
+    user_cred = "".join([user_name, '_', pw])
+    print(user_cred)
+    user_cred = hashlib.sha512(user_cred.encode('utf-8')).digest()  # create hash
+    if user_cred == file.read():  # verify hash (password)
+        dao = SupermarketDAO.superMarketDAO()
+        userinput = input("which option do you want to access: \n A: Add Products to Database "
+                          "\n B: List all Products in Database"
+                          "\n C: Find a Product in the Database, based on Product Bar-Code"
+                          "\n D: List All Transactions "
+                          "\n E: Display a Bar chart of Products sold by quantity"
+                          "\n F: Display an Excel report of all transactions"
+                          "\n G: Exit"
+                          "\n")
+        userinput = userinput.upper()
+        if userinput == "A":
+            prodBarcode = input("Enter Barcode: ")
+            prodName = input("Enter Name: ")
+            prodDesc = input("Enter Description: ")
+            prodCost = float(input("Enter cost as a float: "))
+            dao.addProductToDB(prodBarcode, prodName, prodDesc, prodCost)
+
+        elif userinput == "B":
+            print("Here are all of the products: \n")
+            dao.list_all_products()
+        elif userinput == "C":
+            selectProd = input("Enter the barcode of the product: ")
+            dao.findProduct(selectProd)
+
+        elif userinput == "D":
+            print("Here are all the transactions:")
+            dao.list_all_transactions()
+            for item in rows:
+                print(item)
+        # elif userinput == "E":
+
+        # elif userinput == "F":
+
+        # elif userinput == "G":
+
+        else:
+            print("wrong input")
+
+
+    else:
+        print("NOT OK")
+
+
+
+
+item_list = dao.list_all_products()
+            print("Here are all of the products: \n" dao.list_all_products())
+            for item in item_list:
+                print(item)
+2022-12-08 Bread,Chocolate Total: $5.5

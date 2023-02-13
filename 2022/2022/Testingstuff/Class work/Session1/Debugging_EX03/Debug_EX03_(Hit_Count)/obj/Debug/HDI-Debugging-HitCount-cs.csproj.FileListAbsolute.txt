@@ -1,0 +1,66 @@
+C:\Projects\HDI Videos\HDI-Debugging-HitCount\HDI-Debugging-HitCount-cs\HDI-Debugging-HitCount-cs\bin\Debug\HDI-Debugging-HitCount-cs.exe
+C:\Projects\HDI Videos\HDI-Debugging-HitCount\HDI-Debugging-HitCount-cs\HDI-Debugging-HitCount-cs\bin\Debug\HDI-Debugging-HitCount-cs.pdb
+C:\Projects\HDI Videos\HDI-Debugging-HitCount\HDI-Debugging-HitCount-cs\HDI-Debugging-HitCount-cs\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\HDI Videos\HDI-Debugging-HitCount\HDI-Debugging-HitCount-cs\HDI-Debugging-HitCount-cs\obj\Debug\HDI_Debugging_HitCount_cs.frmHitCount.resources
+C:\Projects\HDI Videos\HDI-Debugging-HitCount\HDI-Debugging-HitCount-cs\HDI-Debugging-HitCount-cs\obj\Debug\HDI_Debugging_HitCount_cs.Properties.Resources.resources
+C:\Projects\HDI Videos\HDI-Debugging-HitCount\HDI-Debugging-HitCount-cs\HDI-Debugging-HitCount-cs\obj\Debug\HDI-Debugging-HitCount-cs.csproj.GenerateResource.Cache
+C:\Projects\HDI Videos\HDI-Debugging-HitCount\HDI-Debugging-HitCount-cs\HDI-Debugging-HitCount-cs\obj\Debug\HDI-Debugging-HitCount-cs.exe
+C:\Projects\HDI Videos\HDI-Debugging-HitCount\HDI-Debugging-HitCount-cs\HDI-Debugging-HitCount-cs\obj\Debug\HDI-Debugging-HitCount-cs.pdb
+C:\TAFE\2012_S2\4TST\CS-LINQ-DebuggingHitCount-sourcecode\HDI-Debugging-HitCount-cs\bin\Debug\HDI-Debugging-HitCount-cs.exe
+C:\TAFE\2012_S2\4TST\CS-LINQ-DebuggingHitCount-sourcecode\HDI-Debugging-HitCount-cs\bin\Debug\HDI-Debugging-HitCount-cs.pdb
+C:\TAFE\2012_S2\4TST\CS-LINQ-DebuggingHitCount-sourcecode\HDI-Debugging-HitCount-cs\obj\Debug\ResolveAssemblyReference.cache
+C:\TAFE\2012_S2\4TST\CS-LINQ-DebuggingHitCount-sourcecode\HDI-Debugging-HitCount-cs\obj\Debug\HDI_Debugging_HitCount_cs.frmHitCount.resources
+C:\TAFE\2012_S2\4TST\CS-LINQ-DebuggingHitCount-sourcecode\HDI-Debugging-HitCount-cs\obj\Debug\HDI_Debugging_HitCount_cs.Properties.Resources.resources
+C:\TAFE\2012_S2\4TST\CS-LINQ-DebuggingHitCount-sourcecode\HDI-Debugging-HitCount-cs\obj\Debug\ResGen.read.1.tlog
+C:\TAFE\2012_S2\4TST\CS-LINQ-DebuggingHitCount-sourcecode\HDI-Debugging-HitCount-cs\obj\Debug\ResGen.write.1.tlog
+C:\TAFE\2012_S2\4TST\CS-LINQ-DebuggingHitCount-sourcecode\HDI-Debugging-HitCount-cs\obj\Debug\HDI-Debugging-HitCount-cs.exe
+C:\TAFE\2012_S2\4TST\CS-LINQ-DebuggingHitCount-sourcecode\HDI-Debugging-HitCount-cs\obj\Debug\HDI-Debugging-HitCount-cs.pdb
+C:\TAFE\2012_S2\4TST\Session01\Debugging_EX03\bin\Debug\HDI-Debugging-HitCount-cs.exe
+C:\TAFE\2012_S2\4TST\Session01\Debugging_EX03\bin\Debug\HDI-Debugging-HitCount-cs.pdb
+C:\TAFE\2012_S2\4TST\Session01\Debugging_EX03\obj\Debug\ResolveAssemblyReference.cache
+C:\TAFE\2012_S2\4TST\Session01\Debugging_EX03\obj\Debug\HDI_Debugging_HitCount_cs.frmHitCount.resources
+C:\TAFE\2012_S2\4TST\Session01\Debugging_EX03\obj\Debug\HDI_Debugging_HitCount_cs.Properties.Resources.resources
+C:\TAFE\2012_S2\4TST\Session01\Debugging_EX03\obj\Debug\ResGen.read.1.tlog
+C:\TAFE\2012_S2\4TST\Session01\Debugging_EX03\obj\Debug\ResGen.write.1.tlog
+C:\TAFE\2012_S2\4TST\Session01\Debugging_EX03\obj\Debug\HDI-Debugging-HitCount-cs.exe
+C:\TAFE\2012_S2\4TST\Session01\Debugging_EX03\obj\Debug\HDI-Debugging-HitCount-cs.pdb
+C:\TAFESA\2013-S1\4TST\Resources\Session01\Lab01\Debugging_EX03\Debug_EX03\obj\Debug\HDI-Debugging-HitCount-cs.exe
+C:\TAFESA\2013-S1\4TST\Resources\Session01\Lab01\Debugging_EX03\Debug_EX03\obj\Debug\HDI-Debugging-HitCount-cs.pdb
+C:\TAFESA\2013-S1\4TST\Resources\Session01\Lab01\Debugging_EX03\Debug_EX03\bin\Debug\HDI-Debugging-HitCount-cs.exe
+C:\TAFESA\2013-S1\4TST\Resources\Session01\Lab01\Debugging_EX03\Debug_EX03\bin\Debug\HDI-Debugging-HitCount-cs.pdb
+C:\TAFESA\2013-S1\4TST\Resources\Session01\Lab01\Debugging_EX03\Debug_EX03\obj\Debug\HDI_Debugging_HitCount_cs.frmHitCount.resources
+C:\TAFESA\2013-S1\4TST\Resources\Session01\Lab01\Debugging_EX03\Debug_EX03\obj\Debug\HDI_Debugging_HitCount_cs.Properties.Resources.resources
+C:\TAFESA\2013-S1\4TST\Resources\Session01\Lab01\Debugging_EX03\Debug_EX03\obj\Debug\HDI-Debugging-HitCount-cs.csproj.GenerateResource.Cache
+C:\TAFESA\2014_S1\4TST\Resources\Session01\Lab01\Debugging_EX03\Debug_EX03\bin\Debug\HDI-Debugging-HitCount-cs.exe
+C:\TAFESA\2014_S1\4TST\Resources\Session01\Lab01\Debugging_EX03\Debug_EX03\bin\Debug\HDI-Debugging-HitCount-cs.pdb
+C:\TAFESA\2014_S1\4TST\Resources\Session01\Lab01\Debugging_EX03\Debug_EX03\obj\Debug\HDI_Debugging_HitCount_cs.frmHitCount.resources
+C:\TAFESA\2014_S1\4TST\Resources\Session01\Lab01\Debugging_EX03\Debug_EX03\obj\Debug\HDI_Debugging_HitCount_cs.Properties.Resources.resources
+C:\TAFESA\2014_S1\4TST\Resources\Session01\Lab01\Debugging_EX03\Debug_EX03\obj\Debug\HDI-Debugging-HitCount-cs.csproj.GenerateResource.Cache
+C:\TAFESA\2014_S1\4TST\Resources\Session01\Lab01\Debugging_EX03\Debug_EX03\obj\Debug\HDI-Debugging-HitCount-cs.exe
+C:\TAFESA\2014_S1\4TST\Resources\Session01\Lab01\Debugging_EX03\Debug_EX03\obj\Debug\HDI-Debugging-HitCount-cs.pdb
+C:\TAFESA\2016_S1\4TST\Resources\Session01\Lab01_old\Debugging_EX03\Debug_EX03\obj\Debug\HDI-Debugging-HitCount-cs.exe
+C:\TAFESA\2016_S1\4TST\Resources\Session01\Lab01_old\Debugging_EX03\Debug_EX03\obj\Debug\HDI-Debugging-HitCount-cs.pdb
+C:\TAFESA\2016_S1\4TST\Resources\Session01\Lab01_old\Debugging_EX03\Debug_EX03\bin\Debug\HDI-Debugging-HitCount-cs.exe
+C:\TAFESA\2016_S1\4TST\Resources\Session01\Lab01_old\Debugging_EX03\Debug_EX03\bin\Debug\HDI-Debugging-HitCount-cs.pdb
+C:\TAFESA\2016_S1\4TST\Resources\Session01\Lab01_old\Debugging_EX03\Debug_EX03\obj\Debug\HDI-Debugging-HitCount-cs.csprojResolveAssemblyReference.cache
+C:\TAFESA\2016_S1\4TST\Resources\Session01\Lab01_old\Debugging_EX03\Debug_EX03\obj\Debug\HDI_Debugging_HitCount_cs.frmHitCount.resources
+C:\TAFESA\2016_S1\4TST\Resources\Session01\Lab01_old\Debugging_EX03\Debug_EX03\obj\Debug\HDI_Debugging_HitCount_cs.Properties.Resources.resources
+C:\TAFESA\2016_S1\4TST\Resources\Session01\Lab01_old\Debugging_EX03\Debug_EX03\obj\Debug\HDI-Debugging-HitCount-cs.csproj.GenerateResource.Cache
+C:\TAFESA\2016_S1\4TST\Resources\Session01\Lab01\Debugging_EX03\Debug_EX03\bin\Debug\HDI-Debugging-HitCount-cs.exe
+C:\TAFESA\2016_S1\4TST\Resources\Session01\Lab01\Debugging_EX03\Debug_EX03\bin\Debug\HDI-Debugging-HitCount-cs.pdb
+C:\TAFESA\2016_S1\4TST\Resources\Session01\Lab01\Debugging_EX03\Debug_EX03\obj\Debug\HDI-Debugging-HitCount-cs.csprojResolveAssemblyReference.cache
+C:\TAFESA\2016_S1\4TST\Resources\Session01\Lab01\Debugging_EX03\Debug_EX03\obj\Debug\HDI_Debugging_HitCount_cs.frmHitCount.resources
+C:\TAFESA\2016_S1\4TST\Resources\Session01\Lab01\Debugging_EX03\Debug_EX03\obj\Debug\HDI_Debugging_HitCount_cs.Properties.Resources.resources
+C:\TAFESA\2016_S1\4TST\Resources\Session01\Lab01\Debugging_EX03\Debug_EX03\obj\Debug\HDI-Debugging-HitCount-cs.csproj.GenerateResource.Cache
+C:\TAFESA\2016_S1\4TST\Resources\Session01\Lab01\Debugging_EX03\Debug_EX03\obj\Debug\HDI-Debugging-HitCount-cs.exe
+C:\TAFESA\2016_S1\4TST\Resources\Session01\Lab01\Debugging_EX03\Debug_EX03\obj\Debug\HDI-Debugging-HitCount-cs.pdb
+D:\MyTafe\2017_S1\5TST\Resources\Session01\Lab01_170210\Debugging_EX03\Debug_EX03\obj\Debug\HDI-Debugging-HitCount-cs.exe
+D:\MyTafe\2017_S1\5TST\Resources\Session01\Lab01_170210\Debugging_EX03\Debug_EX03\obj\Debug\HDI-Debugging-HitCount-cs.pdb
+D:\MyTafe\2017_S1\5TST\Resources\Session01\Lab01_170210\Debugging_EX03\Debug_EX03\bin\Debug\HDI-Debugging-HitCount-cs.exe
+D:\MyTafe\2017_S1\5TST\Resources\Session01\Lab01_170210\Debugging_EX03\Debug_EX03\bin\Debug\HDI-Debugging-HitCount-cs.pdb
+D:\MyTafe\2017_S1\5TST\Resources\Session01\Lab01_170210\Debugging_EX03\Debug_EX03\obj\Debug\HDI-Debugging-HitCount-cs.csprojResolveAssemblyReference.cache
+D:\MyTafe\2017_S1\5TST\Resources\Session01\Lab01_170210\Debugging_EX03\Debug_EX03\obj\Debug\HDI_Debugging_HitCount_cs.frmHitCount.resources
+D:\MyTafe\2017_S1\5TST\Resources\Session01\Lab01_170210\Debugging_EX03\Debug_EX03\obj\Debug\HDI_Debugging_HitCount_cs.Properties.Resources.resources
+D:\MyTafe\2017_S1\5TST\Resources\Session01\Lab01_170210\Debugging_EX03\Debug_EX03\obj\Debug\HDI-Debugging-HitCount-cs.csproj.GenerateResource.Cache
+C:\TafeSA\2019_S1\5TST\Resources\Session01\Lab01_190210\Debugging_EX03\Debug_EX03_(Hit_Count)\obj\Debug\HDI-Debugging-HitCount-cs.exe
+C:\TafeSA\2019_S1\5TST\Resources\Session01\Lab01_190210\Debugging_EX03\Debug_EX03_(Hit_Count)\obj\Debug\HDI-Debugging-HitCount-cs.pdb

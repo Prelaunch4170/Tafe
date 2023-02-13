@@ -1,0 +1,14 @@
+C:\TAFE\2012_S2\4TST\Resources\Session02\Lab02\Lab02_Ex02\BreakPoint_Task02\bin\Debug\BreakPoints02.exe
+C:\TAFE\2012_S2\4TST\Resources\Session02\Lab02\Lab02_Ex02\BreakPoint_Task02\bin\Debug\BreakPoints02.pdb
+C:\TAFE\2012_S2\4TST\Resources\Session02\Lab02\Lab02_Ex02\BreakPoint_Task02\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\TAFE\2012_S2\4TST\Resources\Session02\Lab02\Lab02_Ex02\BreakPoint_Task02\obj\x86\Debug\BreakPoints02.exe
+C:\TAFE\2012_S2\4TST\Resources\Session02\Lab02\Lab02_Ex02\BreakPoint_Task02\obj\x86\Debug\BreakPoints02.pdb
+C:\TAFESA\2014_S1\4TST\Resources\Session02\Lab02\Lab02_Ex02\BreakPoint_Task02\bin\Debug\BreakPoints02.exe
+C:\TAFESA\2014_S1\4TST\Resources\Session02\Lab02\Lab02_Ex02\BreakPoint_Task02\bin\Debug\BreakPoints02.pdb
+C:\TAFESA\2014_S1\4TST\Resources\Session02\Lab02\Lab02_Ex02\BreakPoint_Task02\obj\x86\Debug\BreakPoints02.exe
+C:\TAFESA\2014_S1\4TST\Resources\Session02\Lab02\Lab02_Ex02\BreakPoint_Task02\obj\x86\Debug\BreakPoints02.pdb
+C:\TAFESA\2015_S1\Resources\4TST\Session02\Lab02\Lab02_Ex02\BreakPoint_Task02\bin\Debug\BreakPoints02.exe
+C:\TAFESA\2015_S1\Resources\4TST\Session02\Lab02\Lab02_Ex02\BreakPoint_Task02\bin\Debug\BreakPoints02.pdb
+C:\TAFESA\2015_S1\Resources\4TST\Session02\Lab02\Lab02_Ex02\BreakPoint_Task02\obj\x86\Debug\BreakPoints02.csprojResolveAssemblyReference.cache
+C:\TAFESA\2015_S1\Resources\4TST\Session02\Lab02\Lab02_Ex02\BreakPoint_Task02\obj\x86\Debug\BreakPoints02.exe
+C:\TAFESA\2015_S1\Resources\4TST\Session02\Lab02\Lab02_Ex02\BreakPoint_Task02\obj\x86\Debug\BreakPoints02.pdb

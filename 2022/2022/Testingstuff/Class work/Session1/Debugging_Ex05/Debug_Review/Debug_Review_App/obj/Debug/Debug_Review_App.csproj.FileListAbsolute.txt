@@ -1,0 +1,11 @@
+D:\MyTafe\2017_S1\5TST\Resources\Session02\Lab02 student files\Lab02_Ex03\Debud_Review\Debug_Review_App\bin\Debug\Debug_Review_App.exe.config
+D:\MyTafe\2017_S1\5TST\Resources\Session02\Lab02 student files\Lab02_Ex03\Debud_Review\Debug_Review_App\bin\Debug\Debug_Review_App.exe
+D:\MyTafe\2017_S1\5TST\Resources\Session02\Lab02 student files\Lab02_Ex03\Debud_Review\Debug_Review_App\bin\Debug\Debug_Review_App.pdb
+D:\MyTafe\2017_S1\5TST\Resources\Session02\Lab02 student files\Lab02_Ex03\Debud_Review\Debug_Review_App\obj\Debug\Debug_Review_App.exe
+D:\MyTafe\2017_S1\5TST\Resources\Session02\Lab02 student files\Lab02_Ex03\Debud_Review\Debug_Review_App\obj\Debug\Debug_Review_App.pdb
+D:\MyTafe\2017_S1\5TST\Resources\Session02\Lab02 student files\Lab02_Ex03\Debug_Review\Debug_Review_App\bin\Debug\Debug_Review_App.exe.config
+D:\MyTafe\2017_S1\5TST\Resources\Session02\Lab02 student files\Lab02_Ex03\Debug_Review\Debug_Review_App\obj\Debug\Debug_Review_App.exe
+D:\MyTafe\2017_S1\5TST\Resources\Session02\Lab02 student files\Lab02_Ex03\Debug_Review\Debug_Review_App\obj\Debug\Debug_Review_App.pdb
+D:\MyTafe\2017_S1\5TST\Resources\Session02\Lab02 student files\Lab02_Ex03\Debug_Review\Debug_Review_App\bin\Debug\Debug_Review_App.exe
+D:\MyTafe\2017_S1\5TST\Resources\Session02\Lab02 student files\Lab02_Ex03\Debug_Review\Debug_Review_App\bin\Debug\Debug_Review_App.pdb
+D:\MyTafe\2017_S1\5TST\Resources\Session02\Lab02 student files\Lab02_Ex03\Debug_Review\Debug_Review_App\obj\Debug\Debug_Review_App.csprojResolveAssemblyReference.cache

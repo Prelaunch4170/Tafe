@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "OMf0dYENwfN0+9Xc0P5nyjuTpT7N7AAHthW843HmhqchqwJ+ntp0wgtgm1vzIoJADNZQwiTrUuZgjF+XLF6tCw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Andre\\Desktop\\Tafe\\Testingstuff\\Class work\\initAbucus\\myCalculatorSolution\\myclasslibrary\\myclasslibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Andre\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Andre\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

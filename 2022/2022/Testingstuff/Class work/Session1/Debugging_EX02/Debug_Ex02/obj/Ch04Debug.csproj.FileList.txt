@@ -1,0 +1,8 @@
+obj\Debug\Ch04Debug.exe
+obj\Debug\Ch04Debug.pdb
+bin\Debug\Ch04Debug.exe
+bin\Debug\Ch04Debug.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Ch04Debug.DebugForm.resources
+obj\Debug\Ch04Debug.Properties.Resources.resources
+obj\Debug\Ch04Debug.csproj.GenerateResource.Cache

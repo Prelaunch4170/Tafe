@@ -1,0 +1,16 @@
+C:\Users\Andre\Desktop\Tafe\Testingstuff\Class work\initAbucus\myCalculatorSolution\MyCalculatorTest\bin\Debug\netstandard2.0\MyCalculatorTest.deps.json
+C:\Users\Andre\Desktop\Tafe\Testingstuff\Class work\initAbucus\myCalculatorSolution\MyCalculatorTest\bin\Debug\netstandard2.0\MyCalculatorTest.dll
+C:\Users\Andre\Desktop\Tafe\Testingstuff\Class work\initAbucus\myCalculatorSolution\MyCalculatorTest\bin\Debug\netstandard2.0\MyCalculatorTest.pdb
+C:\Users\Andre\Desktop\Tafe\Testingstuff\Class work\initAbucus\myCalculatorSolution\MyCalculatorTest\obj\Debug\netstandard2.0\MyCalculatorTest.csproj.AssemblyReference.cache
+C:\Users\Andre\Desktop\Tafe\Testingstuff\Class work\initAbucus\myCalculatorSolution\MyCalculatorTest\obj\Debug\netstandard2.0\MyCalculatorTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andre\Desktop\Tafe\Testingstuff\Class work\initAbucus\myCalculatorSolution\MyCalculatorTest\obj\Debug\netstandard2.0\MyCalculatorTest.AssemblyInfoInputs.cache
+C:\Users\Andre\Desktop\Tafe\Testingstuff\Class work\initAbucus\myCalculatorSolution\MyCalculatorTest\obj\Debug\netstandard2.0\MyCalculatorTest.AssemblyInfo.cs
+C:\Users\Andre\Desktop\Tafe\Testingstuff\Class work\initAbucus\myCalculatorSolution\MyCalculatorTest\obj\Debug\netstandard2.0\MyCalculatorTest.csproj.CoreCompileInputs.cache
+C:\Users\Andre\Desktop\Tafe\Testingstuff\Class work\initAbucus\myCalculatorSolution\MyCalculatorTest\obj\Debug\netstandard2.0\MyCalculatorTest.dll
+C:\Users\Andre\Desktop\Tafe\Testingstuff\Class work\initAbucus\myCalculatorSolution\MyCalculatorTest\obj\Debug\netstandard2.0\MyCalculatorTest.pdb
+C:\Users\Andre\Desktop\Tafe\Testingstuff\Class work\initAbucus\myCalculatorSolution\MyCalculatorTest\bin\Debug\netstandard2.0\NUnit3.TestAdapter.dll
+C:\Users\Andre\Desktop\Tafe\Testingstuff\Class work\initAbucus\myCalculatorSolution\MyCalculatorTest\bin\Debug\netstandard2.0\NUnit3.TestAdapter.pdb
+C:\Users\Andre\Desktop\Tafe\Testingstuff\Class work\initAbucus\myCalculatorSolution\MyCalculatorTest\bin\Debug\netstandard2.0\nunit.engine.dll
+C:\Users\Andre\Desktop\Tafe\Testingstuff\Class work\initAbucus\myCalculatorSolution\MyCalculatorTest\bin\Debug\netstandard2.0\nunit.engine.api.dll
+C:\Users\Andre\Desktop\Tafe\Testingstuff\Class work\initAbucus\myCalculatorSolution\MyCalculatorTest\bin\Debug\netstandard2.0\nunit.engine.core.dll
+C:\Users\Andre\Desktop\Tafe\Testingstuff\Class work\initAbucus\myCalculatorSolution\MyCalculatorTest\bin\Debug\netstandard2.0\testcentric.engine.metadata.dll

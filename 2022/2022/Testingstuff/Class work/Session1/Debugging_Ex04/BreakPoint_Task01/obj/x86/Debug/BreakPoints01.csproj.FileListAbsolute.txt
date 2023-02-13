@@ -1,0 +1,17 @@
+C:\TAFESA\2013-S2\4TST\Resources\Session02\Lab02\Lab02_Ex02\BreakPoint_Task01\bin\Debug\BreakPoints01.exe
+C:\TAFESA\2013-S2\4TST\Resources\Session02\Lab02\Lab02_Ex02\BreakPoint_Task01\bin\Debug\BreakPoints01.pdb
+C:\TAFESA\2013-S2\4TST\Resources\Session02\Lab02\Lab02_Ex02\BreakPoint_Task01\obj\x86\Debug\BreakPoints01.exe
+C:\TAFESA\2013-S2\4TST\Resources\Session02\Lab02\Lab02_Ex02\BreakPoint_Task01\obj\x86\Debug\BreakPoints01.pdb
+C:\TAFESA\2014_S1\4TST\Resources\Session02\Lab02\Lab02_Ex02\BreakPoint_Task01\bin\Debug\BreakPoints01.exe
+C:\TAFESA\2014_S1\4TST\Resources\Session02\Lab02\Lab02_Ex02\BreakPoint_Task01\bin\Debug\BreakPoints01.pdb
+C:\TAFESA\2014_S1\4TST\Resources\Session02\Lab02\Lab02_Ex02\BreakPoint_Task01\obj\x86\Debug\BreakPoints01.exe
+C:\TAFESA\2014_S1\4TST\Resources\Session02\Lab02\Lab02_Ex02\BreakPoint_Task01\obj\x86\Debug\BreakPoints01.pdb
+C:\TAFESA\2015_S1\Resources\4TST\Session02\Lab02\Lab02_Ex02\BreakPoint_Task01\obj\x86\Debug\BreakPoints01.exe
+C:\TAFESA\2015_S1\Resources\4TST\Session02\Lab02\Lab02_Ex02\BreakPoint_Task01\obj\x86\Debug\BreakPoints01.pdb
+C:\TAFESA\2015_S1\Resources\4TST\Session02\Lab02\Lab02_Ex02\BreakPoint_Task01\bin\Debug\BreakPoints01.exe
+C:\TAFESA\2015_S1\Resources\4TST\Session02\Lab02\Lab02_Ex02\BreakPoint_Task01\bin\Debug\BreakPoints01.pdb
+C:\TAFESA\2015_S1\Resources\4TST\Session02\Lab02\Lab02_Ex02\BreakPoint_Task01\obj\x86\Debug\BreakPoints01.csprojResolveAssemblyReference.cache
+D:\MyTafe\2017_S1\5TST\Resources\Session02\Lab02\Lab02_Ex02\BreakPoint_Task01\bin\Debug\BreakPoints01.exe
+D:\MyTafe\2017_S1\5TST\Resources\Session02\Lab02\Lab02_Ex02\BreakPoint_Task01\bin\Debug\BreakPoints01.pdb
+D:\MyTafe\2017_S1\5TST\Resources\Session02\Lab02\Lab02_Ex02\BreakPoint_Task01\obj\x86\Debug\BreakPoints01.exe
+D:\MyTafe\2017_S1\5TST\Resources\Session02\Lab02\Lab02_Ex02\BreakPoint_Task01\obj\x86\Debug\BreakPoints01.pdb

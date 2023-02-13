@@ -1,0 +1,8 @@
+F:\TAFE_S2_2010\4TSD\Resources\Session01\Debugging_EX02\bin\Release\Ch04Debug.exe
+F:\TAFE_S2_2010\4TSD\Resources\Session01\Debugging_EX02\bin\Release\Ch04Debug.pdb
+F:\TAFE_S2_2010\4TSD\Resources\Session01\Debugging_EX02\obj\Release\ResolveAssemblyReference.cache
+F:\TAFE_S2_2010\4TSD\Resources\Session01\Debugging_EX02\obj\Release\Ch04Debug.DebugForm.resources
+F:\TAFE_S2_2010\4TSD\Resources\Session01\Debugging_EX02\obj\Release\Ch04Debug.Properties.Resources.resources
+F:\TAFE_S2_2010\4TSD\Resources\Session01\Debugging_EX02\obj\Release\Ch04Debug.csproj.GenerateResource.Cache
+F:\TAFE_S2_2010\4TSD\Resources\Session01\Debugging_EX02\obj\Release\Ch04Debug.exe
+F:\TAFE_S2_2010\4TSD\Resources\Session01\Debugging_EX02\obj\Release\Ch04Debug.pdb

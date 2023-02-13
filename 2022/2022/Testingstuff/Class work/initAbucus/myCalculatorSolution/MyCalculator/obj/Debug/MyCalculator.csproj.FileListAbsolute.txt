@@ -1,0 +1,6 @@
+C:\Users\Andre\Desktop\Tafe\Testingstuff\Class work\initAbucus\myCalculatorSolution\MyCalculator\bin\Debug\MyCalculator.dll
+C:\Users\Andre\Desktop\Tafe\Testingstuff\Class work\initAbucus\myCalculatorSolution\MyCalculator\bin\Debug\MyCalculator.pdb
+C:\Users\Andre\Desktop\Tafe\Testingstuff\Class work\initAbucus\myCalculatorSolution\MyCalculator\obj\Debug\MyCalculator.csproj.AssemblyReference.cache
+C:\Users\Andre\Desktop\Tafe\Testingstuff\Class work\initAbucus\myCalculatorSolution\MyCalculator\obj\Debug\MyCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Andre\Desktop\Tafe\Testingstuff\Class work\initAbucus\myCalculatorSolution\MyCalculator\obj\Debug\MyCalculator.dll
+C:\Users\Andre\Desktop\Tafe\Testingstuff\Class work\initAbucus\myCalculatorSolution\MyCalculator\obj\Debug\MyCalculator.pdb

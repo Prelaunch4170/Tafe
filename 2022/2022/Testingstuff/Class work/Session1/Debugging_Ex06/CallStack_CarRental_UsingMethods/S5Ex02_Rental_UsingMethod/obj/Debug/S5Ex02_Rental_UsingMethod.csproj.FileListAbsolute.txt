@@ -1,0 +1,76 @@
+C:\TAFESA\2015_S1\Resources\4C#B\Session05\Session05 Sample Codes\S05Ex02_RentalCharge_UsingMethod\S5Ex02_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\MainWindow.baml
+C:\TAFESA\2015_S1\Resources\4C#B\Session05\Session05 Sample Codes\S05Ex02_RentalCharge_UsingMethod\S5Ex02_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\MainWindow.g.cs
+C:\TAFESA\2015_S1\Resources\4C#B\Session05\Session05 Sample Codes\S05Ex02_RentalCharge_UsingMethod\S5Ex02_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\App.g.cs
+C:\TAFESA\2015_S1\Resources\4C#B\Session05\Session05 Sample Codes\S05Ex02_RentalCharge_UsingMethod\S5Ex02_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\S5Ex02_Rental_UsingMethod_MarkupCompile.cache
+C:\TAFESA\2015_S1\Resources\4C#B\Session05\Session05 Sample Codes\S05Ex02_RentalCharge_UsingMethod\S5Ex02_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\S5Ex02_Rental_UsingMethod.g.resources
+C:\TAFESA\2015_S1\Resources\4C#B\Session05\Session05 Sample Codes\S05Ex02_RentalCharge_UsingMethod\S5Ex02_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\S5Ex02_Rental_UsingMethod.Properties.Resources.resources
+C:\TAFESA\2015_S1\Resources\4C#B\Session05\Session05 Sample Codes\S05Ex02_RentalCharge_UsingMethod\S5Ex02_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\S5Ex02_Rental_UsingMethod.csproj.GenerateResource.Cache
+C:\TAFESA\2015_S1\Resources\4C#B\Session05\Session05 Sample Codes\S05Ex02_RentalCharge_UsingMethod\S5Ex02_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\bin\Debug\S5Ex02_Rental_UsingMethod.exe.config
+C:\TAFESA\2015_S1\Resources\4C#B\Session05\Session05 Sample Codes\S05Ex02_RentalCharge_UsingMethod\S5Ex02_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\bin\Debug\S5Ex02_Rental_UsingMethod.exe
+C:\TAFESA\2015_S1\Resources\4C#B\Session05\Session05 Sample Codes\S05Ex02_RentalCharge_UsingMethod\S5Ex02_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\bin\Debug\S5Ex02_Rental_UsingMethod.pdb
+C:\TAFESA\2015_S1\Resources\4C#B\Session05\Session05 Sample Codes\S05Ex02_RentalCharge_UsingMethod\S5Ex02_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\S5Ex02_Rental_UsingMethod.exe
+C:\TAFESA\2015_S1\Resources\4C#B\Session05\Session05 Sample Codes\S05Ex02_RentalCharge_UsingMethod\S5Ex02_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\S5Ex02_Rental_UsingMethod.pdb
+C:\TAFESA\2015_S1\Resources\4C#B\Session05\Session05 Sample Codes\S05Ex03_RentalBalance_UsingMethod\S5Ex02_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\bin\Debug\S5Ex02_Rental_UsingMethod.exe.config
+C:\TAFESA\2015_S1\Resources\4C#B\Session05\Session05 Sample Codes\S05Ex03_RentalBalance_UsingMethod\S5Ex02_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\S5Ex02_Rental_UsingMethod.exe
+C:\TAFESA\2015_S1\Resources\4C#B\Session05\Session05 Sample Codes\S05Ex03_RentalBalance_UsingMethod\S5Ex02_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\S5Ex02_Rental_UsingMethod.pdb
+C:\TAFESA\2015_S1\Resources\4C#B\Session05\Session05 Sample Codes\S05Ex03_RentalBalance_UsingMethod\S5Ex02_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\MainWindow.baml
+C:\TAFESA\2015_S1\Resources\4C#B\Session05\Session05 Sample Codes\S05Ex03_RentalBalance_UsingMethod\S5Ex02_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\MainWindow.g.cs
+C:\TAFESA\2015_S1\Resources\4C#B\Session05\Session05 Sample Codes\S05Ex03_RentalBalance_UsingMethod\S5Ex02_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\App.g.cs
+C:\TAFESA\2015_S1\Resources\4C#B\Session05\Session05 Sample Codes\S05Ex03_RentalBalance_UsingMethod\S5Ex02_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\S5Ex02_Rental_UsingMethod_MarkupCompile.cache
+C:\TAFESA\2015_S1\Resources\4C#B\Session05\Session05 Sample Codes\S05Ex03_RentalBalance_UsingMethod\S5Ex02_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\S5Ex02_Rental_UsingMethod.g.resources
+C:\TAFESA\2015_S1\Resources\4C#B\Session05\Session05 Sample Codes\S05Ex03_RentalBalance_UsingMethod\S5Ex02_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\S5Ex02_Rental_UsingMethod.Properties.Resources.resources
+C:\TAFESA\2015_S1\Resources\4C#B\Session05\Session05 Sample Codes\S05Ex03_RentalBalance_UsingMethod\S5Ex02_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\S5Ex02_Rental_UsingMethod.csproj.GenerateResource.Cache
+C:\TAFESA\2015_S1\Resources\4C#B\Session05\Session05 Sample Codes\S05Ex03_RentalBalance_UsingMethod\S5Ex02_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\bin\Debug\S5Ex02_Rental_UsingMethod.exe
+C:\TAFESA\2015_S1\Resources\4C#B\Session05\Session05 Sample Codes\S05Ex03_RentalBalance_UsingMethod\S5Ex02_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\bin\Debug\S5Ex02_Rental_UsingMethod.pdb
+C:\TAFESA\2015_S2\TAFESA_S2_2015\4C#B\Session05\Session05 Sample Codes_150810\S05Ex03_RentalBalance_UsingMethod\S5Ex03_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\bin\Debug\S5Ex02_Rental_UsingMethod.exe.config
+C:\TAFESA\2015_S2\TAFESA_S2_2015\4C#B\Session05\Session05 Sample Codes_150810\S05Ex03_RentalBalance_UsingMethod\S5Ex03_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\bin\Debug\S5Ex02_Rental_UsingMethod.exe
+C:\TAFESA\2015_S2\TAFESA_S2_2015\4C#B\Session05\Session05 Sample Codes_150810\S05Ex03_RentalBalance_UsingMethod\S5Ex03_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\bin\Debug\S5Ex02_Rental_UsingMethod.pdb
+C:\TAFESA\2015_S2\TAFESA_S2_2015\4C#B\Session05\Session05 Sample Codes_150810\S05Ex03_RentalBalance_UsingMethod\S5Ex03_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\MainWindow.baml
+C:\TAFESA\2015_S2\TAFESA_S2_2015\4C#B\Session05\Session05 Sample Codes_150810\S05Ex03_RentalBalance_UsingMethod\S5Ex03_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\MainWindow.g.cs
+C:\TAFESA\2015_S2\TAFESA_S2_2015\4C#B\Session05\Session05 Sample Codes_150810\S05Ex03_RentalBalance_UsingMethod\S5Ex03_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\App.g.cs
+C:\TAFESA\2015_S2\TAFESA_S2_2015\4C#B\Session05\Session05 Sample Codes_150810\S05Ex03_RentalBalance_UsingMethod\S5Ex03_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\S5Ex02_Rental_UsingMethod_MarkupCompile.cache
+C:\TAFESA\2015_S2\TAFESA_S2_2015\4C#B\Session05\Session05 Sample Codes_150810\S05Ex03_RentalBalance_UsingMethod\S5Ex03_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\S5Ex02_Rental_UsingMethod.g.resources
+C:\TAFESA\2015_S2\TAFESA_S2_2015\4C#B\Session05\Session05 Sample Codes_150810\S05Ex03_RentalBalance_UsingMethod\S5Ex03_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\S5Ex02_Rental_UsingMethod.Properties.Resources.resources
+C:\TAFESA\2015_S2\TAFESA_S2_2015\4C#B\Session05\Session05 Sample Codes_150810\S05Ex03_RentalBalance_UsingMethod\S5Ex03_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\S5Ex02_Rental_UsingMethod.csproj.GenerateResource.Cache
+C:\TAFESA\2015_S2\TAFESA_S2_2015\4C#B\Session05\Session05 Sample Codes_150810\S05Ex03_RentalBalance_UsingMethod\S5Ex03_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\S5Ex02_Rental_UsingMethod.exe
+C:\TAFESA\2015_S2\TAFESA_S2_2015\4C#B\Session05\Session05 Sample Codes_150810\S05Ex03_RentalBalance_UsingMethod\S5Ex03_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\S5Ex02_Rental_UsingMethod.pdb
+E:\TAFESA\4TST\Session02\S05Ex03_RentalBalance_UsingMethod\S5Ex03_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\bin\Debug\S5Ex02_Rental_UsingMethod.exe.config
+E:\TAFESA\4TST\Session02\S05Ex03_RentalBalance_UsingMethod\S5Ex03_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\S5Ex02_Rental_UsingMethod.exe
+E:\TAFESA\4TST\Session02\S05Ex03_RentalBalance_UsingMethod\S5Ex03_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\S5Ex02_Rental_UsingMethod.pdb
+E:\TAFESA\4TST\Session02\S05Ex03_RentalBalance_UsingMethod\S5Ex03_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\bin\Debug\S5Ex02_Rental_UsingMethod.exe
+E:\TAFESA\4TST\Session02\S05Ex03_RentalBalance_UsingMethod\S5Ex03_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\bin\Debug\S5Ex02_Rental_UsingMethod.pdb
+E:\TAFESA\4TST\Session02\S05Ex03_RentalBalance_UsingMethod\S5Ex03_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\S5Ex02_Rental_UsingMethod.csprojResolveAssemblyReference.cache
+E:\TAFESA\4TST\Session02\S05Ex03_RentalBalance_UsingMethod\S5Ex03_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\MainWindow.baml
+E:\TAFESA\4TST\Session02\S05Ex03_RentalBalance_UsingMethod\S5Ex03_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\MainWindow.g.cs
+E:\TAFESA\4TST\Session02\S05Ex03_RentalBalance_UsingMethod\S5Ex03_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\App.g.cs
+E:\TAFESA\4TST\Session02\S05Ex03_RentalBalance_UsingMethod\S5Ex03_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\S5Ex02_Rental_UsingMethod_MarkupCompile.cache
+E:\TAFESA\4TST\Session02\S05Ex03_RentalBalance_UsingMethod\S5Ex03_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\S5Ex02_Rental_UsingMethod.g.resources
+E:\TAFESA\4TST\Session02\S05Ex03_RentalBalance_UsingMethod\S5Ex03_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\S5Ex02_Rental_UsingMethod.Properties.Resources.resources
+E:\TAFESA\4TST\Session02\S05Ex03_RentalBalance_UsingMethod\S5Ex03_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\S5Ex02_Rental_UsingMethod.csproj.GenerateResource.Cache
+C:\Temp\S5Ex03_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\bin\Debug\S5Ex02_Rental_UsingMethod.exe.config
+C:\Temp\S5Ex03_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\bin\Debug\S5Ex02_Rental_UsingMethod.exe
+C:\Temp\S5Ex03_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\bin\Debug\S5Ex02_Rental_UsingMethod.pdb
+C:\Temp\S5Ex03_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\MainWindow.baml
+C:\Temp\S5Ex03_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\MainWindow.g.cs
+C:\Temp\S5Ex03_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\App.g.cs
+C:\Temp\S5Ex03_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\S5Ex02_Rental_UsingMethod_MarkupCompile.cache
+C:\Temp\S5Ex03_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\S5Ex02_Rental_UsingMethod.g.resources
+C:\Temp\S5Ex03_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\S5Ex02_Rental_UsingMethod.Properties.Resources.resources
+C:\Temp\S5Ex03_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\S5Ex02_Rental_UsingMethod.csproj.GenerateResource.cache
+C:\Temp\S5Ex03_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\S5Ex02_Rental_UsingMethod.csproj.CoreCompileInputs.cache
+C:\Temp\S5Ex03_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\S5Ex02_Rental_UsingMethod.exe
+C:\Temp\S5Ex03_Rental_UsingMethod\S5Ex02_Rental_UsingMethod\obj\Debug\S5Ex02_Rental_UsingMethod.pdb
+C:\TAFESA\2022_S1\Adelaide - Subjects\ICTPRG433NUT\Resources\Session 01 - Introduction to testing concept\Session 01 Class Exercises\Debugging_Ex06\CallStack_CarRental_UsingMethods\S5Ex02_Rental_UsingMethod\bin\Debug\S5Ex02_Rental_UsingMethod.exe.config
+C:\TAFESA\2022_S1\Adelaide - Subjects\ICTPRG433NUT\Resources\Session 01 - Introduction to testing concept\Session 01 Class Exercises\Debugging_Ex06\CallStack_CarRental_UsingMethods\S5Ex02_Rental_UsingMethod\bin\Debug\S5Ex02_Rental_UsingMethod.exe
+C:\TAFESA\2022_S1\Adelaide - Subjects\ICTPRG433NUT\Resources\Session 01 - Introduction to testing concept\Session 01 Class Exercises\Debugging_Ex06\CallStack_CarRental_UsingMethods\S5Ex02_Rental_UsingMethod\bin\Debug\S5Ex02_Rental_UsingMethod.pdb
+C:\TAFESA\2022_S1\Adelaide - Subjects\ICTPRG433NUT\Resources\Session 01 - Introduction to testing concept\Session 01 Class Exercises\Debugging_Ex06\CallStack_CarRental_UsingMethods\S5Ex02_Rental_UsingMethod\obj\Debug\S5Ex02_Rental_UsingMethod.csprojAssemblyReference.cache
+C:\TAFESA\2022_S1\Adelaide - Subjects\ICTPRG433NUT\Resources\Session 01 - Introduction to testing concept\Session 01 Class Exercises\Debugging_Ex06\CallStack_CarRental_UsingMethods\S5Ex02_Rental_UsingMethod\obj\Debug\MainWindow.baml
+C:\TAFESA\2022_S1\Adelaide - Subjects\ICTPRG433NUT\Resources\Session 01 - Introduction to testing concept\Session 01 Class Exercises\Debugging_Ex06\CallStack_CarRental_UsingMethods\S5Ex02_Rental_UsingMethod\obj\Debug\MainWindow.g.cs
+C:\TAFESA\2022_S1\Adelaide - Subjects\ICTPRG433NUT\Resources\Session 01 - Introduction to testing concept\Session 01 Class Exercises\Debugging_Ex06\CallStack_CarRental_UsingMethods\S5Ex02_Rental_UsingMethod\obj\Debug\App.g.cs
+C:\TAFESA\2022_S1\Adelaide - Subjects\ICTPRG433NUT\Resources\Session 01 - Introduction to testing concept\Session 01 Class Exercises\Debugging_Ex06\CallStack_CarRental_UsingMethods\S5Ex02_Rental_UsingMethod\obj\Debug\S5Ex02_Rental_UsingMethod_MarkupCompile.cache
+C:\TAFESA\2022_S1\Adelaide - Subjects\ICTPRG433NUT\Resources\Session 01 - Introduction to testing concept\Session 01 Class Exercises\Debugging_Ex06\CallStack_CarRental_UsingMethods\S5Ex02_Rental_UsingMethod\obj\Debug\S5Ex02_Rental_UsingMethod.g.resources
+C:\TAFESA\2022_S1\Adelaide - Subjects\ICTPRG433NUT\Resources\Session 01 - Introduction to testing concept\Session 01 Class Exercises\Debugging_Ex06\CallStack_CarRental_UsingMethods\S5Ex02_Rental_UsingMethod\obj\Debug\S5Ex02_Rental_UsingMethod.Properties.Resources.resources
+C:\TAFESA\2022_S1\Adelaide - Subjects\ICTPRG433NUT\Resources\Session 01 - Introduction to testing concept\Session 01 Class Exercises\Debugging_Ex06\CallStack_CarRental_UsingMethods\S5Ex02_Rental_UsingMethod\obj\Debug\S5Ex02_Rental_UsingMethod.csproj.GenerateResource.cache
+C:\TAFESA\2022_S1\Adelaide - Subjects\ICTPRG433NUT\Resources\Session 01 - Introduction to testing concept\Session 01 Class Exercises\Debugging_Ex06\CallStack_CarRental_UsingMethods\S5Ex02_Rental_UsingMethod\obj\Debug\S5Ex02_Rental_UsingMethod.csproj.CoreCompileInputs.cache
+C:\TAFESA\2022_S1\Adelaide - Subjects\ICTPRG433NUT\Resources\Session 01 - Introduction to testing concept\Session 01 Class Exercises\Debugging_Ex06\CallStack_CarRental_UsingMethods\S5Ex02_Rental_UsingMethod\obj\Debug\S5Ex02_Rental_UsingMethod.exe
+C:\TAFESA\2022_S1\Adelaide - Subjects\ICTPRG433NUT\Resources\Session 01 - Introduction to testing concept\Session 01 Class Exercises\Debugging_Ex06\CallStack_CarRental_UsingMethods\S5Ex02_Rental_UsingMethod\obj\Debug\S5Ex02_Rental_UsingMethod.pdb

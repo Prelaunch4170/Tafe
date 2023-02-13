@@ -1,0 +1,9 @@
+C:\Users\Andre\Desktop\Tafe\Testingstuff\Class work\initAbucus\myCalculatorSolution\myclasslibrary\bin\Debug\netstandard2.0\myclasslibrary.deps.json
+C:\Users\Andre\Desktop\Tafe\Testingstuff\Class work\initAbucus\myCalculatorSolution\myclasslibrary\bin\Debug\netstandard2.0\myclasslibrary.dll
+C:\Users\Andre\Desktop\Tafe\Testingstuff\Class work\initAbucus\myCalculatorSolution\myclasslibrary\bin\Debug\netstandard2.0\myclasslibrary.pdb
+C:\Users\Andre\Desktop\Tafe\Testingstuff\Class work\initAbucus\myCalculatorSolution\myclasslibrary\obj\Debug\netstandard2.0\myclasslibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andre\Desktop\Tafe\Testingstuff\Class work\initAbucus\myCalculatorSolution\myclasslibrary\obj\Debug\netstandard2.0\myclasslibrary.AssemblyInfoInputs.cache
+C:\Users\Andre\Desktop\Tafe\Testingstuff\Class work\initAbucus\myCalculatorSolution\myclasslibrary\obj\Debug\netstandard2.0\myclasslibrary.AssemblyInfo.cs
+C:\Users\Andre\Desktop\Tafe\Testingstuff\Class work\initAbucus\myCalculatorSolution\myclasslibrary\obj\Debug\netstandard2.0\myclasslibrary.csproj.CoreCompileInputs.cache
+C:\Users\Andre\Desktop\Tafe\Testingstuff\Class work\initAbucus\myCalculatorSolution\myclasslibrary\obj\Debug\netstandard2.0\myclasslibrary.dll
+C:\Users\Andre\Desktop\Tafe\Testingstuff\Class work\initAbucus\myCalculatorSolution\myclasslibrary\obj\Debug\netstandard2.0\myclasslibrary.pdb

@@ -1,0 +1,67 @@
+C:\Users\Anita\Documents\C# 2008\Projects\ch04debug\Ch04Debug\obj\Debug\Ch04Debug.exe
+C:\Users\Anita\Documents\C# 2008\Projects\ch04debug\Ch04Debug\obj\Debug\Ch04Debug.pdb
+C:\Users\Public\Csharp2008\InChapter Programs\Chap 4\Ch04Debug\bin\Debug\Ch04Debug.exe
+C:\Users\Public\Csharp2008\InChapter Programs\Chap 4\Ch04Debug\bin\Debug\Ch04Debug.pdb
+C:\Users\Public\Csharp2008\InChapter Programs\Chap 4\Ch04Debug\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Public\Csharp2008\InChapter Programs\Chap 4\Ch04Debug\obj\Debug\Ch04Debug.DebugForm.resources
+C:\Users\Public\Csharp2008\InChapter Programs\Chap 4\Ch04Debug\obj\Debug\Ch04Debug.Properties.Resources.resources
+C:\Users\Public\Csharp2008\InChapter Programs\Chap 4\Ch04Debug\obj\Debug\Ch04Debug.csproj.GenerateResource.Cache
+C:\Users\Public\Csharp2008\InChapter Programs\Chap 4\Ch04Debug\obj\Debug\Ch04Debug.exe
+C:\Users\Public\Csharp2008\InChapter Programs\Chap 4\Ch04Debug\obj\Debug\Ch04Debug.pdb
+C:\Documents and Settings\Judy\My Documents\Csharp2008\InChapterPrograms\Chap 4\Ch04Debug\obj\Debug\Ch04Debug.exe
+C:\Documents and Settings\Judy\My Documents\Csharp2008\InChapterPrograms\Chap 4\Ch04Debug\obj\Debug\Ch04Debug.pdb
+C:\Documents and Settings\Judy\My Documents\Csharp2008\InChapterPrograms\Chap 04\Ch04Debug\obj\Debug\Ch04Debug.exe
+C:\Documents and Settings\Judy\My Documents\Csharp2008\InChapterPrograms\Chap 04\Ch04Debug\obj\Debug\Ch04Debug.pdb
+F:\TAFE_S2_2010\4TSD\Resources\Session01\Debugging_EX02\obj\Debug\Ch04Debug.exe
+F:\TAFE_S2_2010\4TSD\Resources\Session01\Debugging_EX02\obj\Debug\Ch04Debug.pdb
+F:\TAFE_S2_2010\4TSD\Resources\Session01\Debugging_EX02\bin\Debug\Ch04Debug.exe
+F:\TAFE_S2_2010\4TSD\Resources\Session01\Debugging_EX02\bin\Debug\Ch04Debug.pdb
+F:\TAFE_S2_2010\4TSD\Resources\Session01\Debugging_EX02\obj\Debug\ResolveAssemblyReference.cache
+F:\TAFE_S2_2010\4TSD\Resources\Session01\Debugging_EX02\obj\Debug\Ch04Debug.DebugForm.resources
+F:\TAFE_S2_2010\4TSD\Resources\Session01\Debugging_EX02\obj\Debug\Ch04Debug.Properties.Resources.resources
+F:\TAFE_S2_2010\4TSD\Resources\Session01\Debugging_EX02\obj\Debug\Ch04Debug.csproj.GenerateResource.Cache
+C:\Tafe_Work\2011-1\4TSD\Resources\Session01\Debugging_EX02\Debug_Ex02\obj\Debug\Ch04Debug.exe
+C:\Tafe_Work\2011-1\4TSD\Resources\Session01\Debugging_EX02\Debug_Ex02\obj\Debug\Ch04Debug.pdb
+C:\Tafe_Work\2011-1\4TSD\Resources\Session01\Debugging_EX02\Debug_Ex02\bin\Debug\Ch04Debug.exe
+C:\Tafe_Work\2011-1\4TSD\Resources\Session01\Debugging_EX02\Debug_Ex02\bin\Debug\Ch04Debug.pdb
+C:\Tafe_Work\2011-1\4TSD\Resources\Session01\Debugging_EX02\Debug_Ex02\obj\Debug\ResolveAssemblyReference.cache
+C:\Tafe_Work\2011-1\4TSD\Resources\Session01\Debugging_EX02\Debug_Ex02\obj\Debug\Ch04Debug.DebugForm.resources
+C:\Tafe_Work\2011-1\4TSD\Resources\Session01\Debugging_EX02\Debug_Ex02\obj\Debug\Ch04Debug.Properties.Resources.resources
+C:\Tafe_Work\2011-1\4TSD\Resources\Session01\Debugging_EX02\Debug_Ex02\obj\Debug\ResGen.read.1.tlog
+C:\Tafe_Work\2011-1\4TSD\Resources\Session01\Debugging_EX02\Debug_Ex02\obj\Debug\ResGen.write.1.tlog
+C:\TAFE\2011_S2\4TSD\Resources\Session01\Debugging_EX02\Debug_Ex02\obj\Debug\Ch04Debug.exe
+C:\TAFE\2011_S2\4TSD\Resources\Session01\Debugging_EX02\Debug_Ex02\obj\Debug\Ch04Debug.pdb
+C:\TAFE\2012_S1\4TSD\Resources\Session01\Debugging_EX02\Debug_Ex02\obj\Debug\Ch04Debug.exe
+C:\TAFE\2012_S1\4TSD\Resources\Session01\Debugging_EX02\Debug_Ex02\obj\Debug\Ch04Debug.pdb
+C:\TAFE\2012_S1\4TSD\Resources\Session01\Debugging_EX02\Debug_Ex02\bin\Debug\Ch04Debug.exe
+C:\TAFE\2012_S1\4TSD\Resources\Session01\Debugging_EX02\Debug_Ex02\bin\Debug\Ch04Debug.pdb
+C:\TAFE\2012_S1\4TSD\Resources\Session01\Debugging_EX02\Debug_Ex02\obj\Debug\ResolveAssemblyReference.cache
+C:\TAFE\2012_S1\4TSD\Resources\Session01\Debugging_EX02\Debug_Ex02\obj\Debug\Ch04Debug.DebugForm.resources
+C:\TAFE\2012_S1\4TSD\Resources\Session01\Debugging_EX02\Debug_Ex02\obj\Debug\Ch04Debug.Properties.Resources.resources
+C:\TAFE\2012_S1\4TSD\Resources\Session01\Debugging_EX02\Debug_Ex02\obj\Debug\ResGen.read.1.tlog
+C:\TAFE\2012_S1\4TSD\Resources\Session01\Debugging_EX02\Debug_Ex02\obj\Debug\ResGen.write.1.tlog
+C:\TAFESA\2014_S1\4TST\Resources\Session01\Lab01\Debugging_EX02\Debug_Ex02\bin\Debug\Ch04Debug.exe
+C:\TAFESA\2014_S1\4TST\Resources\Session01\Lab01\Debugging_EX02\Debug_Ex02\bin\Debug\Ch04Debug.pdb
+C:\TAFESA\2014_S1\4TST\Resources\Session01\Lab01\Debugging_EX02\Debug_Ex02\obj\Debug\Ch04Debug.DebugForm.resources
+C:\TAFESA\2014_S1\4TST\Resources\Session01\Lab01\Debugging_EX02\Debug_Ex02\obj\Debug\Ch04Debug.Properties.Resources.resources
+C:\TAFESA\2014_S1\4TST\Resources\Session01\Lab01\Debugging_EX02\Debug_Ex02\obj\Debug\Ch04Debug.csproj.GenerateResource.Cache
+C:\TAFESA\2014_S1\4TST\Resources\Session01\Lab01\Debugging_EX02\Debug_Ex02\obj\Debug\Ch04Debug.exe
+C:\TAFESA\2014_S1\4TST\Resources\Session01\Lab01\Debugging_EX02\Debug_Ex02\obj\Debug\Ch04Debug.pdb
+C:\TAFESA\2016_S1\4TST\Resources\Session01\Lab01_old\Debugging_EX02\Debug_Ex02\obj\Debug\Ch04Debug.exe
+C:\TAFESA\2016_S1\4TST\Resources\Session01\Lab01_old\Debugging_EX02\Debug_Ex02\obj\Debug\Ch04Debug.pdb
+C:\TAFESA\2016_S1\4TST\Resources\Session01\Lab01_old\Debugging_EX02\Debug_Ex02\bin\Debug\Ch04Debug.exe
+C:\TAFESA\2016_S1\4TST\Resources\Session01\Lab01_old\Debugging_EX02\Debug_Ex02\bin\Debug\Ch04Debug.pdb
+C:\TAFESA\2016_S1\4TST\Resources\Session01\Lab01_old\Debugging_EX02\Debug_Ex02\obj\Debug\Ch04Debug.csprojResolveAssemblyReference.cache
+C:\TAFESA\2016_S1\4TST\Resources\Session01\Lab01_old\Debugging_EX02\Debug_Ex02\obj\Debug\Ch04Debug.DebugForm.resources
+C:\TAFESA\2016_S1\4TST\Resources\Session01\Lab01_old\Debugging_EX02\Debug_Ex02\obj\Debug\Ch04Debug.Properties.Resources.resources
+C:\TAFESA\2016_S1\4TST\Resources\Session01\Lab01_old\Debugging_EX02\Debug_Ex02\obj\Debug\Ch04Debug.csproj.GenerateResource.Cache
+D:\MyTafe\2017_S1\5TST\Resources\Session01\Lab01_170210\Debugging_EX02\Debug_Ex02\bin\Debug\Ch04Debug.exe
+D:\MyTafe\2017_S1\5TST\Resources\Session01\Lab01_170210\Debugging_EX02\Debug_Ex02\bin\Debug\Ch04Debug.pdb
+D:\MyTafe\2017_S1\5TST\Resources\Session01\Lab01_170210\Debugging_EX02\Debug_Ex02\obj\Debug\Ch04Debug.csprojResolveAssemblyReference.cache
+D:\MyTafe\2017_S1\5TST\Resources\Session01\Lab01_170210\Debugging_EX02\Debug_Ex02\obj\Debug\Ch04Debug.DebugForm.resources
+D:\MyTafe\2017_S1\5TST\Resources\Session01\Lab01_170210\Debugging_EX02\Debug_Ex02\obj\Debug\Ch04Debug.Properties.Resources.resources
+D:\MyTafe\2017_S1\5TST\Resources\Session01\Lab01_170210\Debugging_EX02\Debug_Ex02\obj\Debug\Ch04Debug.csproj.GenerateResource.Cache
+D:\MyTafe\2017_S1\5TST\Resources\Session01\Lab01_170210\Debugging_EX02\Debug_Ex02\obj\Debug\Ch04Debug.exe
+D:\MyTafe\2017_S1\5TST\Resources\Session01\Lab01_170210\Debugging_EX02\Debug_Ex02\obj\Debug\Ch04Debug.pdb
+D:\MyTafe\2018_S1\5TST\Resources\Session01\Lab01_170210\Debugging_EX02\Debug_Ex02\obj\Debug\Ch04Debug.exe
+D:\MyTafe\2018_S1\5TST\Resources\Session01\Lab01_170210\Debugging_EX02\Debug_Ex02\obj\Debug\Ch04Debug.pdb

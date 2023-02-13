@@ -1,0 +1,7 @@
+C:\TAFE\2012_S2\4TST\Resources\Session02\Lab02\Lab03_Ex03\Call_Stack\bin\Debug\CallStack.exe
+C:\TAFE\2012_S2\4TST\Resources\Session02\Lab02\Lab03_Ex03\Call_Stack\bin\Debug\CallStack.pdb
+C:\TAFE\2012_S2\4TST\Resources\Session02\Lab02\Lab03_Ex03\Call_Stack\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\TAFE\2012_S2\4TST\Resources\Session02\Lab02\Lab03_Ex03\Call_Stack\obj\x86\Debug\CallStack.exe
+C:\TAFE\2012_S2\4TST\Resources\Session02\Lab02\Lab03_Ex03\Call_Stack\obj\x86\Debug\CallStack.pdb
+C:\TAFE\2012_S2\4TST\Resources\Session02\Lab02\Lab03_Ex03\IntelliTrace\obj\x86\Debug\CallStack.exe
+C:\TAFE\2012_S2\4TST\Resources\Session02\Lab02\Lab03_Ex03\IntelliTrace\obj\x86\Debug\CallStack.pdb
