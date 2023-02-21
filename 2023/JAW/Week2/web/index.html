@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Main Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div><a href="/Week2/controller1">Main controller</a></div>
+        <form Name = "main" action="./controller1" method=post>
+            <label for ="txtUsername">UserName</label>
+            <input type="text" Name="txtUsername"/><br>
+            <label for ="txtPassword">Password</label>
+            <input type="password" Name="txtPassword"/><br>
+            
+            <label for ="Male">Male</label>
+            <input type="radio" id="Male" name="gender" value="Male"><br>
+            <label for ="Female">Female</label>
+            <input type="radio" id="Female" name="gender" value="Female"><br>
+            <label for ="NA">Prefer not to say</label>
+            <input type="radio" id="NA" name="gender" value="N/A">
+            
+            
+            <br><input type="submit" value="Submit">
+            
+        </form>
+    </body>
+</html>
