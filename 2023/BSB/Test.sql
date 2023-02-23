@@ -1,3 +1,7 @@
+
+
+drop database if exists session02db;
+create database session02db;
 use session02db;
 
 create table Department
