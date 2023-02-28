@@ -155,7 +155,9 @@
           "lib/netcoreapp3.1/Microsoft.TestPlatform.Utilities.dll": {},
           "lib/netcoreapp3.1/Microsoft.VisualStudio.TestPlatform.Common.dll": {},
           "lib/netcoreapp3.1/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll": {},
-          "lib/netcoreapp3.1/testhost.dll": {}
+          "lib/netcoreapp3.1/testhost.dll": {
+            "related": ".deps.json"
+          }
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.TestPlatform.CommunicationUtilities.dll": {},
@@ -165,7 +167,9 @@
           "lib/netcoreapp3.1/Microsoft.TestPlatform.Utilities.dll": {},
           "lib/netcoreapp3.1/Microsoft.VisualStudio.TestPlatform.Common.dll": {},
           "lib/netcoreapp3.1/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll": {},
-          "lib/netcoreapp3.1/testhost.dll": {}
+          "lib/netcoreapp3.1/testhost.dll": {
+            "related": ".deps.json"
+          }
         },
         "resource": {
           "lib/netcoreapp3.1/cs/Microsoft.TestPlatform.CommunicationUtilities.resources.dll": {
@@ -308,19 +312,27 @@
       "Newtonsoft.Json/13.0.1": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "NuGet.Frameworks/5.11.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/NuGet.Frameworks.dll": {}
+          "lib/netstandard2.0/NuGet.Frameworks.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/NuGet.Frameworks.dll": {}
+          "lib/netstandard2.0/NuGet.Frameworks.dll": {
+            "related": ".xml"
+          }
         }
       },
       "NUnit/3.13.3": {
@@ -329,10 +341,14 @@
           "NETStandard.Library": "2.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/nunit.framework.dll": {}
+          "lib/netstandard2.0/nunit.framework.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/nunit.framework.dll": {}
+          "lib/netstandard2.0/nunit.framework.dll": {
+            "related": ".xml"
+          }
         },
         "build": {
           "build/NUnit.props": {}
@@ -347,10 +363,14 @@
       "System.Reflection.Metadata/1.6.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/System.Reflection.Metadata.dll": {}
+          "lib/netstandard2.0/System.Reflection.Metadata.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Reflection.Metadata.dll": {}
+          "lib/netstandard2.0/System.Reflection.Metadata.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Sales/1.0.0": {
@@ -903,11 +923,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Andre\\Desktop\\Tafe2022\\Testingstuff\\Assesment\\SAAirlineTicketing_.Net\\SAAirlineTicketing\\SalesTest\\SalesTest.csproj",
+      "projectUniqueName": "C:\\Users\\Andre\\Desktop\\Tafe-1\\2022\\Testingstuff\\Assesment\\SAAirlineTicketing_.Net\\SAAirlineTicketing\\SalesTest\\SalesTest.csproj",
       "projectName": "SalesTest",
-      "projectPath": "C:\\Users\\Andre\\Desktop\\Tafe2022\\Testingstuff\\Assesment\\SAAirlineTicketing_.Net\\SAAirlineTicketing\\SalesTest\\SalesTest.csproj",
+      "projectPath": "C:\\Users\\Andre\\Desktop\\Tafe-1\\2022\\Testingstuff\\Assesment\\SAAirlineTicketing_.Net\\SAAirlineTicketing\\SalesTest\\SalesTest.csproj",
       "packagesPath": "C:\\Users\\Andre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Andre\\Desktop\\Tafe2022\\Testingstuff\\Assesment\\SAAirlineTicketing_.Net\\SAAirlineTicketing\\SalesTest\\obj\\",
+      "outputPath": "C:\\Users\\Andre\\Desktop\\Tafe-1\\2022\\Testingstuff\\Assesment\\SAAirlineTicketing_.Net\\SAAirlineTicketing\\SalesTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -928,8 +948,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Andre\\Desktop\\Tafe2022\\Testingstuff\\Assesment\\SAAirlineTicketing_.Net\\SAAirlineTicketing\\Sales\\Sales.csproj": {
-              "projectPath": "C:\\Users\\Andre\\Desktop\\Tafe2022\\Testingstuff\\Assesment\\SAAirlineTicketing_.Net\\SAAirlineTicketing\\Sales\\Sales.csproj"
+            "C:\\Users\\Andre\\Desktop\\Tafe-1\\2022\\Testingstuff\\Assesment\\SAAirlineTicketing_.Net\\SAAirlineTicketing\\Sales\\Sales.csproj": {
+              "projectPath": "C:\\Users\\Andre\\Desktop\\Tafe-1\\2022\\Testingstuff\\Assesment\\SAAirlineTicketing_.Net\\SAAirlineTicketing\\Sales\\Sales.csproj"
             }
           }
         }
@@ -963,7 +983,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -972,7 +993,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
