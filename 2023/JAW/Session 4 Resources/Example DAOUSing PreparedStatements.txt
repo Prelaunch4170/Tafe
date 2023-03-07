@@ -1,0 +1,135 @@
+package databases;
+
+import java.util.*;
+import java.io.*;
+import java.sql.*;
+import javax.sql.*;
+import javax.naming.*;
+import databases.models.*;
+import databases.common.IDataAccess;
+
+
+public class DAO implements IDataAccess{
+
+  protected Connection con;
+  protected PreparedStatement findByCategory;
+  protected PreparedStatement findByName;
+  protected PreparedStatement getAll;
+  protected PreparedStatement findByPK;
+
+
+
+  public DAO()throws Exception {
+   //code to connect to database here
+
+    findByCategory = findByCatSQL();
+    findByName = findByNameSQL();
+    getAll = getAllSQL();
+    findByPK = findByPKSQL();
+  }
+
+  public  List findItemsByName(String value)throws Exception {
+    ResultSet rs = null;
+    List list = new ArrayList();
+    String id=""; String name=""; String category="";
+    String rating =""; double price=0.00;
+    findByName.setString(1,value);
+    rs = findByName.executeQuery();
+
+    while(rs.next()) {
+      id = rs.getString(1);
+      name = rs.getString(2);
+      category = rs.getString(3);
+      rating = rs.getString(4);
+      price = rs.getDouble (5);
+      list.add(new Movie(id,name,category, rating, price));
+    }
+    rs.close();
+    return list;
+  }
+
+  public  List findItemsByCategory(String value)throws Exception {
+    ResultSet rs = null;
+    List list = new ArrayList();
+    String id=""; String name=""; String category="";
+    String rating ="";
+    double price=0.00;
+    findByCategory.setString(1,value);
+    rs = findByCategory.executeQuery();
+
+    while(rs.next()) {
+      id = rs.getString(1);
+      name = rs.getString(2);
+      category = rs.getString(3);
+      rating = rs.getString(4);
+      price = rs.getDouble (5);
+      list.add(new Movie(id,name,category,rating, price));
+    }
+    rs.close();
+    return list;
+  }
+
+  public List getAllItems() throws Exception{
+    System.out.println("inside getAllItems");
+    ResultSet rs = null;
+    List list = new ArrayList();
+    String id=""; String name=""; String category="";
+    String rating = "";
+    double price=0.00;
+    rs = getAll.executeQuery();
+
+    while(rs.next()) {
+      id = rs.getString(1);
+      name = rs.getString(2);
+      category = rs.getString(3);
+      rating = rs.getString(4);
+      price = rs.getDouble (5);
+      list.add(new Movie(id,name,category, rating, price));
+    }
+    rs.close();
+    return list;
+  }
+
+
+  public  Object findItemByPK(String pk)throws Exception {
+    ResultSet rs = null;
+    String id=""; String name=""; String category="";
+    String rating = "";
+    double price=0.00;
+    findByPK.setString(1,pk);
+    rs = findByPK.executeQuery();
+    Movie aMovie = null;
+    while(rs.next()) {
+      id = rs.getString(1);
+      name = rs.getString(2);
+      category = rs.getString(3);
+      rating = rs.getString(4);
+      price = rs.getDouble (4);
+      aMovie = new Movie(id,name,category, rating,  price);
+    }
+    rs.close();
+    return aMovie;
+  }
+
+  protected PreparedStatement getAllSQL() throws Exception{
+    return con.prepareStatement ("SELECT * FROM TMovies");
+  }
+
+  protected PreparedStatement findByPKSQL() throws Exception{
+    return con.prepareStatement ("SELECT * FROM TMovies "+
+                                 "WHERE id = ?");
+  }
+
+  protected  PreparedStatement findByCatSQL()throws Exception{
+    return con.prepareStatement("SELECT * FROM TMovies " +
+                                "WHERE category = ?");
+  }
+
+  protected PreparedStatement findByNameSQL() throws Exception{
+    return con.prepareStatement ("SELECT * FROM TMovies " +
+                                "WHERE name = ?");
+  }
+}
+
+
+

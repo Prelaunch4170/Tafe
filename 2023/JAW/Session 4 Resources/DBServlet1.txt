@@ -1,0 +1,70 @@
+  protected void processRequest(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        response.setContentType("text/html;charset=UTF-8");
+        Connection con = null;
+        PrintWriter out= null;
+        try{
+            out = response.getWriter();
+            
+
+            // Load the Driver class file
+            Class.forName("org.apache.derby.jdbc.ClientDriver");
+
+            // Make a connection to the ODBC datasource Movie Catalog
+            // In this example we are opening a connection to the
+            // database with every request.
+            con = DriverManager.getConnection("jdbc:derby://localhost:1527/movies", "user1", "password");
+
+            if (con != null) {
+                out.println("<html>\n<body>\n<table border=\"1\" width=\"100%\">");
+                // Create the statement
+                Statement statement = con.createStatement();
+                ResultSet rs = statement.executeQuery("SELECT * FROM USER1.TMovie");
+                ResultSetMetaData rsmd = rs.getMetaData();
+                int columnCount = rsmd.getColumnCount();
+                out.println("<tr>");
+
+                for (int i = 1; i <= columnCount; i++) {
+                    out.println("<td><h3>" + rsmd.getColumnName(i) + "</td>");
+                }
+                out.println("</tr>");
+
+                while (rs.next()) {
+                    out.println("<tr>");
+                    // get the id, which is an int
+                    out.println("<td>" + rs.getInt("id") + "</td>");
+                    // get the name, which is a String
+                    out.println("<td>" + rs.getString("title") + "</td>");
+                    // get the rating, which is a String
+                    out.println("<td>" + rs.getString("rating") + "</td>");
+                    // get the price, which is a Float
+                    out.println("<td>" + rs.getFloat("price") + "</td>");
+                    // get the Quantity, which is a Integer
+                    out.println("<td>" + rs.getInt("quantity") + "</td>");
+                    // get the Category, which is a Integer
+                    out.println("<td>" + rs.getString("category") + "</td>");
+                    out.println("</tr>");
+                }// end while
+                // Close the ResultSet
+                rs.close();
+                out.println("</table>");
+            }// end if
+            else {
+                out.println("Data Not Found");
+            }
+
+        } catch (Exception e) {
+            System.err.println(e.getMessage());
+        }// end try-catch
+        finally {
+            try {
+                if (con != null) {
+                    // Close the connection no matter what
+                    con.close();
+                }// end if
+            } catch (SQLException sqle) {
+                System.err.println(sqle.getMessage());
+            }// end try-catch
+        }// end finally
+        out.close();
+} // end of procesRequest()
