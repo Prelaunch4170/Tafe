@@ -34,19 +34,37 @@ public class controller1 extends HttpServlet {
         String message = "";
         boolean userN = true;
         boolean pass = true;
+        
+        
         try (PrintWriter out = response.getWriter()) {
 
-            String un = request.getParameter("txtUsername");
-            String pw = request.getParameter("txtPassword");
-            String gender = request.getParameter("gender");
-            if (un.isEmpty()) {
+            String firstName = request.getParameter("firstName");
+            String lastName = request.getParameter("lastName");
+            String email = request.getParameter("email");
+            String[] program = request.getParameterValues("languages");
+            String notify = request.getParameter("notify");
+            
+            
+            
+            if (firstName.isEmpty()) {
                 userN = false;
                  message = "<p> username is empty</p>";
-            }if (pw.isEmpty()) {
+                 System.out.println("username");
+            }if (lastName.isEmpty()) {
                 pass = false;
                 message += "<p> password is empty</p>";
-            } else {
-                
+                System.out.println("password");                
+            }if (email.isEmpty()) {
+                pass = false;
+                message += "<p> email is empty</p>";
+            }if (program.length == 0) {
+                pass = false;
+                message += "<p> program is empty</p>";
+            }if (notify.isEmpty()) {
+                pass = false;
+                message += "<p> notify is empty</p>";
+            }
+            else{                
                 /* TODO output your page here. You may use following sample code. */
                 out.println("<!DOCTYPE html>");
                 out.println("<html>");
@@ -55,18 +73,28 @@ public class controller1 extends HttpServlet {
 
                 out.println("</head>");
                 out.println("<body>");
-                out.println("<p>User Name is: " + un + "</p>");
-                out.println("<p>PassWord is: " + pw + "</p>");
-                out.println("<p>Gender is: " + gender+ "</p>");
+                out.println("<p>User Name is: " + firstName + "</p>");
+                out.println("<p>PassWord is: " + lastName + "</p>");
+                out.println("<p>Gender is: " + email+ "</p>");
                 
                 out.println("<h1>Servlet controller1 at " + request.getContextPath() + "</h1>");
                 out.println("</body>");
                 out.println("</html>");
             }
-            out.println("<p>" + message + "</p>");
+            out.println("<!DOCTYPE html>");
+                out.println("<html>");
+                out.println("<head>");
+                out.println("<title>Servlet controller1</title>");
+
+                out.println("</head>");
+                out.println("<body>");
+                out.println("<p>" + message + "</p>");
+                out.println("<h1>Servlet controller1 at " + request.getContextPath() + "</h1>");
+                out.println("</body>");
+                out.println("</html>");
+            
         }
     }
-
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**
      * Handles the HTTP <code>GET</code> method.
