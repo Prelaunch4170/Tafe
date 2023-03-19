@@ -19,7 +19,12 @@
 */
 
 import Route from '@ioc:Adonis/Core/Route'
+import Qualification from 'App/Models/Qualification'
 
-Route.get('/', async () => {
-  return { hello: 'world' }
-})
+// Route.get('/', async () => {
+//   return { hello: 'world' }
+// })
+//Route.get('/','QualificationsController.index')
+Route.group(()=>{
+  Route.resource('qualifications','QualificationsController').apiOnly()
+}).prefix('/api/v1')
