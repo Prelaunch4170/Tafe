@@ -11,17 +11,21 @@ export default class Qualification extends BaseModel {
   @column({columnName: 'NationalQualCode'})
   public NationalQualCode: String
 
+  @column({columnName: 'TafeQualCode'})
+  public TafeQualCode: String
+
   @column({columnName: 'QualName'})
   public QualName: String
 
-  @column({columnName: 'QualName'})
+  @column({columnName: 'TotalUnits'})
   public TotalUnits: number
 
-  @column({columnName: 'ElectedUnits'})
+  @column({columnName: 'CoreUnits'})
   public CoreUnits: number
 
   @column({columnName: 'ElectedUnits'})
   public ElectedUnits: number
+  
   
   @column({columnName: 'ReqListedElectedUnits'})
   public ReqListedElectedUnits: number

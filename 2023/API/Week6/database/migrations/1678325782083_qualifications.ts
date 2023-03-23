@@ -11,14 +11,10 @@ export default class extends BaseSchema {
       table.string('NationalQualCode',32)
       table.string('TafeQualCode',32)
       table.string('QualName',100)
-      table.string('TotalUnits')
-      table.string('CoreUnits')
-      table.string('ElectedUnits')
-      table.string('ReqListedElectedUnits')
-      
-    
-
-
+      table.integer('TotalUnits')
+      table.integer('CoreUnits')
+      table.integer('ElectedUnits')
+      table.integer('ReqListedElectedUnits')
       /**
        * Uses timestamptz for PostgreSQL and DATETIME2 for MSSQL
        */
