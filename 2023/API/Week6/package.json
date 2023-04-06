@@ -27,6 +27,7 @@
     "mysql2": "^3.2.0",
     "proxy-addr": "^2.0.7",
     "reflect-metadata": "^0.1.13",
+    "serve": "^14.2.0",
     "source-map-support": "^0.5.21"
   }
 }
