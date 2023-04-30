@@ -1,0 +1,11 @@
+
+    <tag>   
+	<name>requestParameter</name>
+	<tagclass>tags.GetRequestParameterTag</tagclass>
+	<bodycontent>empty</bodycontent>
+	<attribute>
+		<name>property</name>
+		<required>true</required>
+		<rtexprvalue>true</rtexprvalue>
+	</attribute>
+    </tag>

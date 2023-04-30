@@ -1,0 +1,21 @@
+<!-- A tag that takes process attributes -->
+	
+   <tag>
+      <name>fd1</name>
+      
+      <tagclass>
+         tags.FormDataTagHandler
+      </tagclass>
+      
+      <bodycontent>empty</bodycontent>
+
+      <info>
+         Inserts content welcoming user to tag libraries. Uses attribute "name" to insert the users name
+      </info>
+      
+      <attribute>
+	<name>firstName</name>
+    	<required>true</required>
+	<rtexprvalue>true</rtexprvalue>
+      </attribute>
+   </tag>

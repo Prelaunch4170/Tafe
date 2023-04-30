@@ -1,0 +1,38 @@
+package tags;
+
+
+import javax.servlet.http.*;
+import javax.servlet.jsp.JspException;
+import javax.servlet.jsp.tagext.TagSupport;
+
+public class SessionCountTag extends TagSupport {
+    
+
+   public int doStartTag() throws JspException {
+      HttpSession session = pageContext.getSession();
+
+      Integer count = (Integer)session.getAttribute("COUNT");
+      
+      if ( count == null ) {
+      
+        // If the count was not found create one
+        count = new Integer(1);
+        // and add it to the HttpSession
+        session.setAttribute("COUNT", count);
+      }
+      else {
+ 
+        // Otherwise increment the value
+        count = new Integer(count.intValue() + 1);
+        session.setAttribute("COUNT", count);
+      }
+
+      try {
+         pageContext.getOut().print(count);
+      }
+      catch(java.io.IOException ex) {
+         throw new JspException(ex.getMessage());
+      }
+      return SKIP_BODY;
+   }
+}

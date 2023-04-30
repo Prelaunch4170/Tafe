@@ -1,0 +1,27 @@
+<!-- Shows time of day using a sciplet -->
+
+<html><head><title>Greetings</title></head>
+   <!-- body section of document -->
+
+  <%@ page import="java.util.Date, java.text.SimpleDateFormat" %>
+   <body>
+   	<H1>Good
+
+        <%
+		String timeOfDay = (new SimpleDateFormat("aa")).format(new Date());
+		if (timeOfDay.equals("AM")) {
+	
+	%>
+	Morning
+	<%
+		} else {
+	%>
+	Afternoon </H1>
+	<%
+		}
+	%>
+		
+   </body>
+
+</html>  <!-- end HTML document -->
+

@@ -1,0 +1,26 @@
+<tag>
+      <name>greeting</name>
+      
+      <tagclass>
+         tags.GreetingTag1
+      </tagclass>
+      
+      <bodycontent>empty</bodycontent>
+
+      <info>
+         displays a greeting based on time of day
+      </info>
+
+      <attribute>
+	<name>am</name>
+    	<required>true</required>
+	<rtexprvalue>true</rtexprvalue>
+      </attribute>
+
+	<attribute>
+	<name>pm</name>
+    	<required>true</required>
+	<rtexprvalue>true</rtexprvalue>
+      </attribute>
+
+   </tag>

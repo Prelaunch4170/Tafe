@@ -1,0 +1,45 @@
+package tags;
+
+import javax.servlet.jsp.*;
+import javax.servlet.jsp.tagext.*;
+import java.io.*;
+import java.util.Date;
+import java.text.SimpleDateFormat;
+
+public class GreetingTag1 extends TagSupport {
+  String am = null;
+  String pm = null;
+
+   // Method called to begin tag processing
+   public int doStartTag() throws JspException
+   {
+      String timeOfDay = (new SimpleDateFormat("aa")).format(new Date());
+      String greeting= null;
+      if (timeOfDay.equals("AM"))
+        greeting = am;
+      else
+        greeting = pm;
+
+      try {
+         // obtain JspWriter to output content
+         JspWriter out = pageContext.getOut();
+         out.print(greeting);
+      }
+      
+      // rethrow IOException to JSP container as JspException
+      catch( IOException ioException ) {
+         throw new JspException( ioException.getMessage() );
+      }
+      
+      return SKIP_BODY;  // ignore the tag's body
+   }
+
+   public void setAm( String am ) {
+    this.am = am;
+   }
+
+   public void setPm(String pm) {
+    this.pm = pm;
+   }
+}
+

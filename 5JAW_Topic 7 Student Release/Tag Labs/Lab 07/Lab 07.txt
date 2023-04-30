@@ -1,0 +1,4 @@
+Lab 15 ( Creating a Tag to track the total number of page hits)
+
+Write a TagHandler class that could be used to keep track of the total number of times a user visits your site.
+Create a JSP to use this Tag, and test it to make sure it works. Show the instructor a working solution.

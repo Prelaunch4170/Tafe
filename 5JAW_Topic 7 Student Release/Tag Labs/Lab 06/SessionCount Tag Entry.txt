@@ -1,0 +1,15 @@
+
+   <!-- A tag that keeps track of the number of times the user hits a page in the same session -->
+   <tag>
+      <name>counter</name>
+      
+      <tagclass>
+         tags.SessionCountTag
+      </tagclass>
+      
+      <bodycontent>empty</bodycontent>
+
+      <info>
+         counts number of sesion hits on page
+      </info>
+   </tag>

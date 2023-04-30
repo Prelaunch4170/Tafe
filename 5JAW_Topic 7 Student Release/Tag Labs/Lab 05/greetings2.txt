@@ -1,0 +1,13 @@
+<%-- taglib directive --%>
+<%@ taglib uri = "/WEB-INF/tlds/MyTags.tld" prefix = "myTags" %>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+    </head>
+    <body>
+
+      <h1> Good <myTags:greeting am = "Morning"  pm = "Afternoon"  /> </h1>
+
+    </body>
+</html>

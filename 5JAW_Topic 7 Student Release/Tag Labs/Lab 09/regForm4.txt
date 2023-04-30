@@ -1,0 +1,79 @@
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<%-- taglib directive --%>
+<%@ taglib uri = "/WEB-INF/tlds/MyTags.tld" prefix = "myTags" %>
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+    </head>
+    <body>
+        <h2>Please Register</h2>
+<hr>
+<form method="POST" action="regForm4.jsp">
+  <table>
+
+	 <tr> 
+      <td> ID: </td> 
+      <td><input type='text' size=15 name="id"
+           value="<myTags:requestParameter property="id"/>">
+      </td> 
+
+    <tr> 
+      <td> First Name: </td> 
+      <td><input type='text' size=15 name="name"
+           value="<myTags:requestParameter property="name"/>">
+      </td> 
+    </tr>
+    <tr> 
+      <td> Last Name: </td> 
+      <td><input type='text' size=15 name="address"
+           value="<myTags:requestParameter property="address"/>">
+          </td>
+    </tr>
+    <tr> 
+      <td> E-mail Address: </td> 
+      <td><input type='text' size=25 name="phone"
+           value="<myTags:requestParameter  property="phone"/>">
+      </td> 
+    </tr>
+  </table>
+  </p>
+  <br>
+  <input type='submit' value='register'> 
+  
+</form>
+
+<%-- Create the bean only when the form is posted--%>
+<%
+	if(request.getMethod().equals("POST")) {
+%>
+	       <% if(request.getParameter("name").equals("") || request.getParameter("address").equals("") || 								request.getParameter("phone").equals("") )
+		 	out.println("<h2>You must enter all fields");
+		  else{
+ 	       %>   
+	        
+
+	<jsp:useBean id="frm2" class="forms.FormBean" scope="request"/>
+		<jsp:setProperty name="frm2" property="*"/>
+
+		<p>
+		<hr>
+		<h2>You submitted:<P>		
+		<br><h3>Name:
+		<jsp:getProperty name="frm2" property="name"/>
+		<p>
+		<br><b>Address:
+		<jsp:getProperty name="frm2" property="address"/>
+		<p>
+		<br><b>Phone: 
+		<jsp:getProperty name="frm2" property="phone"/> </h3> 
+<% 		}
+	} else out.println("Nothing was selected<br>");
+%>
+    </body>
+</html>

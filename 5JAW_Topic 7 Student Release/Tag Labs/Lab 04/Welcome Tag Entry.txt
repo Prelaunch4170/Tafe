@@ -1,0 +1,14 @@
+ <!-- A simple tag that outputs content -->
+   <tag>
+      <name>welcome</name>
+      
+      <tagclass>
+         tags.WelcomeTagHandler
+      </tagclass>
+      
+      <bodycontent>empty</bodycontent>
+
+      <info>
+         Inserts content welcoming user to tag libraries
+      </info>
+   </tag>
