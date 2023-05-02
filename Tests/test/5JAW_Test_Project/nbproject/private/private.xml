@@ -3,12 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Andre/Desktop/test/5JAW_Test_Project/src/java/dao/AuctionDAO.java</file>
-            <file>file:/C:/Users/Andre/Desktop/test/5JAW_Test_Project/web/Bids.jsp</file>
-            <file>file:/C:/Users/Andre/Desktop/test/5JAW_Test_Project/src/java/model/Member.java</file>
-            <file>file:/C:/Users/Andre/Desktop/test/5JAW_Test_Project/src/java/model/Item.java</file>
-            <file>file:/C:/Users/Andre/Desktop/test/5JAW_Test_Project/web/Main.html</file>
-            <file>file:/C:/Users/Andre/Desktop/test/5JAW_Test_Project/src/java/web/AuctionController.java</file>
+            <file>file:/C:/Users/Andre/Desktop/Tafe-1/Tests/test/5JAW_Test_Project/web/Bids.jsp</file>
+            <file>file:/C:/Users/Andre/Desktop/Tafe-1/Tests/test/5JAW_Test_Project/web/Bids.html</file>
+            <file>file:/C:/Users/Andre/Desktop/Tafe-1/Tests/test/5JAW_Test_Project/web/ItemBids.html</file>
+            <file>file:/C:/Users/Andre/Desktop/Tafe-1/Tests/test/5JAW_Test_Project/src/java/web/AuctionController.java</file>
+            <file>file:/C:/Users/Andre/Desktop/Tafe-1/Tests/test/5JAW_Test_Project/web/Main.html</file>
         </group>
     </open-files>
 </project-private>

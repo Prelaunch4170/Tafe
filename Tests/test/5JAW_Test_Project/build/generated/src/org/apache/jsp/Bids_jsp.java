@@ -45,69 +45,70 @@ public final class Bids_jsp extends org.apache.jasper.runtime.HttpJspBase
       _jspx_out = out;
       _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
 
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("<!DOCTYPE html>\n");
-      out.write("<html>\n");
-      out.write("    <head>\n");
-      out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n");
-      out.write("        <title>JSP Page</title>\n");
-      out.write("    </head>\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("<!DOCTYPE html>\r\n");
+      out.write("<html>\r\n");
+      out.write("    <head>\r\n");
+      out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\r\n");
+      out.write("        <title>JSP Page</title>\r\n");
+      out.write("    </head>\r\n");
       out.write("    ");
 
-                    List items = (List) session.getAttribute("items");
-                    Iterator iterItem = items.iterator();
-                    List members = (List) session.getAttribute("members");
-                    Iterator iterMembers = items.iterator();
-        
-      out.write("\n");
-      out.write("    <body>\n");
-      out.write("        <h1>Hello World!</h1>\n");
-      out.write("         <table border=\"1\">\n");
-      out.write("\n");
-      out.write("                    <tbody>\n");
-      out.write("                        <tr>\n");
-      out.write("                            <td> <select name=\"item\">\n");
-      out.write("                                      <option value=\"NULL\" selected=\"true\">-- Select A Book --</option>\n");
-      out.write("                                    ");
+        List items = (List) session.getAttribute("items");
+        Iterator iterItem = null;
+        if (items != null) {
+            iterItem = items.iterator();
+        }
+    
+      out.write("\r\n");
+      out.write("    <body>\r\n");
+      out.write("        <h1>Hello World!</h1>\r\n");
+      out.write("        <table border=\"1\">\r\n");
+      out.write("\r\n");
+      out.write("            <tbody>\r\n");
+      out.write("                <tr>\r\n");
+      out.write("                    <td> <select name=\"item\">\r\n");
+      out.write("                            <option value=\"NULL\" selected=\"true\">-- Select A Book --</option>\r\n");
+      out.write("                            ");
 
-                                                String itemID = null;
-                                                String itemName = null;
-                                                while (iterItem.hasNext()) {
-                                                    Item item = (Item) iterItem.next();
-                                                    itemID = item.getItemID();
-                                                    itemName = item.getItemName();
-                                                
-      out.write("\n");
-      out.write("                                  \n");
-      out.write("                                    <option value=\"");
+                                String itemID = null;
+                                String itemName = null;
+                                while (iterItem.hasNext()) {
+                                    Item item = (Item) iterItem.next();
+                                    itemID = item.getItemID();
+                                    itemName = item.getItemName();
+                            
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("                            <option value=\"");
       out.print( itemID);
       out.write('"');
       out.write('>');
       out.print( itemName);
-      out.write("</option>\n");
-      out.write("                                                ");
+      out.write("</option>\r\n");
+      out.write("                            ");
 
-                                                  }// end while
-                                                 
-      out.write("\n");
-      out.write("                                </select></td>\n");
-      out.write("                        </tr>\n");
-      out.write("                        <tr>\n");
-      out.write("                            <td></td>\n");
-      out.write("                        </tr>\n");
-      out.write("                        <tr>\n");
-      out.write("                            <td><input type=\"submit\" value=\"Get Book History\" /> </td>\n");
-      out.write("                        </tr>\n");
-      out.write("                    </tbody>\n");
-      out.write("                </table>\n");
-      out.write("\n");
-      out.write("    </body>\n");
-      out.write("</html>\n");
+                                }// end while
+                            
+      out.write("\r\n");
+      out.write("                        </select></td>\r\n");
+      out.write("                </tr>\r\n");
+      out.write("                <tr>\r\n");
+      out.write("                    <td></td>\r\n");
+      out.write("                </tr>\r\n");
+      out.write("                <tr>\r\n");
+      out.write("                    <td><input type=\"submit\" value=\"Get Book History\" /> </td>\r\n");
+      out.write("                </tr>\r\n");
+      out.write("            </tbody>\r\n");
+      out.write("        </table>\r\n");
+      out.write("\r\n");
+      out.write("    </body>\r\n");
+      out.write("</html>\r\n");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
         out = _jspx_out;

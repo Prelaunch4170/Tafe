@@ -44,38 +44,38 @@ public final class BookHistory_jsp extends org.apache.jasper.runtime.HttpJspBase
       _jspx_out = out;
       _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
 
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\"\n");
-      out.write("    \"http://www.w3.org/TR/html4/loose.dtd\">\n");
-      out.write("\n");
-      out.write("<html>\n");
-      out.write("    <head>\n");
-      out.write("        <title>Book History</title>\n");
-      out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n");
-      out.write("    </head>\n");
-      out.write("    <body>\n");
-      out.write("\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\"\r\n");
+      out.write("    \"http://www.w3.org/TR/html4/loose.dtd\">\r\n");
+      out.write("\r\n");
+      out.write("<html>\r\n");
+      out.write("    <head>\r\n");
+      out.write("        <title>Book History</title>\r\n");
+      out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\r\n");
+      out.write("    </head>\r\n");
+      out.write("    <body>\r\n");
+      out.write("\r\n");
       out.write("        ");
 
                     List books = (List) session.getAttribute("books");
                     Iterator iter = books.iterator();
         
-      out.write("\n");
-      out.write("\n");
-      out.write("        <center>\n");
-      out.write("            <form action=\"Controller\" method=\"POST\">\n");
-      out.write("\n");
-      out.write("                <table border=\"1\">\n");
-      out.write("\n");
-      out.write("                    <tbody>\n");
-      out.write("                        <tr>\n");
-      out.write("                            <td> <select name=\"book\">\n");
-      out.write("                                      <option value=\"NULL\" selected=\"true\">-- Select A Book --</option>\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("        <center>\r\n");
+      out.write("            <form action=\"Controller\" method=\"POST\">\r\n");
+      out.write("\r\n");
+      out.write("                <table border=\"1\">\r\n");
+      out.write("\r\n");
+      out.write("                    <tbody>\r\n");
+      out.write("                        <tr>\r\n");
+      out.write("                            <td> <select name=\"book\">\r\n");
+      out.write("                                      <option value=\"NULL\" selected=\"true\">-- Select A Book --</option>\r\n");
       out.write("                                    ");
 
                                                 String bookId = null;
@@ -85,34 +85,34 @@ public final class BookHistory_jsp extends org.apache.jasper.runtime.HttpJspBase
                                                     bookId = book.getId();
                                                     title = book.getTitle();
                                                 
-      out.write("\n");
-      out.write("                                  \n");
+      out.write("\r\n");
+      out.write("                                  \r\n");
       out.write("                                    <option value=\"");
       out.print( bookId);
       out.write('"');
       out.write('>');
       out.print( title);
-      out.write("</option>\n");
+      out.write("</option>\r\n");
       out.write("                                                ");
 
                                                   }// end while
                                                  
-      out.write("\n");
-      out.write("                                </select></td>\n");
-      out.write("                        </tr>\n");
-      out.write("                        <tr>\n");
-      out.write("                            <td></td>\n");
-      out.write("                        </tr>\n");
-      out.write("                        <tr>\n");
-      out.write("                            <td><input type=\"submit\" value=\"Get Book History\" /> </td>\n");
-      out.write("                        </tr>\n");
-      out.write("                    </tbody>\n");
-      out.write("                </table>\n");
-      out.write("                <input type=\"hidden\" name=\"action\" value=\"BookHistory\" />\n");
-      out.write("            </form>\n");
-      out.write("        </center>\n");
-      out.write("    </body>\n");
-      out.write("</html>\n");
+      out.write("\r\n");
+      out.write("                                </select></td>\r\n");
+      out.write("                        </tr>\r\n");
+      out.write("                        <tr>\r\n");
+      out.write("                            <td></td>\r\n");
+      out.write("                        </tr>\r\n");
+      out.write("                        <tr>\r\n");
+      out.write("                            <td><input type=\"submit\" value=\"Get Book History\" /> </td>\r\n");
+      out.write("                        </tr>\r\n");
+      out.write("                    </tbody>\r\n");
+      out.write("                </table>\r\n");
+      out.write("                <input type=\"hidden\" name=\"action\" value=\"BookHistory\" />\r\n");
+      out.write("            </form>\r\n");
+      out.write("        </center>\r\n");
+      out.write("    </body>\r\n");
+      out.write("</html>\r\n");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
         out = _jspx_out;

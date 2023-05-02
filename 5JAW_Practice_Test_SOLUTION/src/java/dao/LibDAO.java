@@ -138,35 +138,35 @@ public class LibDAO {
 
 
     protected PreparedStatement getMemberHistorySQL() throws Exception {
-        return connection.prepareStatement("SELECT USER1.TBooks.title,"
-                + "USER1.TBorrowings.dateBorrowed,USER1.TBorrowings.dateReturned " +
-                  "FROM USER1.TBooks, USER1.TBorrowings " +
-                  "WHERE USER1.TBORROWINGS.memberID =? "
-                  + "AND USER1.TBorrowings.BookID = USER1.TBooks.BookID");
+        return connection.prepareStatement("SELECT USER2.TBooks.title,"
+                + "USER2.TBorrowings.dateBorrowed,USER2.TBorrowings.dateReturned " +
+                  "FROM USER2.TBooks, USER2.TBorrowings " +
+                  "WHERE USER2.TBORROWINGS.memberID =? "
+                  + "AND USER2.TBorrowings.BookID = USER2.TBooks.BookID");
     }
 
    protected PreparedStatement getBookHistorySQL() throws Exception {
-        return connection.prepareStatement("SELECT USER1.TMEMBERS.\"NAME\", "
-                + "USER1.TBorrowings.dateBorrowed,USER1.TBorrowings.dateReturned " +
-                  "FROM USER1.TMembers,USER1.TBorrowings " +
-                  "WHERE USER1.TBORROWINGS.bookID=? " +
-                  "AND USER1.TBorrowings.memberId = USER1.TMEMBERS.MEMBERID");
+        return connection.prepareStatement("SELECT USER2.TMEMBERS.\"NAME\", "
+                + "USER2.TBorrowings.dateBorrowed,USER2.TBorrowings.dateReturned " +
+                  "FROM USER2.TMembers,USER2.TBorrowings " +
+                  "WHERE USER2.TBORROWINGS.bookID=? " +
+                  "AND USER2.TBorrowings.memberId = USER2.TMEMBERS.MEMBERID");
    }
 
     protected PreparedStatement checkOutSQL() throws Exception {
-        return connection.prepareStatement("insert into USER1.TBorrowings "
+        return connection.prepareStatement("insert into USER2.TBorrowings "
                 + "values(?,?,?,null)");
     }
 
     protected PreparedStatement checkInSQL() throws Exception {
-        return connection.prepareStatement("UPDATE USER1.TBorrowings "
+        return connection.prepareStatement("UPDATE USER2.TBorrowings "
                 + "SET dateReturned =? " +
                   " WHERE memberID =? AND bookID =? AND dateReturned IS NULL");
     }
 
      protected PreparedStatement updateCopiesSQL() throws Exception {
-        return connection.prepareStatement("update USER1.Tbooks "
-                + "set copies = copies + ? WHERE USER1.TBooks.bookId =?");
+        return connection.prepareStatement("update USER2.Tbooks "
+                + "set copies = copies + ? WHERE USER2.TBooks.bookId =?");
     }
 
     private String getDateTime() {
@@ -176,11 +176,11 @@ public class LibDAO {
         return dateFormat.format(date);
     }
     private PreparedStatement getAllBooksSQL()throws Exception {
-        return connection.prepareStatement("SELECT * FROM USER1.TBooks");
+        return connection.prepareStatement("SELECT * FROM USER2.TBooks");
 
     }
      private PreparedStatement getAllMembersSQL()throws Exception {
-        return connection.prepareStatement("SELECT * FROM USER1.TMembers");
+        return connection.prepareStatement("SELECT * FROM USER2.TMembers");
 
     }
 }

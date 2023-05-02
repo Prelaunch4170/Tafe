@@ -28,7 +28,7 @@ import tafe.java.web.TableFormatter;
  */
 
 @WebServlet(name = "Controller", urlPatterns = {"/controller"}, initParams = {
-    @WebInitParam(name = "datasource", value ="jdbc:derby://localhost:1527/AuctionDB")})
+    @WebInitParam(name = "datasource", value ="jdbc/AuctionDB")})
 public class AuctionController extends HttpServlet {
 
    

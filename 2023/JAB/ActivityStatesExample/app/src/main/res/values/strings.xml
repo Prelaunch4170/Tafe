@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Activity States Example</string>
     <string name="Button1">Test Button</string>
+    <string name="Button2">Test Button2</string>
     <string name="text1">Test text</string>
     <string name="editTextPlaceholder">placeholder text</string>
 </resources>
