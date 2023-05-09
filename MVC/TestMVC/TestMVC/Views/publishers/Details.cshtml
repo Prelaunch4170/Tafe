@@ -1,0 +1,114 @@
+﻿@model TestMVC.publisher
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>publisher</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.Label("Publisher Id")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.pub_id)
+        </dd>
+        <dt>
+            @Html.Label("Publisher Name")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.pub_name)
+        </dd>
+
+        <dt>
+            @Html.Label("City")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.city)
+        </dd>
+
+        <dt>
+            @Html.Label("State")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.state)
+        </dd>
+
+        <dt>
+            @Html.Label("Country")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.country)
+        </dd>
+
+
+    </dl>
+</div>
+<div>
+
+
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.pub_id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
+
+<fieldset>
+    <legend>Titles</legend>
+    <table class="table">
+        <tr>
+            <th></th>
+            <th>Title Id</th>
+            <th>Title</th>
+            <th>Type</th>
+            <th>Price</th>
+            <th>YTD Sales</th>
+            <th>Publish Date</th>
+        </tr>
+        @if (Model.titles.Count > 0)
+        {
+            foreach (var item in Model.titles)
+            {
+                <tr>
+                    <td>
+                        @Html.RouteLink("Edit", new { controller = "titles", action = "Edit", id = item.title_id }) |
+                        @Html.RouteLink("Details", new { controller = "titles", action = "Details", id = item.title_id }) |
+                        @Html.RouteLink("Delete", new { controller = "titles", action = "Delete", id = item.title_id })
+                    </td>
+                    <td>
+                        @item.title_id
+                    </td>
+                    <td>
+                        @item.title1
+                    </td>
+                    <td>
+                        @item.type
+                    </td>
+                    <td>
+                        @item.price
+                    </td>
+                    <td>
+                        @item.ytd_sales
+                    </td>
+                    <td>
+                        @item.pubdate
+                    </td>
+
+                </tr>
+            }
+        }
+            else
+            {
+                <tr><td>No Titles Available</td></tr>
+            }
+    </table>
+
+</fieldset>

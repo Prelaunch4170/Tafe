@@ -1,0 +1,89 @@
+﻿@model TestMVC.title
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>title</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.Label("Title ID")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.title_id)
+        </dd>
+
+        <dt>
+            @Html.Label("Title")
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.title1)
+        </dd>
+
+        <dt>
+            @Html.Label("Type")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.type)
+        </dd>
+
+        <dt>
+            @Html.Label("Price")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.price)
+        </dd>
+
+        <dt>
+            @Html.Label("Advance")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.advance)
+        </dd>
+
+        <dt>
+            @Html.Label("Royalty")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.royalty)
+        </dd>
+
+        <dt>
+            @Html.Label("YTD Sales")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ytd_sales)
+        </dd>
+
+        <dt>
+            @Html.Label("Notes")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.notes)
+        </dd>
+
+        <dt>
+            @Html.Label("Published Date")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.pubdate)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.title_id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
