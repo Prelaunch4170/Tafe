@@ -20,8 +20,7 @@ export default class QualificationsController {
       ReqListedElectedUnits: schema.number(),
      })
      try {
-      const payload = await request.validate({
-        schema: newQualSchema
+      const payload = await request.validate({        schema: newQualSchema
       })
       const qual: Qualification = await Qualification.create(payload)
       return response.ok(qual)
