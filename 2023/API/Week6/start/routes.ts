@@ -26,5 +26,9 @@ import Qualification from 'App/Models/Qualification'
 // })
 //Route.get('/','QualificationsController.index')
 Route.group(()=>{
-  Route.resource('qualifications','QualificationsController').apiOnly()
+  Route.post('login', 'AuthController.logina')
+  Route.group(() => {
+    Route.resource('qualifications','QualificationsController').apiOnly()
+  })
+  
 }).prefix('/api/v1')

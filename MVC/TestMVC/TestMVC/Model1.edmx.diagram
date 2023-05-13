@@ -7,7 +7,7 @@
       <Diagram DiagramId="ba7dae7be7464d83b99a94b275a17ae2" Name="Diagram1">
         <EntityTypeShape EntityType="PUBSModel.author" Width="1.5" PointX="3" PointY="7.875" IsExpanded="true" />
         <EntityTypeShape EntityType="PUBSModel.pub_info" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="PUBSModel.publisher" Width="1.5" PointX="0.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PUBSModel.publisher" Width="1.5" PointX="0.625" PointY="3.25" IsExpanded="true" />
         <EntityTypeShape EntityType="PUBSModel.titleauthor" Width="1.5" PointX="5.25" PointY="4.25" IsExpanded="true" />
         <EntityTypeShape EntityType="PUBSModel.title" Width="1.5" PointX="3" PointY="3.625" IsExpanded="true" />
         <AssociationConnector Association="PUBSModel.FK__titleauth__au_id__0519C6AF" ManuallyRouted="false" />

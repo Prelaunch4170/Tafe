@@ -3,7 +3,7 @@ using System.Web.Mvc;
 
 namespace TestMVC
 {
-    public class FilterConfig
+    public class FilterConfigs
     {
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
