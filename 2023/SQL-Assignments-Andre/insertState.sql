@@ -20,18 +20,18 @@ VALUES (1, 1),
        (2, 2);
 
 -- INSERT statements for `Aircraft` table
-INSERT INTO `sams`.`Aircraft` (`aircraftID`, `airlineID`, `aircraftModelID`, `aircraftName`)
-VALUES ('AC001', 'A1', 1, 'Boeing 747'),
-       ('AC002', 'A2', 2, 'Airbus A320');
+INSERT INTO `sams`.`Aircraft` (`aircraftID`,  `aircraftModelID`, `aircraftName`)
+VALUES ('AC001', 1, 'Boeing 747'),
+       ('AC002', 2, 'Airbus A320');
 
 -- INSERT statements for `SubModel` table
-INSERT INTO `sams`.`SubModel` (`SubModelId`, `AircraftModel_AircraftModelID`, `length`, `height`, `wingspanArea`, `maxPayload`, `maxCrusingSpeed`, `maxRange`)
+INSERT INTO `sams`.`SubModel` (`SubModelId`, `AircraftModelID`, `length`, `height`, `wingspanArea`, `maxPayload`, `maxCrusingSpeed`, `maxRange`)
 VALUES ('SM001', 1, 12.345, 9.876, 123.45, 5000, 345.67, 10000),
        ('SM002', 2, 10.987, 7.654, 98.76, 4000, 234.56, 8000),
        ('SM003', 1, 9.876, 6.543, 87.65, 3000, 123.45, 6000);
 
 -- INSERT statements for `EngineModel` table
-INSERT INTO `sams`.`EngineModel` (`engineModelName`, `Manufacturer`, `thrustRange`, `dryWeight`)
+INSERT INTO `sams`.`EngineModel` (`engineModelName`, `manufacturer`, `thrustRange`, `dryWeight`)
 VALUES ('EM001', 'General Electric', 50000, 5000.5),
        ('EM002', 'Rolls-Royce', 55000, 5200.75);
 
@@ -41,12 +41,12 @@ VALUES ('E001', 'AC001', 'EM001', '2022-01-01'),
        ('E002', 'AC002', 'EM002', '2022-02-01');
 
 -- INSERT statements for `Cargo` table
-INSERT INTO `sams`.`Cargo` (`CargoCatagoryID`, `SubModel_SubModelId1`, `maxCargoWeight`, `mainDeckCapacity`, `lowerDeckCapacity`)
+INSERT INTO `sams`.`CargoModel` (`CargoCatagoryID`, `SubModelId`, `maxCargoWeight`, `mainDeckCapacity`, `lowerDeckCapacity`)
 VALUES ('CC001', 'SM002', 5000, 10, 20),
        ('CC002', 'SM003', 6000, 15, 25);
        
-       -- INSERT statements for `Passanger` table
-INSERT INTO `sams`.`Passanger` (`PassangerCatagoryID`, `SubModel_SubModelId1`, `maxPassagers`, `maxFirstClassPassangers`, `maxEconomyPassangers`)
+       -- INSERT statements for `Passenger` table
+INSERT INTO `sams`.`Passengermodel` (`PassengerCatagoryID`, `SubModelId`, `maxPassengers`, `maxFirstClassPassengers`, `maxEconomyPassengers`)
 VALUES ('PC001', 'SM001', 200, 20, 180),
        ('PC002', 'SM002', 150, 10, 140);
 
@@ -99,4 +99,9 @@ VALUES ('TI001', 'TE001', 1),
        ('TI002', 'TE001', 2),
        ('TI001', 'TE002', 2),
        ('TI003', 'TE002', 1);
+       
+-- INSERT statements for `Airline_has_Aircraft` table
+INSERT INTO `sams`.`Airline_has_Aircraft`(`airlineID`,  `aircraftID`,  `dateOwned`)
+VALUES	('A1', 'AC001', '2021-03-01'),
+		('A2', 'AC002', '2022-03-21');
 
