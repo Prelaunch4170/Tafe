@@ -12,6 +12,11 @@ import android.view.MenuItem;
 
 public class EditSend extends AppCompatActivity {
     final static int RESULT_FROM_EDIT_ACT = 13;
+
+    /**
+     * @param savedInstanceState sets the editView to be the default number from the GroupSMS using
+     *                           "PHONE_KEY" key
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +34,10 @@ public class EditSend extends AppCompatActivity {
 
         Button btnDone = (Button) this.findViewById(R.id.btnPhoneDone);
         btnDone.setOnClickListener(new View.OnClickListener() {
+            /**
+             * @param v gets the inputted phone number and sets the "NEW_PHONE" keys value to the number
+             *          and returns to GroupSMS activity
+             */
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent();

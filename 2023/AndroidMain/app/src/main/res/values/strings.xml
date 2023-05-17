@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">GroupSMS</string>
     <string name="btnSend">Send</string>
-    <string name="btnEditMessage">Edit</string>
+    <string name="btnEditMessage">Edit Message</string>
     <string name="btnDone">Done</string>
     <string name="tvEditMessage">Enter Message</string>
-    <string name="btnEditPhone">Edit phone</string>
+    <string name="btnEditPhone">Edit Send To</string>
     <string name="btnPhoneDone">Select Phone</string>
     <string name="tvEditPhone">Enter Phone Number</string>
     <string name="phoneHint">0412345678</string>

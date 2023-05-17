@@ -13,7 +13,6 @@ import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
-import android.net.Uri;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
 import android.view.View;
@@ -24,11 +23,14 @@ import android.widget.Toast;
 public class GroupSMS extends AppCompatActivity {
     private String message = "";
     private String phone = "";
+
+    final static int RESULT_FROM_EDIT_ACT = 98;
+    final static int RESULT_FROM_SEND_ACT = 13;
     ActivityResultLauncher<Intent> launchEditActivity;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.group_sms);
         // Getting to the views defined in the XML files.
 
         TextView tvMessageDetails = findViewById(R.id.tvMessageDetails);
@@ -87,9 +89,14 @@ public class GroupSMS extends AppCompatActivity {
         launchEditActivity = registerForActivityResult(
                 new ActivityResultContracts.StartActivityForResult(),
                 new ActivityResultCallback<ActivityResult>() {
+
+                    /**
+                     * @param result reads the result code from either the edit message activity (98) or the editmessage
+                     *               activity (13) and sets the respective feild to the entered text
+                     */
                     @Override
                     public void onActivityResult(ActivityResult result) {
-                        if (result.getResultCode() == 98) {
+                        if (result.getResultCode() == RESULT_FROM_EDIT_ACT) {
                             Intent data = result.getData();
 
                             String resultMessage = (String) (data.getStringExtra("NEW_MESSAGE"));
@@ -97,7 +104,7 @@ public class GroupSMS extends AppCompatActivity {
                             message = resultMessage;
                             setSummary();
                         }
-                        else if(result.getResultCode() == 13){
+                        else if(result.getResultCode() == RESULT_FROM_SEND_ACT){
                             Intent data = result.getData();
 
                             String resultPhone = (String) (data.getStringExtra("NEW_PHONE"));
@@ -110,6 +117,10 @@ public class GroupSMS extends AppCompatActivity {
 
         btnSend.setOnClickListener(new View.OnClickListener() {
 
+            /**
+             * @param v checks to make sure the program has access to send a message, if not request
+             *          if it does have permission, send the message and show a toast with the recipient
+             */
             @Override
             public void onClick(View v) {
                /* Intent ourSendIntent;
@@ -144,9 +155,6 @@ public class GroupSMS extends AppCompatActivity {
         summary.append(message);
         TextView tvMessageDetails = (TextView) findViewById(R.id.tvMessageDetails);
         tvMessageDetails.setText(summary);
-
-
-
     }
 
 }
