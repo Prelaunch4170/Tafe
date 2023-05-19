@@ -22,8 +22,4 @@ import Route from '@ioc:Adonis/Core/Route'
 
 
   Route.resource("/v1/Student/", "StudentEnrolesController")
-  Route.resource("/v1/Student/POST", "PostsController")
-  Route.resource("/v1/Student/PUT", "PutsController")
-  Route.resource("/v1/Student/PATCH", "PatchesController")
-  Route.resource("/v1/Student/DELETE", "DeletesController")
 

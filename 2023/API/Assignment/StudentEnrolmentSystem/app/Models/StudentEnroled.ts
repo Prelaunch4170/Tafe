@@ -17,7 +17,4 @@ export default class Student extends BaseModel {
 
   @column.dateTime({ autoCreate: true, autoUpdate: true })
   public updatedAt: DateTime
-
-  
-
 }

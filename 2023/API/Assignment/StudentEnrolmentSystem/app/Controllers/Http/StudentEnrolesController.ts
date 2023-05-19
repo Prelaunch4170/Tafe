@@ -4,20 +4,34 @@ import StudentValidator from 'App/Validators/StudentValidator'
 
 export default class StudentEnrolesController {
     //GET
-    public async index({}: HttpContextContract){
+    public async index({response}: HttpContextContract){
         const student = await StudentEnroled.all()
-        return student
+        if (!student){
+            return response.notFound({message: 'Student not found'})
+        }else{
+            return student
+        }
         }
     public async show({params,response}: HttpContextContract){
+        
         const student = await StudentEnroled.find(params.id)
-        return response.ok(student)
+        if (!student){
+            return response.notFound({message: 'Student not found'})
+        }else{
+            return response.ok(student)
+        }
     }
     //POST
     public async store({ request, response }: HttpContextContract) {
         try {
             const payload = await request.validate(StudentValidator)
-            const Student: StudentEnroled = await StudentEnroled.create(payload)
-            return response.ok(Student)
+            const student: StudentEnroled = await StudentEnroled.create(payload)
+            const stdentExists = await StudentEnroled.find(request.id)
+            if (stdentExists){
+                return response.notAcceptable({message: 'Student already exists'})
+            }else{
+                return response.ok(student)
+            }
         } catch (error) {
             response.badRequest(error.messages)
         }
@@ -36,21 +50,41 @@ export default class StudentEnrolesController {
     }
     //PUT
     public async update({request, response, params}: HttpContextContract){
-        const payload = await request.validate(StudentValidator)
+        
         const id = params.id
 
         const student = await StudentEnroled.find(id)
+    
         if(!student){
             return response.notFound({message: 'Student not found'})
         }
-
-        student.given_name = payload.given_name
-        student.last_name = payload.last_name
-        student.email_address = payload.email_address
+        if (request.method()=== 'PATCH'){
+            const payload = request.all();
+      
+            if (payload.given_name !== undefined) {
+              student.given_name = payload.given_name;
+            }
         
-        await student.save()
-        return response.ok(student)
+            if (payload.last_Name !== undefined) {
+              student.last_name = payload.last_Name;
+            }
+        
+            if (payload.email_address !== undefined) {
+              student.email_address = payload.email_address;
+            }
+            await student.save();
+            return response.ok(student.toJSON());
+        }else if (request.method()=== 'PUT'){
+            const payload = await request.validate(StudentValidator)
+            student.given_name = payload.given_name
+            student.last_name = payload.last_name
+            student.email_address = payload.email_address
+            
+            await student.save()
+            return response.ok(student);
+        }
     }
+
 
 }
 

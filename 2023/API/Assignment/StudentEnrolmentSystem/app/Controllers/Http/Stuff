@@ -1,0 +1,5 @@
+
+  Route.resource("/v1/Student/POST", "PostsController")
+  Route.resource("/v1/Student/PUT", "PutsController")
+  Route.resource("/v1/Student/PATCH", "PatchesController")
+  Route.resource("/v1/Student/DELETE", "DeletesController")
