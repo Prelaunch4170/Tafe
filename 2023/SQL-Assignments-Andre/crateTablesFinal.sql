@@ -7,6 +7,7 @@ SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,N
 -- -----------------------------------------------------
 -- Schema sams
 -- -----------------------------------------------------
+DROP SCHEMA IF EXISTS `sams` ;
 
 -- -----------------------------------------------------
 -- Schema sams
@@ -317,8 +318,9 @@ CREATE TABLE IF NOT EXISTS `sams`.`TestItem` (
   `testItemCode` VARCHAR(5) NOT NULL,
   `technicianID` INT NOT NULL,
   `testResult` TINYINT NOT NULL,
+  `testItemName` VARCHAR(60) NOT NULL,
   `testID` INT NOT NULL,
-  PRIMARY KEY (`testItemCode`, `testID`),
+  PRIMARY KEY (`testItemCode`),
   INDEX `fk_TestItem_Technician1_idx` (`technicianID` ASC) VISIBLE,
   INDEX `fk_TestItem_Test1_idx` (`testID` ASC) VISIBLE,
   CONSTRAINT `fk_TestItem_Technician`
@@ -371,14 +373,13 @@ DROP TABLE IF EXISTS `sams`.`TestItemTestEvent` ;
 
 CREATE TABLE IF NOT EXISTS `sams`.`TestItemTestEvent` (
   `testItemCode` VARCHAR(5) NOT NULL,
-  `testID` INT NOT NULL,
   `testEventCode` VARCHAR(5) NOT NULL,
-  PRIMARY KEY (`testItemCode`, `testID`, `testEventCode`),
-  INDEX `fk_TestItemTestEvent_TestItem1_idx` (`testItemCode` ASC, `testID` ASC) VISIBLE,
+  PRIMARY KEY (`testItemCode`, `testEventCode`),
+  INDEX `fk_TestItemTestEvent_TestItem1_idx` (`testItemCode` ASC) VISIBLE,
   INDEX `fk_TestItemTestEvent_TestEvent1_idx` (`testEventCode` ASC) INVISIBLE,
   CONSTRAINT `fk_TestItemTestEvent_TestItem1`
-    FOREIGN KEY (`testItemCode` , `testID`)
-    REFERENCES `sams`.`TestItem` (`testItemCode` , `testID`)
+    FOREIGN KEY (`testItemCode`)
+    REFERENCES `sams`.`TestItem` (`testItemCode`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_TestItemTestEvent_TestEvent1`
@@ -397,19 +398,18 @@ DROP TABLE IF EXISTS `sams`.`TechnicianTestItemTestEvent` ;
 CREATE TABLE IF NOT EXISTS `sams`.`TechnicianTestItemTestEvent` (
   `TechnicianID` INT NOT NULL,
   `testItemCode` VARCHAR(5) NOT NULL,
-  `testID` INT NOT NULL,
   `testEventCode` VARCHAR(5) NOT NULL,
-  PRIMARY KEY (`TechnicianID`, `testItemCode`, `testID`, `testEventCode`),
+  PRIMARY KEY (`TechnicianID`, `testItemCode`, `testEventCode`),
   INDEX `fk_TestItemTestEvent_has_Technician_Technician1_idx` (`TechnicianID` ASC) VISIBLE,
-  INDEX `fk_TechnicianTestItemTestEvent_TestItemTestEvent1_idx` (`testItemCode` ASC, `testID` ASC, `testEventCode` ASC) VISIBLE,
+  INDEX `fk_TechnicianTestItemTestEvent_TestItemTestEvent1_idx` (`testItemCode` ASC, `testEventCode` ASC) VISIBLE,
   CONSTRAINT `fk_Technician`
     FOREIGN KEY (`TechnicianID`)
     REFERENCES `sams`.`Technician` (`technicianID`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_TechnicianTestItemTestEvent_TestItemTestEvent1`
-    FOREIGN KEY (`testItemCode` , `testID` , `testEventCode`)
-    REFERENCES `sams`.`TestItemTestEvent` (`testItemCode` , `testID` , `testEventCode`)
+    FOREIGN KEY (`testItemCode` , `testEventCode`)
+    REFERENCES `sams`.`TestItemTestEvent` (`testItemCode` , `testEventCode`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;

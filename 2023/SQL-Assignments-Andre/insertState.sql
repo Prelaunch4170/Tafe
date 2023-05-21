@@ -57,7 +57,8 @@ INSERT INTO `sams`.`Technician` (`technicianID`, `supervisorID`, `firstName`, `l
 VALUES (1, NULL, 'John', 'Smith', '789 Oak Street', 'Los Angeles', '90001', '1234567890', 5000.5, 'johnsmith', 'USA'),
        (2, 1, 'Jane', 'Doe', '456 Pine Street', 'San Francisco', '90002', '9876543210', 6000.75, 'janedoe', 'USA'),
        (3, 1, 'Sam', 'Smith', '457 Pine Street', 'San Francisco', '90002', '9876543211', 6000.75, 'SamSmith', 'USA'),
-       (4, 1, 'Jake', 'jones', '457 Pine Street', 'San Francisco', '90002', '9876543211', 6000.75, 'Jakejones', 'USA');
+       (4, 1, 'Jake', 'jones', '457 Pine Street', 'San Francisco', '90002', '9876543211', 6000.75, 'Jakejones', 'USA'),
+       (5, 1, 'Janell', 'Samson', '457 Pine Street', 'San Francisco', '90002', '9876543211', 6000.75, 'JanellSamson', 'USA');
 
 -- INSERT statements for `Training` table
 INSERT INTO `sams`.`Training` (`trainingId`, `trainingName`, `trainingDate`)
@@ -79,18 +80,18 @@ VALUES (1, '2022-03-01'),
 INSERT INTO `sams`.`Test` (`testID`, `TestName`)
 VALUES (1, 'Electrical Test'),
        (2, 'Pressure Test'),
-       (3,'Engine Start and run up according to AFM procedures');
+       (3,'Engine');
 
 -- INSERT statements for `TestItem` table
-INSERT INTO `sams`.`TestItem` (`testItemCode`, `testID`, `technicianID`, `testResult`)
-VALUES 	('TI001', 1, 1, 1),
-		('TI003', 2, 1, 1),
+INSERT INTO `sams`.`TestItem` (`testItemCode`, `testID`, `technicianID`, `testResult`, `testItemName`)
+VALUES 	('TI001', 1, 1, 1,'tested wiring faults'),
+		('TI003', 2, 1, 1,"outer cabin pressure test"),
 		
-        ('TI002', 1, 2, 0),
-        ('TI004', 3, 2, 1),
+        ('TI002', 1, 2, 0,"cabin inside pressure test"),
+        ('TI004', 3, 5, 1,'Engine Start and run up according to AFM procedures'),
         
-		('TI005', 2, 3, 1),
-		('TI006', 3, 4, 1);
+		('TI005', 2, 3, 1,"cabin inside pressure test"),
+		('TI006', 3, 4, 1,"Engine Start and run up according to AFM procedures");
        
 -- INSERT statements for `TestEvent` table
 INSERT INTO `sams`.`TestEvent` (`testEventCode`,`technicianID`, `dateStart`, `dateEnd`, `testResult`, `hoursSpent`, `resultComment`, `aircraftID`)
@@ -99,28 +100,28 @@ VALUES ('TE001', 1, '2022-03-01 10:00:00', '2022-03-01 12:00:00', 1, 2.5, 'Test 
        ('TE003', 3, '2022-01-02 09:00:00', '2022-03-02 11:30:00', 1, 2.75, 'Test event 3 passed', 'AC001');
 
 -- INSERT statements for `TestItemTestEvent` table
-INSERT INTO `sams`.`TestItemTestEvent` (`TestItemCode`, `testEventCode`,`testID`)
-VALUES ('TI001', 'TE001', 1),
-       ('TI002', 'TE001', 1),
+INSERT INTO `sams`.`TestItemTestEvent` (`TestItemCode`, `testEventCode`)
+VALUES ('TI001', 'TE001'),
+       ('TI002', 'TE001'),
        
-       ('TI004', 'TE002', 3),
+       ('TI004', 'TE002'),
 		
-       ('TI001', 'TE002', 2),
-       ('TI003', 'TE002', 2),
+       ('TI001', 'TE002'),
+       ('TI003', 'TE002'),
        
-       ('TI005', 'TE003', 3),
-       ('TI006', 'TE003', 2);
+       ('TI005', 'TE003'),
+       ('TI006', 'TE003');
        
 
 -- INSERT statements for `TechnicianTestItemTestEvent` table
-INSERT INTO `sams`.`TechnicianTestItemTestEvent` (`testItemCode`, `testEventCode`, `TechnicianID`,`testID`)
-VALUES ('TI001', 'TE001', 1, 1),
-       ('TI002', 'TE001', 2, 1),
-       ('TI001', 'TE002', 2, 2),
-       ('TI003', 'TE002', 1, 3),
+INSERT INTO `sams`.`TechnicianTestItemTestEvent` (`testItemCode`, `testEventCode`, `TechnicianID`)
+VALUES ('TI001', 'TE001', 1),
+       ('TI002', 'TE001', 2),
+       ('TI004', 'TE002', 5),
+       ('TI003', 'TE002', 1),
        
-       ('TI006', 'TE003', 4, 3),
-       ('TI005', 'TE003', 3, 3);
+       ('TI006', 'TE003', 4),
+       ('TI005', 'TE003', 3);
        
 -- INSERT statements for `Airline_has_Aircraft` table
 INSERT INTO `sams`.`Airline_has_Aircraft`(`airlineID`,  `aircraftID`,  `dateOwned`)
