@@ -1,15 +1,15 @@
 use sams;
 
-select * from test
-where TestName = 'Engine Start and run up according to AFM procedures';
+select * from testItem
+where testItemName = 'Engine Start and run up according to AFM procedures';
 
 
-SELECT TestEvent.aircraftID, Technician.firstName, technician.lastName, TestEvent.dateStart
-FROM TestItem
-INNER JOIN TestItemTestEvent ON TestItem.testItemCode = TestItemTestEvent.TestItemCode
-INNER JOIN TestEvent ON TestItemTestEvent.testEventCode = TestEvent.testEventCode
-INNER JOIN TechnicianTestItemTestEvent ON TestItemTestEvent.TestItemCode = TechnicianTestItemTestEvent.testItemCode
-    AND TestItemTestEvent.testEventCode = TechnicianTestItemTestEvent.testEventCode
-INNER JOIN Technician ON TechnicianTestItemTestEvent.TechnicianID = Technician.technicianID
-where testItemName = 'Engine Start and run up according to AFM procedures' AND (testevent.dateStart between '2022-01-01' and '2022-01-31')
-ORDER BY TestEvent.dateStart ASC;
+SELECT testEvent.aircraftID, Technician.firstName, technician.lastName, testEvent.datestart
+FROM testItem
+INNER JOIN testItemtestEvent ON testItem.testItemCode = testItemtestEvent.testItemCode
+INNER JOIN testEvent ON testItemtestEvent.testEventCode = testEvent.testEventCode
+INNER JOIN TechniciantestItemtestEvent ON testItemtestEvent.testItemCode = TechniciantestItemtestEvent.testItemCode
+    AND testItemtestEvent.testEventCode = TechniciantestItemtestEvent.testEventCode
+INNER JOIN Technician ON TechniciantestItemtestEvent.TechnicianID = Technician.technicianID
+where testItemName = 'Engine Start and run up according to AFM procedures' AND (testevent.datestart between '2022-01-01' and '2022-01-31')
+ORDER BY testEvent.datestart ASC;

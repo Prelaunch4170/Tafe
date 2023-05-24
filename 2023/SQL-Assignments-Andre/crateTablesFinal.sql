@@ -291,11 +291,11 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `sams`.`Test`
+-- Table `sams`.`KindOfTest`
 -- -----------------------------------------------------
-DROP TABLE IF EXISTS `sams`.`Test` ;
+DROP TABLE IF EXISTS `sams`.`KindOfTest` ;
 
-CREATE TABLE IF NOT EXISTS `sams`.`Test` (
+CREATE TABLE IF NOT EXISTS `sams`.`KindOfTest` (
   `testID` INT NOT NULL,
   `TestName` VARCHAR(60) NOT NULL,
   PRIMARY KEY (`testID`))
@@ -323,7 +323,7 @@ CREATE TABLE IF NOT EXISTS `sams`.`TestItem` (
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_TestItem_Test1`
     FOREIGN KEY (`testID`)
-    REFERENCES `sams`.`Test` (`testID`)
+    REFERENCES `sams`.`KindOfTest` (`testID`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
@@ -336,18 +336,17 @@ DROP TABLE IF EXISTS `sams`.`TestEvent` ;
 
 CREATE TABLE IF NOT EXISTS `sams`.`TestEvent` (
   `testEventCode` VARCHAR(5) NOT NULL,
-  `technicianID` INT NOT NULL,
+  `technicianSupervisorID` INT NOT NULL,
   `dateStart` DATETIME NOT NULL,
-  `dateEnd` DATETIME NOT NULL,
+  `dateEnd` DATETIME NULL,
   `testResult` TINYINT NULL,
-  `hoursSpent` DECIMAL(6,2) NOT NULL,
-  `resultComment` VARCHAR(150) NOT NULL,
+  `resultComment` VARCHAR(150) NULL,
   `aircraftID` VARCHAR(6) NOT NULL,
   PRIMARY KEY (`testEventCode`),
-  INDEX `fk_TestEvent_Technician_id` (`technicianID` ASC) INVISIBLE,
+  INDEX `fk_TestEvent_Technician_id` (`technicianSupervisorID` ASC) INVISIBLE,
   INDEX `fk_TestEvent_Aircraft1_idx` (`aircraftID` ASC) VISIBLE,
   CONSTRAINT `fk_TestEvent_Technician`
-    FOREIGN KEY (`technicianID`)
+    FOREIGN KEY (`technicianSupervisorID`)
     REFERENCES `sams`.`Technician` (`technicianID`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
@@ -392,6 +391,7 @@ CREATE TABLE IF NOT EXISTS `sams`.`TechnicianTestItemTestEvent` (
   `TechnicianID` INT NOT NULL,
   `testItemCode` VARCHAR(5) NOT NULL,
   `testEventCode` VARCHAR(5) NOT NULL,
+  `hoursSpent` DECIMAL(6,2) NULL,
   PRIMARY KEY (`TechnicianID`, `testItemCode`, `testEventCode`),
   INDEX `fk_TestItemTestEvent_has_Technician_Technician1_idx` (`TechnicianID` ASC) VISIBLE,
   INDEX `fk_TechnicianTestItemTestEvent_TestItemTestEvent1_idx` (`testItemCode` ASC, `testEventCode` ASC) VISIBLE,
