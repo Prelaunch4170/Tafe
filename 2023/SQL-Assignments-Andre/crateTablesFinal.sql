@@ -107,18 +107,18 @@ ENGINE = InnoDB;
 DROP TABLE IF EXISTS `sams`.`SubModel` ;
 
 CREATE TABLE IF NOT EXISTS `sams`.`SubModel` (
-  `SubModelId` VARCHAR(10) NOT NULL,
-  `AircraftModelID` INT NOT NULL,
+  `subModelId` VARCHAR(10) NOT NULL,
+  `aircraftModelID` INT NOT NULL,
   `length` DECIMAL(6,3) UNSIGNED NOT NULL,
   `height` DECIMAL(6,3) UNSIGNED NOT NULL,
   `wingspanArea` DECIMAL(6,2) UNSIGNED NOT NULL,
   `maxPayload` INT UNSIGNED NOT NULL,
   `maxCrusingSpeed` DECIMAL(6,2) UNSIGNED NOT NULL,
   `maxRange` INT UNSIGNED NOT NULL,
-  PRIMARY KEY (`SubModelId`),
-  INDEX `AircraftModel_idx` (`AircraftModelID` ASC) VISIBLE,
+  PRIMARY KEY (`subModelId`),
+  INDEX `AircraftModel_idx` (`aircraftModelID` ASC) VISIBLE,
   CONSTRAINT `AircraftModel`
-    FOREIGN KEY (`AircraftModelID`)
+    FOREIGN KEY (`aircraftModelID`)
     REFERENCES `sams`.`AircraftModel` (`aircraftModelID`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
@@ -180,7 +180,7 @@ CREATE TABLE IF NOT EXISTS `sams`.`CargoModel` (
   INDEX `fk_CargoModel_SubModel1_idx` (`SubModelId` ASC) VISIBLE,
   CONSTRAINT `fk_CargoModel_SubModel1`
     FOREIGN KEY (`SubModelId`)
-    REFERENCES `sams`.`SubModel` (`SubModelId`)
+    REFERENCES `sams`.`SubModel` (`subModelId`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
@@ -201,7 +201,7 @@ CREATE TABLE IF NOT EXISTS `sams`.`PassengerModel` (
   INDEX `fk_PassengerModel_SubModel1_idx` (`SubModelId` ASC) VISIBLE,
   CONSTRAINT `fk_PassengerModel_SubModel1`
     FOREIGN KEY (`SubModelId`)
-    REFERENCES `sams`.`SubModel` (`SubModelId`)
+    REFERENCES `sams`.`SubModel` (`subModelId`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
@@ -255,12 +255,10 @@ DROP TABLE IF EXISTS `sams`.`QualifiedTechnician` ;
 CREATE TABLE IF NOT EXISTS `sams`.`QualifiedTechnician` (
   `technicianID` INT NOT NULL,
   `trainingId` INT NOT NULL,
-  `aircraftID` VARCHAR(6) NOT NULL,
   `completionStatus` TINYINT(1) UNSIGNED NOT NULL,
   PRIMARY KEY (`trainingId`, `technicianID`),
   INDEX `fk_QualifiedTechnician_Technician1_idx` (`technicianID` ASC) VISIBLE,
   INDEX `fk_QualifiedTechnician_Training1_idx` (`trainingId` ASC) VISIBLE,
-  INDEX `fk_QualifiedTechnician_Aircraft2_idx` (`aircraftID` ASC) VISIBLE,
   CONSTRAINT `fk_QualifiedTechnician_Technician`
     FOREIGN KEY (`technicianID`)
     REFERENCES `sams`.`Technician` (`technicianID`)
@@ -269,11 +267,6 @@ CREATE TABLE IF NOT EXISTS `sams`.`QualifiedTechnician` (
   CONSTRAINT `fk_QualifiedTechnician_Training`
     FOREIGN KEY (`trainingId`)
     REFERENCES `sams`.`Training` (`trainingId`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION,
-  CONSTRAINT `fk_QualifiedTechnician_Aircraft`
-    FOREIGN KEY (`aircraftID`)
-    REFERENCES `sams`.`Aircraft` (`aircraftID`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
@@ -435,6 +428,31 @@ CREATE TABLE IF NOT EXISTS `sams`.`Airline_has_Aircraft` (
   CONSTRAINT `fk_Airline_has_Aircraft_Aircraft1`
     FOREIGN KEY (`aircraftID`)
     REFERENCES `sams`.`Aircraft` (`aircraftID`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `sams`.`AircraftModelQualifiedTechnician`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `sams`.`AircraftModelQualifiedTechnician` ;
+
+CREATE TABLE IF NOT EXISTS `sams`.`AircraftModelQualifiedTechnician` (
+  `aircraftModelID` INT NOT NULL,
+  `trainingID` INT NOT NULL,
+  `technicianID` INT NOT NULL,
+  PRIMARY KEY (`aircraftModelID`, `trainingID`, `technicianID`),
+  INDEX `fk_AircraftModel_has_QualifiedTechnician_QualifiedTechnicia_idx` (`trainingID` ASC, `technicianID` ASC) VISIBLE,
+  INDEX `fk_AircraftModel_has_QualifiedTechnician_AircraftModel1_idx` (`aircraftModelID` ASC) VISIBLE,
+  CONSTRAINT `fk_AircraftModel_has_QualifiedTechnician_AircraftModel1`
+    FOREIGN KEY (`aircraftModelID`)
+    REFERENCES `sams`.`AircraftModel` (`aircraftModelID`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_AircraftModel_has_QualifiedTechnician_QualifiedTechnician1`
+    FOREIGN KEY (`trainingID` , `technicianID`)
+    REFERENCES `sams`.`QualifiedTechnician` (`trainingId` , `technicianID`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
