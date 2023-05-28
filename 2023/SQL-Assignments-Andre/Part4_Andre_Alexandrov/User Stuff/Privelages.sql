@@ -5,14 +5,10 @@ GRANT ALL on sams.training TO 'Human Resources'@'%';
 
 
 GRANT INSERT, UPDATE, select on sams.aircraftmodel TO 'Technician'@'%';
-GRANT select on sams.training TO 'Technician'@'%';
+GRANT select on sams.AircraftModelQualifiedTechnician TO 'Technician'@'%';
 
 
-GRANT 'Human Resources'@'%' to 'Jake'@'%';
-SET DEFAULT ROLE 'Human Resources'@'%' to 'Jake'@'%';
 
-GRANT 'Technician'@'%' TO 'Jim'@'%';
-SET DEFAULT ROLE 'Technician'@'%' TO 'Jim'@'%';
 
 Use mysql;
 Select *
