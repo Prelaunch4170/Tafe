@@ -1,6 +1,22 @@
 use sps_db;
+truncate students;
 INSERT INTO students (student_id, given_name, last_name, email_address, created_at, updated_at)
 VALUES
+    (1, 'John', 'Doe', 'john.doe@example.com', '2023-05-13 14:30:00', '2023-05-13 15:45:00'),
+    (2, 'Jane', 'Smith', 'jane.smith@example.com', '2023-05-12 12:10:00', '2023-05-12 13:20:00'),
+    (3, 'Michael', 'Johnson', 'michael.johnson@example.com', '2023-05-11 10:50:00', '2023-05-11 12:00:00'),
+    (4, 'Emily', 'Williams', 'emily.williams@example.com', '2023-05-10 09:30:00', '2023-05-10 10:45:00'),
+    (5, 'Daniel', 'Brown', 'daniel.brown@example.com', '2023-05-09 08:15:00', '2023-05-09 09:25:00'),
+    (6, 'Olivia', 'Jones', 'olivia.jones@example.com', '2023-05-08 07:00:00', '2023-05-08 08:10:00'),
+    (7, 'David', 'Davis', 'david.davis@example.com', '2023-05-07 05:45:00', '2023-05-07 06:55:00'),
+    (8, 'Sophia', 'Miller', 'sophia.miller@example.com', '2023-05-06 04:30:00', '2023-05-06 05:40:00'),
+    (9, 'Joseph', 'Wilson', 'joseph.wilson@example.com', '2023-05-05 03:15:00', '2023-05-05 04:25:00'),
+    (10, 'Abigail', 'Taylor', 'abigail.taylor@example.com', '2023-05-04 02:00:00', '2023-05-04 03:10:00'),
+    (11, 'James', 'Anderson', 'james.anderson@example.com', '2023-05-03 00:45:00', '2023-05-03 01:55:00'),
+    (12, 'Mia', 'Thomas', 'mia.thomas@example.com', '2023-05-02 23:30:00', '2023-05-03 00:40:00'),
+    (13, 'Alexander', 'Lee', 'alexander.lee@example.com', '2023-05-01 22:15:00', '2023-05-01 23:25:00'),
+    (14, 'Ava', 'Harris', 'ava.harris@example.com', '2023-04-30 21:00:00', '2023-04-30 22:10:00'),
+    (15, 'Ethan', 'Clark', 'ethan.clark@example.com', '2023-04-29 19:45:00', '2023-04-29 20:55:00'),
     (16, 'Emma', 'Parker', 'emma.parker@example.com', '2023-05-13 14:30:00', '2023-05-13 15:45:00'),
     (17, 'William', 'Gonzalez', 'william.gonzalez@example.com', '2023-05-12 12:10:00', '2023-05-12 13:20:00'),
     (18, 'Samantha', 'Young', 'samantha.young@example.com', '2023-05-11 10:50:00', '2023-05-11 12:00:00'),

@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "@adonisjs/assembler": "^5.9.5",
-    "@adonisjs/lucid": "^18.3.0"
+    "@adonisjs/lucid": "^18.4.0",
+    "package": "^1.0.1"
   }
 }

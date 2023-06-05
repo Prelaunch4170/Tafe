@@ -22,12 +22,16 @@ import Route from '@ioc:Adonis/Core/Route'
 
 
 
+  Route.group(() => {
+    Route.resource("/Student/", "StudentEnrolesController")
+  }).prefix('/v1')
+ 
+
+//New Authentication routes
 Route.group(()=>{
   Route.post('login', 'AuthController.login')
   Route.post('register', 'AuthController.register')
   Route.group(() => {
-    Route.resource("/Student/", "StudentEnrolesController")
+    Route.resource("/student/Auth/", "StudentEnrolesController")
   }).middleware('auth:api')
-}).prefix('/v1')
- 
-
+}).prefix('/v2')

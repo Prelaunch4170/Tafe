@@ -61,8 +61,8 @@ export default class StudentEnrolesController {
               student.given_name = payload.given_name;
             }
         
-            if (payload.last_Name !== undefined) {
-              student.last_name = payload.last_Name;
+            if (payload.last_name !== undefined) {
+              student.last_name = payload.last_name;
             }
         
             if (payload.email_address !== undefined) {
