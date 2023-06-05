@@ -23,17 +23,13 @@ export default class StudentEnrolesController {
     }
     //POST
     public async store({ request, response }: HttpContextContract) {
-        try {
-            const payload = await request.validate(StudentValidator)
+        const stdentExists = await StudentEnroled.find(request.input('student_id'))
+        const payload = await request.validate(StudentValidator)
+        if (stdentExists){
+            return response.json({message: 'Student already exists'})
+        }else{
             const student: StudentEnroled = await StudentEnroled.create(payload)
-            const stdentExists = await StudentEnroled.find(request.id)
-            if (stdentExists){
-                return response.notAcceptable({message: 'Student already exists'})
-            }else{
-                return response.ok(student)
-            }
-        } catch (error) {
-            response.badRequest(error.messages)
+            return response.ok(student)
         }
     }
     //Delete
@@ -80,6 +76,23 @@ export default class StudentEnrolesController {
             student.last_name = payload.last_name
             student.email_address = payload.email_address
             
+            if (payload.given_name !== undefined) {
+                student.given_name = payload.given_name;
+              }else{
+                return response.json({message: 'Enter Given Name'})
+              }
+          
+              if (payload.last_name !== undefined) {
+                student.last_name = payload.last_name;
+              }else{
+                return response.json({message: 'Enter Last Name'})
+              }
+          
+              if (payload.email_address !== undefined) {
+                student.email_address = payload.email_address;
+              }else{
+                return response.json({message: 'Enter Email'})
+              }
             await student.save()
             return response.ok(student);
         }
