@@ -1,0 +1,10 @@
+INSERT INTO USER1.TMEMBERS (MEMBERID, "NAME") 
+VALUES	('M100', 'Anne Deems'),
+		('M200', 'Joe Black'),
+		('M300', 'Henry Brown'),
+		('M400', 'Sam Pink'),
+		('M500', 'Eva Blue'),
+		('M600', 'George Grey'),
+		('M700', 'James Green'),
+		('M800', 'Sally Orange');
+

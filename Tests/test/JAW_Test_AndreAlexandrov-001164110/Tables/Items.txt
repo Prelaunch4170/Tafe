@@ -1,0 +1,5 @@
+INSERT INTO USER1.TITEMS (ITEMID, ITEMNAME) 
+VALUES	('P100', 'Acer Pentium 5 Laptop'),
+		('P200', 'Canon Inkjet Printer'),
+		('P300', 'Pioneer Blue Ray Recorder'),
+		('P400', '20 cm ViewSonic LCD Color Monitor');
