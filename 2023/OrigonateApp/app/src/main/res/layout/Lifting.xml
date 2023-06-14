@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="415dp"
+        android:layout_height="331dp"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="152dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="199dp"
+        android:layout_height="18dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="465dp" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:tabGravity="center"
+        app:tabIconTint="@color/black"
+        app:tabIndicatorColor="#EA0909"
+        app:tabIndicatorGravity="bottom"
+        app:tabInlineLabel="true"
+        app:tabMaxWidth="500dp"
+        app:tabMode="auto"
+        app:tabTextColor="#000000"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="2dp">
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/slips"
+            tools:layout_editor_absoluteX="196dp"
+            tools:layout_editor_absoluteY="70dp" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/office" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Handling_lifting" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ergonomics" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reaching" />
+    </com.google.android.material.tabs.TabLayout>
+
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="199dp"
+        android:layout_height="41dp"
+        android:layout_weight="1"
+        android:text="Techniques for proper manual lifting"
+        android:textSize="10sp"
+        tools:ignore="SmallSp"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton5"
+        android:layout_width="209dp"
+        android:layout_height="42dp"
+        android:layout_weight="1"
+        android:text="importance of using mechanical aids"
+        android:textSize="10sp"
+        tools:ignore="SmallSp"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quit"
+        tools:layout_editor_absoluteX="319dp"
+        tools:layout_editor_absoluteY="667dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Training and Information on manual handling and lifting"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="74dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

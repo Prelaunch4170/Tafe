@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">OrigonateApp</string>
+    <string name="slips">Slips</string>
+    <string name="office">Office</string>
+    <string name="Handling_lifting">Handling</string>
+    <string name="ergonomics">Ergonomics</string>
+    <string name="reaching">Reaching</string>
+    <string name="what_is_a_slip_hazard">What is a slip hazard?</string>
+    <string name="trip_hazard">trip hazard</string>
+    <string name="clean_slip_hazards">clean slip hazards</string>
+    <string name="eliminate_trip_risk">eliminate trip risk</string>
+    <string name="trip_hazards">trip hazards</string>
+    <string name="eliminate_slips">eliminate slips</string>
+    <string name="slip_hazards">slip hazards</string>
+    <string name="eliminate_trip_hazard">Eliminate trip hazard</string>
+</resources>

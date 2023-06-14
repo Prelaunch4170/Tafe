@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Results"
+    tools:layout_editor_absoluteX="58dp"
+    tools:layout_editor_absoluteY="0dp">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tasks done"
+        android:textSize="35sp"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="37dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="170dp"
+        android:layout_height="39dp"
+        android:text="Training and Information on slips and trip hazards"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="171dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="170dp"
+        android:layout_height="39dp"
+        android:text="Training and Information on office hazards"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="171dp"
+        android:layout_height="56dp"
+        android:text="Training and Information on manual handling and lifting"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="170dp"
+        android:layout_height="39dp"
+        android:text="Training and Information on office ergonomics"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="169dp"
+        android:layout_height="54dp"
+        android:text="Training and Information on reaching above head height"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="411dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2/4"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="191dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3/3"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1/2"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="320dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2/2"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="376dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0/2"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="446dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit app"
+        tools:layout_editor_absoluteX="296dp"
+        tools:layout_editor_absoluteY="667dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
