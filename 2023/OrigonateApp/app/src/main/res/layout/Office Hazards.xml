@@ -6,14 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="415dp"
-        android:layout_height="331dp"
-        tools:layout_editor_absoluteX="-2dp"
-        tools:layout_editor_absoluteY="152dp"
-        tools:srcCompat="@tools:sample/backgrounds/scenic" />
-
     <SeekBar
         android:id="@+id/seekBar"
         android:layout_width="199dp"
@@ -115,6 +107,14 @@
         android:text="Training and Information on office hazards"
         tools:layout_editor_absoluteX="73dp"
         tools:layout_editor_absoluteY="70dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/itworks_logo"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="104dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
