@@ -18,27 +18,24 @@ public class SMSDataModelList implements SMSDataModelInterface, Serializable {
     public static final String DUPLICATE = "DUPLICATE";
     private int maxNumPhoneNumbers = -1;
     private String message;                 // The SMS message
-    private List<String> phoneNumbers;      // The collection of phone numbers
-    // How many phone numbers there are
+    private ArrayList<String> phoneNumbers;      // The collection of phone numbers
 
     public SMSDataModelList(String message) {
-        this.message = message;
-        this.phoneNumbers = new ArrayList<>();
-        this.maxNumPhoneNumbers = -1;
-
+        this(message, -1);
     }
 
     public SMSDataModelList() {
-
-        this.message = "";
-        this.phoneNumbers = new ArrayList<>();
-        this.maxNumPhoneNumbers = -1;
+        this("", -1);
 
     }
 
     public SMSDataModelList(String initialMessage, int maxNumPhoneNumbers) {
         this.message = initialMessage;
-        this.phoneNumbers = new ArrayList<>(maxNumPhoneNumbers);
+        if(maxNumPhoneNumbers == -1){
+            this.phoneNumbers = new ArrayList<>();
+        }else{
+            this.phoneNumbers = new ArrayList<>(maxNumPhoneNumbers);
+        }
         this.maxNumPhoneNumbers = maxNumPhoneNumbers;
 
     }
@@ -48,7 +45,7 @@ public class SMSDataModelList implements SMSDataModelInterface, Serializable {
         String result;
 
         if (phoneNumbers.size() == this.maxNumPhoneNumbers) {
-            throw new SMSDataModelFullException(newPhoneNumber);
+            result = FULL;
         } else {
             boolean exists = phoneNumbers.contains(newPhoneNumber);
             if (exists) {
@@ -70,13 +67,13 @@ public class SMSDataModelList implements SMSDataModelInterface, Serializable {
     public String updatePhoneNumber(String newPhoneNumber, int i) {
         String result;
         if (phoneNumbers.contains(newPhoneNumber)) {
-            return "Number: "+ newPhoneNumber +" already exists, cannot update";
+            return "Number: " + newPhoneNumber + " already exists, cannot update";
         } else {
 
             if (i < 0 || i >= phoneNumbers.size()) {
                 result = null;
             } else {
-                result = phoneNumbers.get(i);
+                result = phoneNumbers.get(i) + "was changed to " + newPhoneNumber;
                 phoneNumbers.set(i, newPhoneNumber);
             }
             return result;
@@ -165,19 +162,10 @@ public class SMSDataModelList implements SMSDataModelInterface, Serializable {
         return result;
     }
 
-    public static <T> List<T> ConvertToLinkedList(List<T> aL) {
-
-        // Create an empty LinkedList
-        List<T> lL = new LinkedList<>();
-
-        // Iterate through the aL
-        aL.forEach((t) -> {
-            // Add each element into the lL
-            lL.add(t);
-        });
-
-        // Return the converted LinkedList
+    public LinkedList<String> ConvertToLinkedList(String[] aL) {
+        LinkedList<String> lL = new LinkedList<>(Arrays.asList(aL));
         return lL;
     }
+    
 
 }

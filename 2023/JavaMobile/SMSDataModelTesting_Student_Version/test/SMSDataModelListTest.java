@@ -8,9 +8,11 @@
  *
  * @author Andre
  */
+import java.util.*;
 public class SMSDataModelListTest {
     public static void main(String[] args) {
         SMSDataModelList TestList = new SMSDataModelList("Test Message");
+        SMSDataModelList TestingConvert = new SMSDataModelList();
 
         try {
             TestList.addPhoneNumber("1234567890");
@@ -69,7 +71,7 @@ public class SMSDataModelListTest {
 
         // Get the message
         String message = TestList.getMessage();
-        System.out.println("Message: " + message);
+        System.out.println("Old Message: " + message);
         // Expected output:
         // Message: Test Message
 
@@ -86,5 +88,10 @@ public class SMSDataModelListTest {
         //testing updating duplicate number
         System.out.println(TestList.updatePhoneNumber("6283872535", 4));
         System.out.println("Model Test:  " + TestList);
+        
+        List<String> TestConvert = TestList.ConvertToLinkedList(TestList.getPhoneNumbers());
+        
+        System.out.println("Model Test convert:  " + TestConvert);
     }
 }
+    
