@@ -137,7 +137,7 @@ db.suppliers.updateOne({ supplierName: "Garden Grower" },
             contactPhoneNo: '08-27788888'
         }
     })
-//task 3
+//task 4
 //B
 sh.enableSharding("shoppingCartDB")
 //C
@@ -179,10 +179,14 @@ mongotop 1 --username userAdmin --authenticationDatabase admin
 db.createCollection("perftrans")
 for (var i= 1; i <= 100000; i++) 
 {
-    db.carts.insertOne(
+    db.perftrans.insertOne(
         { "transactionID": "writing-" + i,
             "transactionName": "bulk write",
              "sysDateTime": new Date(),
             "tranaction amount": Math.random() * i}
     )
 }
+//f
+db.perftrans.find({$or:[{transactionID: "writing-80000"},{transactionID: "writing-20000"}]})
+//g
+db.setProfilingLevel(1,{filter: {op: "query", millis:{ $gt: 2000 }}})
