@@ -6,8 +6,8 @@ export default class StudentEnrolesController {
     //GET
     public async index({response}: HttpContextContract){
         const student = await StudentEnroled.all()
-        if (!student){
-            return response.notFound({message: 'Student not found'})
+        if (student.length == 0 ){
+            return response.notFound({message: 'Students not found'})
         }else{
             return student
         }
@@ -23,9 +23,10 @@ export default class StudentEnrolesController {
     }
     //POST
     public async store({ request, response }: HttpContextContract) {
-        const stdentExists = await StudentEnroled.find(request.input('student_id'))
         const payload = await request.validate(StudentValidator)
-        if (stdentExists){
+        const stdentExists = await StudentEnroled.find(request.input('email_address'))
+        
+        if (!stdentExists){
             return response.json({message: 'Student already exists'})
         }else{
             const student: StudentEnroled = await StudentEnroled.create(payload)

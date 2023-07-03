@@ -23,7 +23,7 @@ import Route from '@ioc:Adonis/Core/Route'
 
 
   Route.group(() => {
-    Route.resource("/Student/", "StudentEnrolesController")
+    Route.resource("/students/", "StudentEnrolesController")
   }).prefix('/v1')
  
 
@@ -32,6 +32,6 @@ Route.group(()=>{
   Route.post('login', 'AuthController.login')
   Route.post('register', 'AuthController.register')
   Route.group(() => {
-    Route.resource("/student/Auth/", "StudentEnrolesController")
+    Route.resource("/students/Auth/", "StudentEnrolesController")
   }).middleware('auth:api')
 }).prefix('/v2')
