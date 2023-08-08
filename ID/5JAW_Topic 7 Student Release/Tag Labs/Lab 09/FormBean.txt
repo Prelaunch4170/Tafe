@@ -1,0 +1,39 @@
+
+package forms;
+
+public class FormBean {
+  private String name;
+  private String address;
+  private String phone;
+
+  public FormBean() {
+    name="";
+    address="";
+    phone="";
+  }
+
+  public String getName() {
+    return name;
+  }
+
+  public void setName(String theName) {
+    name=theName;
+  }
+
+  public String getAddress() {
+    return address;
+  }
+
+  public void setAddress(String theAddress) {
+    address=theAddress;
+  }
+
+  public String getPhone() {
+    return phone;
+  }
+
+  public void setPhone(String thePhone) {
+    phone=thePhone;
+  }
+
+}
