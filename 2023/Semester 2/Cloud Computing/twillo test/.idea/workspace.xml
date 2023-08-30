@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6ac99781-4dd1-4448-9c3b-61a5ac81d2d7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../517/Assesment 1 Files/2022HRTeachinglearning.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../517/Assesment 1 Files/ASDS - International Technical Institute_Business Scenario.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../517/Assesment 1 Files/ASDS - International Technical Institute_ICT Infrastructure.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../517/Assesment 1 Files/ASDS - International Technical Institute_ICT Security Policy.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../517/Assesment 1 Files/ASDS - International Technical Institute_Project Guidelines.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../517/Assesment 1 Files/ASDS - International Technical Institute_Project Management policy and procedures.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../517/Assesment 1 Files/ASDS - International Technical Institute_Risk Management Policy.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../517/Assesment 1 Files/ASDS - International Technical Institute_Strategic Plan 2021 - 2025.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../517/Assesment 1 Files/ASDS - International Technical Institute_Work Practices &amp; Communication.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../517/Assignment 1_Business Strategy and ICT gaps.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../536/Assignment - Project Documents/Glossary.rtf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../536/Assignment - Project Documents/Online Enrollment System Star UML Model.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../536/Assignment - Project Documents/Problem Statement.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../536/Assignment - Project Documents/Software Architecture Document.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../536/Assignment - Project Documents/Supplementary Specs.rtf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../536/Assignment - Project Documents/Usecases.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../536/ICTSAD508 - ASI - Assignment - Online Enrolment System.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../536/case study 2 - e banking system/Software specifications.rtf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../536/case study 2 - e banking system/Use CAse Model.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../546/ICTPRG546 - ASI - Assignment 1 Software Requirements.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/.vs/Project1/FileContentIndex/3920f275-0219-44e9-9947-0e54e4204b10.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/.vs/Project1/FileContentIndex/65c292cf-138a-47a4-96de-5b8c8e10c89b.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/.vs/Project1/FileContentIndex/9d5c63af-47f7-4296-94a6-655cf2675919.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/.vs/Project1/FileContentIndex/bad1be0e-6dd0-42d4-8f25-18e3738c10ff.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/.vs/Project1/FileContentIndex/read.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/.vs/Project1/v17/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/Client1/App.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/Client1/Client1.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/Client1/Connected Services/HelloWorldServiceReferance/Project1.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/Client1/Connected Services/HelloWorldServiceReferance/Reference.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/Client1/Connected Services/HelloWorldServiceReferance/Reference.svcmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/Client1/Connected Services/HelloWorldServiceReferance/configuration.svcinfo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/Client1/Connected Services/HelloWorldServiceReferance/configuration91.svcinfo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/Client1/Connected Services/HelloWorldServiceReferance/service.wsdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/Client1/Connected Services/HelloWorldServiceReferance/service.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/Client1/Connected Services/HelloWorldServiceReferance/service1.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/Client1/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/Client1/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/Client1/bin/Debug/Client1.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/Client1/bin/Debug/Client1.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/Client1/bin/Debug/Client1.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/Client1/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/Client1/obj/Debug/Client1.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/Client1/obj/Debug/Client1.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/Client1/obj/Debug/Client1.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/Client1/obj/Debug/Client1.csproj.SuggestedBindingRedirects.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/Client1/obj/Debug/Client1.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/Client1/obj/Debug/Client1.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/Client1/obj/Debug/DesignTimeResolveAssemblyReferences.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/Client1/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/Client1/obj/Debug/TempPE/Connected Services.HelloWorldServiceReferance.Reference.cs.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/Project1.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/Project1/App.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/Project1/HelloWorldService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/Project1/IHelloWorldService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/Project1/Name.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/Project1/Project1.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/Project1/Project1.csproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/Project1/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/Project1/bin/Debug/Project1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/Project1/bin/Debug/Project1.dll.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/Project1/bin/Debug/Project1.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/Project1/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/Project1/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/Project1/obj/Debug/Project1.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/Project1/obj/Debug/Project1.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/Project1/obj/Debug/Project1.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/Project1/obj/Debug/Project1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/Project1/obj/Debug/Project1.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/VisualStudioCode/Project1/Project1/obj/Debug/WcfConfigValidationData.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/python/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/python/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/python/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/python/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/python/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/python/.idea/python.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/python/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/python/CallApi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/python/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/twillo test/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/twillo test/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/twillo test/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/twillo test/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/twillo test/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/twillo test/.idea/twillo test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/twillo test/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/twillo test/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../614/twillo test/Code.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Simester 2/614/VisualStudioCode/TemperatureServiceLibrary/.vs/TemperatureServiceLibrary/FileContentIndex/214634cb-986a-4012-b5a3-66711944a65a.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Simester 2/614/VisualStudioCode/TemperatureServiceLibrary/.vs/TemperatureServiceLibrary/FileContentIndex/a4b2a85f-d0b4-4a78-9af7-a10f0c9f0b38.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Simester 2/614/VisualStudioCode/TemperatureServiceLibrary/.vs/TemperatureServiceLibrary/FileContentIndex/cf1fd871-e18b-4de2-830e-8470735ba5df.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Simester 2/614/VisualStudioCode/TemperatureServiceLibrary/.vs/TemperatureServiceLibrary/FileContentIndex/read.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Simester 2/614/VisualStudioCode/TemperatureServiceLibrary/.vs/TemperatureServiceLibrary/v17/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Simester 2/614/VisualStudioCode/TemperatureServiceLibrary/TemperatureServiceLibrary.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Simester 2/614/VisualStudioCode/TemperatureServiceLibrary/TemperatureServiceLibrary/App.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Simester 2/614/VisualStudioCode/TemperatureServiceLibrary/TemperatureServiceLibrary/ItempCalculator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Simester 2/614/VisualStudioCode/TemperatureServiceLibrary/TemperatureServiceLibrary/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Simester 2/614/VisualStudioCode/TemperatureServiceLibrary/TemperatureServiceLibrary/Temperature.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Simester 2/614/VisualStudioCode/TemperatureServiceLibrary/TemperatureServiceLibrary/TemperatureServiceLibrary.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Simester 2/614/VisualStudioCode/TemperatureServiceLibrary/TemperatureServiceLibrary/TemperatureServiceLibrary.csproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Simester 2/614/VisualStudioCode/TemperatureServiceLibrary/TemperatureServiceLibrary/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Simester 2/614/VisualStudioCode/TemperatureServiceLibrary/TemperatureServiceLibrary/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Simester 2/614/VisualStudioCode/TemperatureServiceLibrary/TemperatureServiceLibrary/obj/Debug/TemperatureServiceLibrary.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Simester 2/614/VisualStudioCode/TemperatureServiceLibrary/TemperatureServiceLibrary/obj/Debug/TemperatureServiceLibrary.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Simester 2/614/VisualStudioCode/TemperatureServiceLibrary/TemperatureServiceLibrary/obj/Debug/TemperatureServiceLibrary.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Simester 2/614/VisualStudioCode/TemperatureServiceLibrary/TemperatureServiceLibrary/tempCalculator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semester02_AssessmentPlan .xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Semester02_AssessmentPlan .xlsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="2Tghp0HFKxIyrLPEyj99q0eg70m" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Andre/Desktop/Tafe-1/2023/Semester 2/Cloud Computing/python"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ac99781-4dd1-4448-9c3b-61a5ac81d2d7" name="Changes" comment="" />
+      <created>1691470810552</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691470810552</updated>
+    </task>
+    <servers />
+  </component>
+</project>

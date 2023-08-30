@@ -1,0 +1,4 @@
+C:\Users\Andre\Desktop\Tafe-1\2023\Simester 2\614\VisualStudioCode\TemperatureServiceLibrary\TemperatureServiceLibrary\obj\Debug\TemperatureServiceLibrary.csproj.AssemblyReference.cache
+C:\Users\Andre\Desktop\Tafe-1\2023\Simester 2\614\VisualStudioCode\TemperatureServiceLibrary\TemperatureServiceLibrary\obj\Debug\TemperatureServiceLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Andre\Desktop\Tafe-1\2023\Semester 2\Cloud Computing\VisualStudioCode\TemperatureServiceLibrary\TemperatureServiceLibrary\obj\Debug\TemperatureServiceLibrary.csproj.AssemblyReference.cache
+C:\Users\Andre\Desktop\Tafe-1\2023\Semester 2\Cloud Computing\VisualStudioCode\TemperatureServiceLibrary\TemperatureServiceLibrary\obj\Debug\TemperatureServiceLibrary.csproj.CoreCompileInputs.cache
