@@ -1,0 +1,26 @@
+G:\TAFE\Cloud Computing Course\Assessments\6CLP_Practice_Test1\BlogServiceLibrary\BlogServiceHost\bin\Debug\BlogServiceHost.exe.config
+G:\TAFE\Cloud Computing Course\Assessments\6CLP_Practice_Test1\BlogServiceLibrary\BlogServiceHost\bin\Debug\BlogServiceHost.exe
+G:\TAFE\Cloud Computing Course\Assessments\6CLP_Practice_Test1\BlogServiceLibrary\BlogServiceHost\bin\Debug\BlogServiceHost.pdb
+G:\TAFE\Cloud Computing Course\Assessments\6CLP_Practice_Test1\BlogServiceLibrary\BlogServiceHost\bin\Debug\BlogServiceLibrary.dll
+G:\TAFE\Cloud Computing Course\Assessments\6CLP_Practice_Test1\BlogServiceLibrary\BlogServiceHost\bin\Debug\BlogServiceLibrary.pdb
+G:\TAFE\Cloud Computing Course\Assessments\6CLP_Practice_Test1\BlogServiceLibrary\BlogServiceHost\obj\x86\Debug\BlogServiceHost.csprojResolveAssemblyReference.cache
+G:\TAFE\Cloud Computing Course\Assessments\6CLP_Practice_Test1\BlogServiceLibrary\BlogServiceHost\obj\x86\Debug\BlogServiceHost.exe
+G:\TAFE\Cloud Computing Course\Assessments\6CLP_Practice_Test1\BlogServiceLibrary\BlogServiceHost\obj\x86\Debug\BlogServiceHost.pdb
+G:\TAFE\Cloud Computing Course\Assessments\6CLP_Practice_Test1_v2\BlogServiceLibrary\BlogServiceHost\bin\Debug\BlogServiceHost.exe.config
+G:\TAFE\Cloud Computing Course\Assessments\6CLP_Practice_Test1_v2\BlogServiceLibrary\BlogServiceHost\obj\x86\Debug\BlogServiceHost.exe
+G:\TAFE\Cloud Computing Course\Assessments\6CLP_Practice_Test1_v2\BlogServiceLibrary\BlogServiceHost\obj\x86\Debug\BlogServiceHost.pdb
+D:\Courses\CLP\Labs\Session06\Lab 1 - Demo\BlogServiceLibrary\BlogServiceHost\bin\Debug\BlogServiceHost.exe.config
+D:\Courses\CLP\Labs\Session06\Lab 1 - Demo\BlogServiceLibrary\BlogServiceHost\bin\Debug\BlogServiceHost.exe
+D:\Courses\CLP\Labs\Session06\Lab 1 - Demo\BlogServiceLibrary\BlogServiceHost\bin\Debug\BlogServiceHost.pdb
+D:\Courses\CLP\Labs\Session06\Lab 1 - Demo\BlogServiceLibrary\BlogServiceHost\bin\Debug\BlogServiceLibrary.dll
+D:\Courses\CLP\Labs\Session06\Lab 1 - Demo\BlogServiceLibrary\BlogServiceHost\bin\Debug\BlogServiceLibrary.pdb
+D:\Courses\CLP\Labs\Session06\Lab 1 - Demo\BlogServiceLibrary\BlogServiceHost\bin\Debug\BlogServiceLibrary.dll.config
+D:\Courses\CLP\Labs\Session06\Lab 1 - Demo\BlogServiceLibrary\BlogServiceHost\obj\x86\Debug\BlogServiceHost.csproj.AssemblyReference.cache
+D:\Courses\CLP\Labs\Session06\Lab 1 - Demo\BlogServiceLibrary\BlogServiceHost\obj\x86\Debug\BlogServiceHost.csproj.CoreCompileInputs.cache
+D:\Courses\CLP\Labs\Session06\Lab 1 - Demo\BlogServiceLibrary\BlogServiceHost\obj\x86\Debug\BlogServiceHost.csproj.CopyComplete
+D:\Courses\CLP\Labs\Session06\Lab 1 - Demo\BlogServiceLibrary\BlogServiceHost\obj\x86\Debug\BlogServiceHost.exe
+D:\Courses\CLP\Labs\Session06\Lab 1 - Demo\BlogServiceLibrary\BlogServiceHost\obj\x86\Debug\BlogServiceHost.pdb
+C:\Users\Andre\Desktop\Tafe-1\2023\Semester 2\Cloud Computing\BlogServiceLibrary\BlogServiceHost\obj\x86\Debug\BlogServiceHost.csproj.AssemblyReference.cache
+C:\Users\Andre\Desktop\Tafe-1\2023\Semester 2\Cloud Computing\BlogServiceLibrary\BlogServiceHost\obj\x86\Debug\BlogServiceHost.csproj.CoreCompileInputs.cache
+C:\Users\Andre\Desktop\Tafe-1\2023\Semester 2\Cloud Computing\BlogServiceLibrary\BlogServiceHost\obj\x86\Debug\BlogServiceHost.exe
+C:\Users\Andre\Desktop\Tafe-1\2023\Semester 2\Cloud Computing\BlogServiceLibrary\BlogServiceHost\obj\x86\Debug\BlogServiceHost.pdb

@@ -1,0 +1,12 @@
+G:\TAFE\Cloud Computing Course\Assessments\6CLP_Practice_Test1\BlogServiceLibrary\BlogServiceLibrary\bin\Debug\BlogServiceLibrary.dll.config
+G:\TAFE\Cloud Computing Course\Assessments\6CLP_Practice_Test1\BlogServiceLibrary\BlogServiceLibrary\bin\Debug\BlogServiceLibrary.dll
+G:\TAFE\Cloud Computing Course\Assessments\6CLP_Practice_Test1\BlogServiceLibrary\BlogServiceLibrary\bin\Debug\BlogServiceLibrary.pdb
+G:\TAFE\Cloud Computing Course\Assessments\6CLP_Practice_Test1\BlogServiceLibrary\BlogServiceLibrary\obj\Debug\BlogServiceLibrary.dll
+G:\TAFE\Cloud Computing Course\Assessments\6CLP_Practice_Test1\BlogServiceLibrary\BlogServiceLibrary\obj\Debug\BlogServiceLibrary.pdb
+D:\Courses\CLP\Labs\Session06\Lab 1 - Demo\BlogServiceLibrary\BlogServiceLibrary\bin\Debug\BlogServiceLibrary.dll.config
+D:\Courses\CLP\Labs\Session06\Lab 1 - Demo\BlogServiceLibrary\BlogServiceLibrary\bin\Debug\BlogServiceLibrary.dll
+D:\Courses\CLP\Labs\Session06\Lab 1 - Demo\BlogServiceLibrary\BlogServiceLibrary\bin\Debug\BlogServiceLibrary.pdb
+D:\Courses\CLP\Labs\Session06\Lab 1 - Demo\BlogServiceLibrary\BlogServiceLibrary\obj\Debug\BlogServiceLibrary.csproj.AssemblyReference.cache
+D:\Courses\CLP\Labs\Session06\Lab 1 - Demo\BlogServiceLibrary\BlogServiceLibrary\obj\Debug\BlogServiceLibrary.csproj.CoreCompileInputs.cache
+D:\Courses\CLP\Labs\Session06\Lab 1 - Demo\BlogServiceLibrary\BlogServiceLibrary\obj\Debug\BlogServiceLibrary.dll
+D:\Courses\CLP\Labs\Session06\Lab 1 - Demo\BlogServiceLibrary\BlogServiceLibrary\obj\Debug\BlogServiceLibrary.pdb
