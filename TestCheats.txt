@@ -25,6 +25,11 @@
 </configuration>
 
 
+using System.ServiceModel;
+using System.ServiceModel.Description;
+using //Main project;
+
+
 Service Host
 static void Main(string[] args)
         {

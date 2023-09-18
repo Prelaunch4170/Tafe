@@ -1,0 +1,7 @@
+C:\Users\Andre\Desktop\Tafe\2023\Semester 2\Cloud Computing\VisualStudioCode\BloggingServices\blogging\bin\Debug\blogging.dll.config
+C:\Users\Andre\Desktop\Tafe\2023\Semester 2\Cloud Computing\VisualStudioCode\BloggingServices\blogging\bin\Debug\blogging.dll
+C:\Users\Andre\Desktop\Tafe\2023\Semester 2\Cloud Computing\VisualStudioCode\BloggingServices\blogging\bin\Debug\blogging.pdb
+C:\Users\Andre\Desktop\Tafe\2023\Semester 2\Cloud Computing\VisualStudioCode\BloggingServices\blogging\obj\Debug\blogging.csproj.AssemblyReference.cache
+C:\Users\Andre\Desktop\Tafe\2023\Semester 2\Cloud Computing\VisualStudioCode\BloggingServices\blogging\obj\Debug\blogging.csproj.CoreCompileInputs.cache
+C:\Users\Andre\Desktop\Tafe\2023\Semester 2\Cloud Computing\VisualStudioCode\BloggingServices\blogging\obj\Debug\blogging.dll
+C:\Users\Andre\Desktop\Tafe\2023\Semester 2\Cloud Computing\VisualStudioCode\BloggingServices\blogging\obj\Debug\blogging.pdb
