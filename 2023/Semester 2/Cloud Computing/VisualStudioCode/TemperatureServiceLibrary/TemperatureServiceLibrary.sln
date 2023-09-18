@@ -5,6 +5,13 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemperatureServiceLibrary", "TemperatureServiceLibrary\TemperatureServiceLibrary.csproj", "{F693DAF9-0D73-416B-B820-29429D4CC2FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleHost", "ConsoleHost\ConsoleHost.csproj", "{9C4CD979-9B4A-4BE6-BD95-9EBC23B2A21D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleClient", "ConsoleClient\ConsoleClient.csproj", "{97A8450D-144B-4D0D-88E0-289881BFF8EA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F693DAF9-0D73-416B-B820-29429D4CC2FB} = {F693DAF9-0D73-416B-B820-29429D4CC2FB}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +22,14 @@ Global
 		{F693DAF9-0D73-416B-B820-29429D4CC2FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F693DAF9-0D73-416B-B820-29429D4CC2FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F693DAF9-0D73-416B-B820-29429D4CC2FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C4CD979-9B4A-4BE6-BD95-9EBC23B2A21D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C4CD979-9B4A-4BE6-BD95-9EBC23B2A21D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C4CD979-9B4A-4BE6-BD95-9EBC23B2A21D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C4CD979-9B4A-4BE6-BD95-9EBC23B2A21D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97A8450D-144B-4D0D-88E0-289881BFF8EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97A8450D-144B-4D0D-88E0-289881BFF8EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97A8450D-144B-4D0D-88E0-289881BFF8EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97A8450D-144B-4D0D-88E0-289881BFF8EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

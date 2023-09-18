@@ -6,3 +6,11 @@ C:\Users\Andre\Desktop\Tafe-1\2023\Simester 2\614\VisualStudioCode\Project1\Clie
 C:\Users\Andre\Desktop\Tafe-1\2023\Simester 2\614\VisualStudioCode\Project1\Client1\obj\Debug\Client1.csproj.CoreCompileInputs.cache
 C:\Users\Andre\Desktop\Tafe-1\2023\Simester 2\614\VisualStudioCode\Project1\Client1\obj\Debug\Client1.exe
 C:\Users\Andre\Desktop\Tafe-1\2023\Simester 2\614\VisualStudioCode\Project1\Client1\obj\Debug\Client1.pdb
+C:\Users\Andre\Desktop\Tafe-1\2023\Semester 2\Cloud Computing\VisualStudioCode\Project1\Client1\bin\Debug\Client1.exe.config
+C:\Users\Andre\Desktop\Tafe-1\2023\Semester 2\Cloud Computing\VisualStudioCode\Project1\Client1\bin\Debug\Client1.exe
+C:\Users\Andre\Desktop\Tafe-1\2023\Semester 2\Cloud Computing\VisualStudioCode\Project1\Client1\bin\Debug\Client1.pdb
+C:\Users\Andre\Desktop\Tafe-1\2023\Semester 2\Cloud Computing\VisualStudioCode\Project1\Client1\obj\Debug\Client1.csproj.AssemblyReference.cache
+C:\Users\Andre\Desktop\Tafe-1\2023\Semester 2\Cloud Computing\VisualStudioCode\Project1\Client1\obj\Debug\Client1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Andre\Desktop\Tafe-1\2023\Semester 2\Cloud Computing\VisualStudioCode\Project1\Client1\obj\Debug\Client1.csproj.CoreCompileInputs.cache
+C:\Users\Andre\Desktop\Tafe-1\2023\Semester 2\Cloud Computing\VisualStudioCode\Project1\Client1\obj\Debug\Client1.exe
+C:\Users\Andre\Desktop\Tafe-1\2023\Semester 2\Cloud Computing\VisualStudioCode\Project1\Client1\obj\Debug\Client1.pdb

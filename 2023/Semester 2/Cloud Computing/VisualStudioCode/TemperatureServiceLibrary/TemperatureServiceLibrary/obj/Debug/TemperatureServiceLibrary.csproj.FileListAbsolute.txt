@@ -2,3 +2,8 @@ C:\Users\Andre\Desktop\Tafe-1\2023\Simester 2\614\VisualStudioCode\TemperatureSe
 C:\Users\Andre\Desktop\Tafe-1\2023\Simester 2\614\VisualStudioCode\TemperatureServiceLibrary\TemperatureServiceLibrary\obj\Debug\TemperatureServiceLibrary.csproj.CoreCompileInputs.cache
 C:\Users\Andre\Desktop\Tafe-1\2023\Semester 2\Cloud Computing\VisualStudioCode\TemperatureServiceLibrary\TemperatureServiceLibrary\obj\Debug\TemperatureServiceLibrary.csproj.AssemblyReference.cache
 C:\Users\Andre\Desktop\Tafe-1\2023\Semester 2\Cloud Computing\VisualStudioCode\TemperatureServiceLibrary\TemperatureServiceLibrary\obj\Debug\TemperatureServiceLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Andre\Desktop\Tafe-1\2023\Semester 2\Cloud Computing\VisualStudioCode\TemperatureServiceLibrary\TemperatureServiceLibrary\bin\Debug\TemperatureServiceLibrary.dll.config
+C:\Users\Andre\Desktop\Tafe-1\2023\Semester 2\Cloud Computing\VisualStudioCode\TemperatureServiceLibrary\TemperatureServiceLibrary\bin\Debug\TemperatureServiceLibrary.dll
+C:\Users\Andre\Desktop\Tafe-1\2023\Semester 2\Cloud Computing\VisualStudioCode\TemperatureServiceLibrary\TemperatureServiceLibrary\bin\Debug\TemperatureServiceLibrary.pdb
+C:\Users\Andre\Desktop\Tafe-1\2023\Semester 2\Cloud Computing\VisualStudioCode\TemperatureServiceLibrary\TemperatureServiceLibrary\obj\Debug\TemperatureServiceLibrary.dll
+C:\Users\Andre\Desktop\Tafe-1\2023\Semester 2\Cloud Computing\VisualStudioCode\TemperatureServiceLibrary\TemperatureServiceLibrary\obj\Debug\TemperatureServiceLibrary.pdb

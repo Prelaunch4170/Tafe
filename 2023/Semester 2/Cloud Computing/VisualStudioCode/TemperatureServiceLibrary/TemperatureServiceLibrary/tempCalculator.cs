@@ -14,11 +14,11 @@ namespace TemperatureServiceLibrary
 
         public double GetCelsius(Temperature temp)
         {
-            return (temp.Fahrenheit - 31) * 5/9;
+            return Math.Round(((temp.Fahrenheit - 32) * 5/9), 2);
         }
 
         public double GetFahrenheit(Temperature temp) {
-            return (temp.Celsius * 9) / 5 + 32;
+            return Math.Round(((temp.Celsius ) * (9/5) + 32), 2);
         }
 
     }
