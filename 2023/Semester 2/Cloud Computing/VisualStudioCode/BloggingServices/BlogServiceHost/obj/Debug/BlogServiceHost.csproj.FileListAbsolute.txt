@@ -1,0 +1,12 @@
+C:\Users\Andre\Desktop\Tafe\2023\Semester 2\Cloud Computing\VisualStudioCode\BloggingServices\BlogServiceHost\bin\Debug\BlogServiceHost.exe.config
+C:\Users\Andre\Desktop\Tafe\2023\Semester 2\Cloud Computing\VisualStudioCode\BloggingServices\BlogServiceHost\bin\Debug\BlogServiceHost.exe
+C:\Users\Andre\Desktop\Tafe\2023\Semester 2\Cloud Computing\VisualStudioCode\BloggingServices\BlogServiceHost\bin\Debug\BlogServiceHost.pdb
+C:\Users\Andre\Desktop\Tafe\2023\Semester 2\Cloud Computing\VisualStudioCode\BloggingServices\BlogServiceHost\bin\Debug\blogging.dll
+C:\Users\Andre\Desktop\Tafe\2023\Semester 2\Cloud Computing\VisualStudioCode\BloggingServices\BlogServiceHost\bin\Debug\blogging.pdb
+C:\Users\Andre\Desktop\Tafe\2023\Semester 2\Cloud Computing\VisualStudioCode\BloggingServices\BlogServiceHost\bin\Debug\blogging.dll.config
+C:\Users\Andre\Desktop\Tafe\2023\Semester 2\Cloud Computing\VisualStudioCode\BloggingServices\BlogServiceHost\obj\Debug\BlogServiceHost.csproj.AssemblyReference.cache
+C:\Users\Andre\Desktop\Tafe\2023\Semester 2\Cloud Computing\VisualStudioCode\BloggingServices\BlogServiceHost\obj\Debug\BlogServiceHost.csproj.SuggestedBindingRedirects.cache
+C:\Users\Andre\Desktop\Tafe\2023\Semester 2\Cloud Computing\VisualStudioCode\BloggingServices\BlogServiceHost\obj\Debug\BlogServiceHost.csproj.CoreCompileInputs.cache
+C:\Users\Andre\Desktop\Tafe\2023\Semester 2\Cloud Computing\VisualStudioCode\BloggingServices\BlogServiceHost\obj\Debug\BlogServiceHost.csproj.CopyComplete
+C:\Users\Andre\Desktop\Tafe\2023\Semester 2\Cloud Computing\VisualStudioCode\BloggingServices\BlogServiceHost\obj\Debug\BlogServiceHost.exe
+C:\Users\Andre\Desktop\Tafe\2023\Semester 2\Cloud Computing\VisualStudioCode\BloggingServices\BlogServiceHost\obj\Debug\BlogServiceHost.pdb

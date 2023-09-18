@@ -33,30 +33,28 @@ using //Main project;
 Service Host
 static void Main(string[] args)
         {
-            Uri baseAdddress = new Uri("http://localhost:8733/tempCalculator/");
-            ServiceHost selfHost = new ServiceHost(typeof(tempCalculator), baseAdddress);
+            Uri baseAddress = new Uri("//use fron app.config");
+
+            ServiceHost selfHost = new ServiceHost(typeof(BloggingService) ,baseAddress);
 
             try
             {
-                
+                selfHost.AddServiceEndpoint(typeof(IBloggingService), new WSHttpBinding(), "blogging.BloggingService");
+
+                ServiceMetadataBehavior smb = new ServiceMetadataBehavior();
+                smb.HttpGetEnabled = true;
+                selfHost.Description.Behaviors.Add(smb);
+
+                selfHost.Open();
+                Console.WriteLine("The Service is ready");
+                Console.WriteLine("Press <Enter> to terminate the service.");
+                Console.WriteLine("");
+                Console.ReadLine();
             }catch (Exception ex)
             {
-                Console.WriteLine(ex.ToString());
+                Console.WriteLine(ex.Message);
                 selfHost.Abort();
             }
         }
 		
-                Temperature temp = new Temperature();
-		
-		Console.WriteLine("Do you want Celsius or Fahrenheit [1 or 2]");
-                string requestType = Console.ReadLine();
-                if (requestType == "1")
-                {
-                    Console.WriteLine("Enter Fahrenheit temp");
-                    temp.Fahrenheit = int.Parse(Console.ReadLine());
-                    
-                }
-                else
-                {
-
-                }
+Service Client

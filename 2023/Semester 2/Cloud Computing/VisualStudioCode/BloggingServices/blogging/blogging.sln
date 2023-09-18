@@ -5,6 +5,10 @@ VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blogging", "blogging.csproj", "{8A4D0766-6060-4537-BA6A-80BD08D40C38}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogServiceHost", "..\BlogServiceHost\BlogServiceHost.csproj", "{5ACA8EA3-5245-4536-BBCC-050FC6C5BBE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogConsoleClient", "..\BlogConsoleClient\BlogConsoleClient.csproj", "{6EFD83EC-3380-41EB-8681-E8913959ECFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{8A4D0766-6060-4537-BA6A-80BD08D40C38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A4D0766-6060-4537-BA6A-80BD08D40C38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A4D0766-6060-4537-BA6A-80BD08D40C38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ACA8EA3-5245-4536-BBCC-050FC6C5BBE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ACA8EA3-5245-4536-BBCC-050FC6C5BBE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ACA8EA3-5245-4536-BBCC-050FC6C5BBE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ACA8EA3-5245-4536-BBCC-050FC6C5BBE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EFD83EC-3380-41EB-8681-E8913959ECFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EFD83EC-3380-41EB-8681-E8913959ECFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EFD83EC-3380-41EB-8681-E8913959ECFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EFD83EC-3380-41EB-8681-E8913959ECFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
