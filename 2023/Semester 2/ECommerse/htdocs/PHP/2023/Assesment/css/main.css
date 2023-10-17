@@ -1,7 +1,8 @@
 .topnav {
-    background-color: #333;
+    background-color: rgb(109, 22, 19);
     overflow: hidden;
     margin: 0px 10px;
+    color: beige;
 }
 
 .links {
@@ -12,12 +13,31 @@
 
 body {
     margin: 0;
+    background-color: rgb(118, 178, 180);
+}
+
+.containter {
+    min-height: 84vh;
+}
+
+footer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background: rgb(109, 22, 19);
+    min-height: 20px;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: beige;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: beige;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -26,14 +46,14 @@ body {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #ef0808;
+    background-color: rgb(156, 78, 75);
     color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-    background-color: #04AA6D;
-    color: white;
+    background-color: rgb(141, 51, 48);
+    color: beige;
 }
 
 .viewDiv {
@@ -46,8 +66,8 @@ body {
     width: 15%;
     margin: 5px 10px;
     flex-shrink: 0;
-    background-color: #000;
-    color: white;
+    background-color: rgb(57, 125, 127);
+    color: beige;
 }
 
 .productView {
@@ -58,16 +78,18 @@ body {
 
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgb(8, 47, 48);
+    background-color: rgb(140, 190, 154);
     max-width: 200px;
     min-width: 150px;
     margin: 5px 10px 5px;
     text-align: center;
     font-family: arial;
+    color: rgb(10, 13, 11);
 }
 
 .price {
-    color: grey;
+    color: rgb(10, 13, 11);
     font-size: 22px;
 }
 
@@ -86,7 +108,7 @@ body {
     outline: 0;
     padding: 2px;
     color: white;
-    background-color: #000;
+    background-color: rgb(87, 129, 99);
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -97,18 +119,7 @@ body {
     opacity: 0.7;
 }
 
-footer {
-    position: relative;
-    bottom: 0px;
-    width: 100%;
-    background: #3586ff;
-    min-height: 20px;
-    padding: 20px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
+
 
 .info {
     position: relative;
@@ -123,4 +134,47 @@ footer {
 .info p {
     margin-top: 2px;
     margin-bottom: 2px;
+}
+
+.logInDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 80vh;
+}
+
+.RegisterDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 80vh;
+}
+
+.prodImage {
+    max-width: 100px;
+}
+
+.prodList {
+    list-style-type: none;
+}
+
+.itemsView {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prosuctSection,
+.orderSummary {
+    flex: 1;
+}
+
+.product {
+    display: flex;
+    flex-direction: row;
+}
+
+.prodInfo {
+    margin-left: 10px;
 }

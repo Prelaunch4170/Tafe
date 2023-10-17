@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(118, 178, 180);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+.enter{
+    height:35px;
+    width:75px;
+    font-size: large;
+}
