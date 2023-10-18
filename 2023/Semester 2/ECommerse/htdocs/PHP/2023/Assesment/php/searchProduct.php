@@ -3,15 +3,11 @@
 <html>
 
 <head>
-    <title>View All</title>
+    <title>View Sepcific Product</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/main.css">
 </head>
-<?php
-$test = "number 1";
-
-?>
 
 <body>
     <div class="topnav">
@@ -22,10 +18,11 @@ $test = "number 1";
             <a href="Register.php">Register</a>
         </div>
     </div>
+
     <div class="viewDiv">
         <div class="sidePanel">
             <label for="search">Search</label>
-            <input name="search" type="text" size=10 />
+            <input name="search" type="text" value="test input" size=10 />
             <p>Testing the side panel</p>
             <p>Testing the side panel</p>
             <p>Testing the side panel</p>
