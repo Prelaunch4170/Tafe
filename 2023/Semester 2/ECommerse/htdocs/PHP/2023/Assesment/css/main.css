@@ -152,6 +152,21 @@ footer {
     min-height: 80vh;
 }
 
+.register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.register .inputField{
+    min-width: 200px ;
+}
+
+span.error {
+    color: red;
+    display: inline-block; /* Make the error message inline-block */
+    margin-left: 10px; /* Add margin to separate the input and error message */
+}
+
 .prodImage {
     max-width: 100px;
 }
@@ -178,3 +193,12 @@ footer {
 .prodInfo {
     margin-left: 10px;
 }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+  }

@@ -1,8 +1,8 @@
 <?php
 //Connect to the server
-$server = 'localhost:3307';
+$server = 'localhost';
 $user = 'root';
 $pass = '';
-$database = 'cartdb';
+$database = 'oldMates';
 $mysqli = mysqli_connect($server,$user,$pass,$database) or die ("error connecting to database");
 ?>
