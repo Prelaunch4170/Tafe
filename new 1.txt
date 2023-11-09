@@ -1,0 +1,89 @@
+  please create a sql query to create a customer table with these fields
+  `customerID` int(11) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `passwrd` varchar(300) NOT NULL,
+  `address` varchar(255) DEFAULT NULL,
+  `postcode` varchar(10) DEFAULT NULL,
+  `state` varchar(50) DEFAULT NULL,
+  `phoneNum` varchar(20) DEFAULT NULL
+  
+  please also create a products table that has fields for stuff like price, description, image url and supplier ID, and quantity. 
+  please also create a supplier table
+  please also create a cart table with a many to one that has a for field for customer
+  also a table for a cart-products that has a foriegn field for cart and product using a many to many relationship as many products can be in a cart and cart can have many products
+  
+  CREATE TABLE customer (
+  customerID int(11) NOT NULL AUTO_INCREMENT,
+  email varchar(255) NOT NULL UNIQUE,
+  passwrd varchar(300) NOT NULL,
+  address varchar(255) DEFAULT NULL,
+  postcode varchar(10) DEFAULT NULL,
+  state varchar(50) DEFAULT NULL,
+  phoneNum varchar(20) DEFAULT NULL,
+  PRIMARY KEY (customerID)
+);
+
+CREATE TABLE product (
+  productID int(11) NOT NULL AUTO_INCREMENT,
+  productName varchar(255) NOT NULL,
+  productDescription text NOT NULL,
+  productImage varchar(255) NOT NULL,
+  productPrice decimal(10,2) NOT NULL,
+  supplierID int(11) NOT NULL,
+  productQuantity int(11) NOT NULL,
+  PRIMARY KEY (productID),
+  FOREIGN KEY (supplierID) REFERENCES supplier(supplierID)
+);
+
+CREATE TABLE supplier (
+  supplierID int(11) NOT NULL AUTO_INCREMENT,
+  supplierName varchar(255) NOT NULL,
+  supplierEmail varchar(255) NOT NULL,
+  supplierAddress varchar(255) NOT NULL,
+  supplierPostcode varchar(10) NOT NULL,
+  supplierState varchar(50) NOT NULL,
+  supplierPhoneNum varchar(20) NOT NULL,
+  PRIMARY KEY (supplierID)
+);
+
+CREATE TABLE cart (
+  cartID int(11) NOT NULL AUTO_INCREMENT,
+  customerID int(11) NOT NULL,
+  PRIMARY KEY (cartID),
+  FOREIGN KEY (customerID) REFERENCES customer(customerID)
+);
+
+CREATE TABLE cart_product (
+  cartID int(11) NOT NULL,
+  productID int(11) NOT NULL,
+  quantity int(11) NOT NULL,
+  PRIMARY KEY (cartID, productID),
+  FOREIGN KEY (cartID) REFERENCES cart(cartID),
+  FOREIGN KEY (productID) REFERENCES product(productID)
+);
+
+
+INSERT INTO supplier (supplierName, supplierEmail, supplierAddress, supplierPostcode, supplierState, supplierPhoneNum)
+VALUES
+  ('Acme Corporation', 'acme@example.com', '123 Main Street', '12345', 'CA', '123-456-7890'),
+  ('XYZ Company', 'xyz@example.com', '456 Elm Street', '54321', 'NY', '987-654-3210');
+
+INSERT INTO product (productName, productDescription, productImage, productPrice, supplierID, productQuantity)
+VALUES
+  ('Widget', 'This is a widget.', '../images/test.jpg', 10.00, 1, 100),
+  ('Gadget', 'This is a gadget.', '../images/test1.jpg', 20.00, 2, 50);
+  
+  write php class get functions for these variables, in one code view:
+    var $prod_id;
+    var $prod_name;
+    var $prod_desc;
+    var $prod_img;
+    var $prod_price;
+    var $prod_amt;
+	
+	in this form:
+	function get_prod_id() {
+        return $this->prod_id;
+    }
+	
+	do not include public 

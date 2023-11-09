@@ -41,7 +41,7 @@ if (isset($_SESSION['email'])){
         </div>
         <div class="productView">
             <div class="card">
-                <img src="../img/testimage.png" alt="Denim Jeans" style="width:100%">
+                <img src="../images/test.jpg" alt="Denim Jeans" style="width:100%">
                 <h1>Tailored Jeans</h1>
                 <p class="price">$19.99</p>
                 <p>Some text about the jeans..</p>
