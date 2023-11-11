@@ -39,7 +39,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 header("Location: searchAll.php");
                 exit();
             } else {
-                $userPassError = "Email or password is Wrongq " . $hashedPassword . "///////" . $storedPassword;
+                $userPassError = "Email or password is Wrong ";
             }
         }
     }

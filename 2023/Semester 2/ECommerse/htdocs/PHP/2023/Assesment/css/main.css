@@ -21,7 +21,7 @@ body {
 }
 
 footer {
-    position: relative;
+    position: absolute;
     bottom: 0px;
     width: 100%;
     background: rgb(109, 22, 19);
@@ -64,7 +64,10 @@ footer {
 
 .sidePanel {
     width: 15%;
-    margin: 5px 10px;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+
     flex-shrink: 0;
     background-color: rgb(57, 125, 127);
     color: beige;
@@ -85,12 +88,22 @@ footer {
     margin: 5px 10px 5px;
     text-align: center;
     font-family: arial;
+    position: relative;
     color: rgb(10, 13, 11);
+    display: flex;
+    flex-direction: column; /* Arrange content vertically */
+    height: 100%; 
+}
+.card-content {
+    flex: 1; /* Allow content to grow and take up remaining space */
 }
 
 .price {
     color: rgb(10, 13, 11);
     font-size: 22px;
+}
+.card p{
+    margin-bottom: 0;
 }
 
 .card .Add {
@@ -103,6 +116,12 @@ footer {
     cursor: pointer;
 }
 
+.card .btn {
+    width: 100%;
+    display: flex;
+    flex: 1;
+}
+
 .card button {
     border: none;
     outline: 0;
@@ -113,6 +132,14 @@ footer {
     cursor: pointer;
     width: 100%;
     font-size: 18px;
+}
+
+
+
+.card .viewBtn {
+    margin-top: 2px;
+    display: flex;
+    width: 100%;
 }
 
 .card button:hover {
@@ -157,14 +184,17 @@ footer {
     flex-direction: column;
     align-items: center;
 }
-.register .inputField{
-    min-width: 200px ;
+
+.register .inputField {
+    min-width: 200px;
 }
 
 span.error {
     color: red;
-    display: inline-block; /* Make the error message inline-block */
-    margin-left: 10px; /* Add margin to separate the input and error message */
+    display: inline-block;
+    /* Make the error message inline-block */
+    margin-left: 10px;
+    /* Add margin to separate the input and error message */
 }
 
 .prodImage {
@@ -196,9 +226,10 @@ span.error {
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
+
 input[type=number] {
     -moz-appearance: textfield;
-  }
+}
