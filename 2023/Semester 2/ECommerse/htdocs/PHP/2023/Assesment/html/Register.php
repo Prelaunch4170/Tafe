@@ -75,7 +75,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $stmt -> bind_param("ssssss", $email, $hashedPassword, $address, $postcode, $state, $phoneNum);
         $stmt->execute();
         session_start();
-        $_SESSION['email'] = $email;
+
+        $query = "SELECT * FROM customer WHERE (email = ?)";
+
+        $stmt = $mysqli->prepare($query);
+        $stmt->bind_param("s", $email);
+        $stmt->execute();
+        $result = $stmt->get_result();
+        $row = $result->fetch_assoc();
+        $customerID= $row['customer'];
+
+        $_SESSION['email'] = $customerID;
+        $_SESSION['custID'] = $customerID;
+
         header("Location: searchAll.php");
         exit();
     }

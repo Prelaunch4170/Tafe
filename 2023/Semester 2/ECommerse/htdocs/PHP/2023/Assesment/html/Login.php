@@ -13,7 +13,7 @@ $email = "";
 $pwd = "";
 $userPassError = "";
 $hashedPassword = "";
-
+$customerID = "";
 include_once("../php/conn_db.php");
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST['email'];
@@ -26,15 +26,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt->execute();
 
     if ($stmt->errno) {
-        $userPassError = "Email or password is Wrong2";
+        $userPassError = "Email or password is Wrong";
     } else {
         $result = $stmt->get_result();
         $row = $result->fetch_assoc();
         if ($row) {
             $storedPassword = $row['passwrd'];
+            
 
             if (password_verify($pwd, $storedPassword)) {
                 session_start();
+                $customerID = $row['customer'];
+                $_SESSION['custID'] = $customerID;
                 $_SESSION['email'] = $email;
                 header("Location: searchAll.php");
                 exit();

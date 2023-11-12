@@ -41,5 +41,17 @@ class product{
       }
 }
 
+class cart{
+  var $cartID;
+  public function create_cart(){
+    include_once("../php/conn_db.php");
+    if(!isset( $_SESSION['cartID'])){
+      
+    }
+
+    $_SESSION['cartID'] = $cartID;
+  }
+  
+}
 
 ?>
