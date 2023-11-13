@@ -25,6 +25,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt->bind_param("s", $email);
     $stmt->execute();
 
+
+
     if ($stmt->errno) {
         $userPassError = "Email or password is Wrong";
     } else {
@@ -36,7 +38,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             if (password_verify($pwd, $storedPassword)) {
                 session_start();
-                $customerID = $row['customer'];
+                $query = "SELECT * FROM customer WHERE (email = ?)";
+                $stmt = $mysqli->prepare($query);
+                $stmt->bind_param("s", $email);
+                $stmt->execute();
+                $result = $stmt->get_result();
+                $row = $result->fetch_assoc();
+                $customerID= $row['customerID'];
+
                 $_SESSION['custID'] = $customerID;
                 $_SESSION['email'] = $email;
                 header("Location: searchAll.php");

@@ -12,6 +12,9 @@
 $Signout = "";
 $account = "Login";
 $SignedIn = "Login.php";
+include "Product.php";
+$cartMeth = new cart();
+
 session_start();
 if (isset($_SESSION['email'])) {
     $account = $_SESSION['email'];
@@ -23,6 +26,7 @@ $query = "SELECT * FROM product";
 $stmt = $mysqli->prepare($query);
 $stmt->execute();
 $result = $stmt->get_result();
+
 
 ?>
 
@@ -64,7 +68,10 @@ $result = $stmt->get_result();
                 echo "<p class='pric'>$unit_price</p>";
                 echo "<p>$desc</p>";
                 echo "</div>";
-                echo "<p class='viewBtn'> <button name='View'>View Product</button> </p>";
+                echo "<form action='../php/add_to_cart.php' method='POST'>";
+                echo "<input type='hidden' name='prodID' value='$product_id'>";
+                echo "<p class='viewBtn'> <button type='submit' name='View'>View Product</button> </p>";
+                echo "</form>";
                 echo "</div>";
             }
             ?>

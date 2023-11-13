@@ -77,15 +77,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         session_start();
 
         $query = "SELECT * FROM customer WHERE (email = ?)";
-
         $stmt = $mysqli->prepare($query);
         $stmt->bind_param("s", $email);
         $stmt->execute();
         $result = $stmt->get_result();
         $row = $result->fetch_assoc();
-        $customerID= $row['customer'];
+        $customerID= $row['customerID'];
 
-        $_SESSION['email'] = $customerID;
+        $_SESSION['email'] = $email;
         $_SESSION['custID'] = $customerID;
 
         header("Location: searchAll.php");
