@@ -34,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $row = $result->fetch_assoc();
         if ($row) {
             $storedPassword = $row['passwrd'];
-            
+
 
             if (password_verify($pwd, $storedPassword)) {
                 session_start();
@@ -44,10 +44,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 $stmt->execute();
                 $result = $stmt->get_result();
                 $row = $result->fetch_assoc();
-                $customerID= $row['customerID'];
+                $customerID = $row['customerID'];
 
                 $_SESSION['custID'] = $customerID;
                 $_SESSION['email'] = $email;
+                $cartID = rand();
+                $cartID = md5($cartID);
+                $_SESSION['cartID'] = $cartID;
+                include "..\php\Product.php";
+                $cartMd = new cart_product_array();
+                $_SESSION['counter'] = 0;
+                $_SESSION['cart_array'] = serialize($cartMd);
+                
                 header("Location: searchAll.php");
                 exit();
             } else {
@@ -82,7 +90,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <footer>
         <div class="info">
             <p>Author: Andre Alexandrov</p>
-            
+
             <p>All license to me</p>
         </div>
     </footer>

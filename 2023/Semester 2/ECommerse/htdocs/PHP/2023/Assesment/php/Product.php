@@ -1,51 +1,63 @@
 <?php
 
-class product
-{
-  var $prod_id;
-  var $prod_name;
-  var $prod_desc;
-  var $prod_img;
-  var $prod_price;
-  var $prod_amt;
 
-  function __construct($prod_id, $prod_name, $prod_desc, $prod_img, $prod_price, $prod_amt)
-  {
+
+class cart_product
+{
+  public $prod_id;
+  public $quantity;
+  public function __construct($prod_id, $quantity){
     $this->prod_id = $prod_id;
-    $this->prod_name = $prod_name;
-    $this->prod_desc = $prod_desc;
-    $this->prod_img = $prod_img;
-    $this->prod_price = $prod_price;
-    $this->prod_amt = $prod_amt;
+    $this->quantity = $quantity;
   }
-  public function get_prod_id()
-  {
+  public function get_quantity(){
+    return $this->quantity;
+  }
+  public function add_quantity(){
+    $this->quantity++;
+  }
+  public function add_quantityBy($quantity){
+    $this->quantity += $quantity;
+  }
+
+  public function remove_quantity($quantity){
+    $this->quantity--;
+  }
+  public function get_prodId(){
     return $this->prod_id;
   }
+  
+}
 
-  public function get_prod_name()
+class cart_product_array
+{
+  var $products;
+  var $depth;
+  public function __construct()
   {
-    return $this->prod_name;
+    $this->depth = 0;
+    $this->products = array();
+  }
+  function add_product($product)
+  {
+    $this->products[$this->depth] = $product;
+    $this->depth++;
+  }
+  function delete_product($index)
+  {
+    unset($this->products[$index]);
+    $this->products = array_values($this->products);
+    $this->depth--;
   }
 
-  public function get_prod_desc()
+  function get_depth()
   {
-    return $this->prod_desc;
+    return $this->depth;
   }
 
-  public function get_prod_img()
+  function get_product($index)
   {
-    return $this->prod_img;
-  }
-
-  public function get_prod_price()
-  {
-    return $this->prod_price;
-  }
-
-  public function get_prod_amt()
-  {
-    return $this->prod_amt;
+    return $this->products[$index];
   }
 }
 
@@ -79,10 +91,11 @@ class cart
       $cartID = $_SESSION['cartID'];
 
       $query = "INSERT INTO cart_product (cartID, productID, quantity) VALUES (?,?,1)";
-      try{$stmt = $mysqli->prepare($query);
+      try {
+        $stmt = $mysqli->prepare($query);
         $stmt->bind_param("ss", $cartID, $product_id);
         $stmt->execute();
-      }catch(Exception $e){
+      } catch (Exception $e) {
         $query = "SELECT quantity FROM cart_product WHERE cartID = ? AND productID = ?";
         $stmt = $mysqli->prepare($query);
         $stmt->bind_param("ss", $cartID, $product_id);

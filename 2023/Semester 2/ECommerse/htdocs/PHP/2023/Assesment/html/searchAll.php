@@ -12,8 +12,6 @@
 $Signout = "";
 $account = "Login";
 $SignedIn = "Login.php";
-include "Product.php";
-$cartMeth = new cart();
 
 session_start();
 if (isset($_SESSION['email'])) {
@@ -48,6 +46,7 @@ $result = $stmt->get_result();
             <p>Testing the side panel</p>
             <p>Testing the side panel</p>
             <p>Testing the side panel</p>
+            
         </div>
 
         <div class='productView'>

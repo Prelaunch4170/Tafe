@@ -40,39 +40,45 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($email == "" || !strpos($email, "@") && !strpos($email, ".")) {
         $emailError = "Invalid Email";
         $invalidData = true;
-    }if($pwd == "") {
+    }
+    if ($pwd == "") {
         $PwdError = "Enter Password";
         $invalidData = true;
-    }if($rePwd <> $pwd){
+    }
+    if ($rePwd <> $pwd) {
         $rePwdError = "Passwords do not match " + $rePwd + " " + $pwd;
         $invalidData = true;
-    } if($address == ""){
+    }
+    if ($address == "") {
         $addressError = "Please enter Address";
         $invalidData = true;
-    }if($postcode == ""){
+    }
+    if ($postcode == "") {
         $postcodeError = "Please Enter Postcode";
         $invalidData = true;
-    }if($state == ""){
+    }
+    if ($state == "") {
         $stateError = "Please select State";
         $invalidData = true;
-    }if(!is_numeric($phoneNum) == 1 || strlen((string)$phoneNum) != 10){
+    }
+    if (!is_numeric($phoneNum) == 1 || strlen((string)$phoneNum) != 10) {
         $phoneError = "Invalid phone number ";
         $invalidData = true;
     }
     $query = "SELECT * FROM customer WHERE email = ?";
-    $stmt = $mysqli -> prepare($query);
-    $stmt -> bind_param("s", $email);
+    $stmt = $mysqli->prepare($query);
+    $stmt->bind_param("s", $email);
     $stmt->execute();
     $result = $stmt->get_result();
     if ($result->num_rows > 0) {
         $emailError = "Email already in use.";
         $invalidData = true;
     }
-    if(!$invalidData){
+    if (!$invalidData) {
         $query = "INSERT INTO customer (email, passwrd, address, postcode, state, phoneNum) VALUES (?,?,?,?,?,?)";
-        $stmt = $mysqli -> prepare($query);
+        $stmt = $mysqli->prepare($query);
         $hashedPassword = password_hash($pwd, PASSWORD_DEFAULT);
-        $stmt -> bind_param("ssssss", $email, $hashedPassword, $address, $postcode, $state, $phoneNum);
+        $stmt->bind_param("ssssss", $email, $hashedPassword, $address, $postcode, $state, $phoneNum);
         $stmt->execute();
         session_start();
 
@@ -82,10 +88,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $stmt->execute();
         $result = $stmt->get_result();
         $row = $result->fetch_assoc();
-        $customerID= $row['customerID'];
+        $customerID = $row['customerID'];
 
         $_SESSION['email'] = $email;
         $_SESSION['custID'] = $customerID;
+        $cartID = rand();
+        $cartID = md5($cartID);
+        $_SESSION['cartID'] = $cartID;
 
         header("Location: searchAll.php");
         exit();

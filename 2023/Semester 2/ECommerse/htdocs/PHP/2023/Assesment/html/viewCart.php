@@ -12,6 +12,7 @@
 $Signout = "";
 $account = "Login";
 $SignedIn = "Login.php";
+include_once("../php/conn_db.php");
 session_start();
 if (isset($_SESSION['email'])){
     $account = $_SESSION['email'];
