@@ -1,6 +1,33 @@
 <?php
 
+class DBproduct{
 
+  public function get_productName($prodID){
+    include_once("../php/conn_db.php");
+    global $mysqli;
+    $query = "SELECT * FROM product WHERE (productID = ?)";
+    $stmt = $mysqli->prepare($query);
+    $stmt->bind_param("s", $prodID);
+    $stmt->execute();
+    $result = $stmt->get_result();
+    $row = $result->fetch_assoc();
+    return $row['productName'];
+    $mysqli->close();
+  }
+  public function get_productPrice($prodID){
+    include_once("../php/conn_db.php");
+    global $mysqli;
+    $query = "SELECT * FROM product WHERE (productID = ?)";
+    $stmt = $mysqli->prepare($query);
+    $stmt->bind_param("s", $prodID);
+    $stmt->execute();
+    $result = $stmt->get_result();
+    $row = $result->fetch_assoc();
+    return $row['productPrice'];
+    $mysqli->close();
+  }
+  
+}
 
 class cart_product
 {
@@ -89,28 +116,7 @@ class cart
     } else {
 
       $cartID = $_SESSION['cartID'];
-
-      $query = "INSERT INTO cart_product (cartID, productID, quantity) VALUES (?,?,1)";
-      try {
-        $stmt = $mysqli->prepare($query);
-        $stmt->bind_param("ss", $cartID, $product_id);
-        $stmt->execute();
-      } catch (Exception $e) {
-        $query = "SELECT quantity FROM cart_product WHERE cartID = ? AND productID = ?";
-        $stmt = $mysqli->prepare($query);
-        $stmt->bind_param("ss", $cartID, $product_id);
-        $stmt->execute();
-        $result = $stmt->get_result();
-        $row = $result->fetch_assoc();
-        $quantity = $row['quantity'];
-        $quantity += 1;
-
-        $query = "UPDATE cart_product SET quantity = ? WHERE cartID = ? AND productID = ?";
-        $stmt = $mysqli->prepare($query);
-        $stmt->bind_param("sss", $quantity, $cartID, $product_id);
-        $stmt->execute();
-        $mysqli->close();
-      }
+      $mysqli->close();
     }
   }
 }

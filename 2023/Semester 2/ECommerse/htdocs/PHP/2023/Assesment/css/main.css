@@ -224,12 +224,10 @@ span.error {
     margin-left: 10px;
 }
 
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
 
-input[type=number] {
-    -moz-appearance: textfield;
+th, td, tr {
+    padding: 5px;
+}
+.prodNameTD{
+    width: 78px;
 }

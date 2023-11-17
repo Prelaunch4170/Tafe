@@ -8,19 +8,34 @@
     <title>Cart</title>
     <link rel="stylesheet" href="../css/main.css">
 </head>
-<?php 
+<?php
 $Signout = "";
 $account = "Login";
 $SignedIn = "Login.php";
 include_once("../php/conn_db.php");
+include "../php/Product.php";
 session_start();
-if (isset($_SESSION['email'])){
+if (isset($_SESSION['email'])) {
     $account = $_SESSION['email'];
     $Signout = '<a href="Logout.php">Sign out</a>';
     $SignedIn = "";
 }
+$counter = 0;
+$counter = $_SESSION["counter"];
+$cart = new cart_product_array();
+$cart = unserialize($_SESSION["cart_array"]);
+$depth = 0;
+$depth = $cart->get_depth();
+$prodID;
+$products;
+$prodName;
+$prodPrice;
+$prodQty;
 
+$totalPrice = 0;
+$totalProdPrice;
 ?>
+
 <body>
     <div class="containter">
         <div class="topnav">
@@ -34,31 +49,45 @@ if (isset($_SESSION['email'])){
         <div class="itemsView">
             <div class="prosuctSection">
                 <ul class="prodList">
+                    <?php
+                    for ($i = 0; $i < $depth; $i++) {
+                        $products = new DBproduct();
+                        $prodID = $cart-> get_product($i)->get_prodId();
+                        $prodName = $products->get_productName($prodID);
+                        $prodPrice = $products->get_productPrice($prodID);
+                        $prodQty = $cart->get_product($i)->get_quantity();
+                        $totalProdPrice = $prodQty * $prodPrice;
+                        $totalPrice += $totalProdPrice;
+                        echo "<li>";
+                        echo "<div class='product'>";
+                        echo "<div class='prodImage'>";
+                        echo "<img src='../images/test.jpg' alt='Denim Jeans' style='width:100%'>";
+                        echo "</div>";
+                        echo "<div class='prodInfo'>";
+                        echo "<table>";
+                        echo "<thead>";
+                        if($i<1){
+                            echo "<tr>";
+                            echo "<th>Name<br></th>";
+                            echo "<th>Price</th>";
+                            echo "<th>Amount<br></th>";
+                            echo "</tr>";
+                        }
+                        echo "</thead>";
+                        echo "<tbody>";
+                        echo "<tr>";
+                        echo "<td class='prodNameTD'>$prodName &nbsp;</td>";
+                        echo "<td>$$prodPrice &nbsp;</td>";
+                        echo "<td><input type='number' size='4' max='999' value='$prodQty'/></td>";
+                        echo "</tr>";
+                        echo "</tbody>";
+                        echo "</table>";
+                        echo "</div>";
+                        echo "</div>";
+                        echo "</li>";
+                    }
+                    ?>
                     <li>
-                        <div class="product">
-                            <div class="prodImage">
-                                <img src="../img/testimage.png" alt="Denim Jeans" style="width:100%">
-                            </div>
-                            <div class="prodInfo">
-                                <table>
-                                    <thead>
-                                        <tr>
-                                            <th>Name<br></th>
-                                            <th>Price</th>
-                                            <th>Amount<br></th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>Jeans</td>
-                                            <td>$20</td>
-                                            <td><input type="number" size="4" max="999" /></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </li>
 
                 </ul>
             </div>
@@ -67,21 +96,12 @@ if (isset($_SESSION['email'])){
                     <table>
                         <thead>
                             <tr>
-                                <th>Items<br></th>
-                                <th>Amount</th>
                                 <th>Total<br></th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>Jeans</td>
-                                <td>$20</td>
-                                <td>10</td>
-                            </tr>
-                            <tr>
-                                <td>&nbsp;</td>
-                                <td>&nbsp;</td>
-                                <td>$200</td>
+                                <td><?php echo "$$totalPrice" ?></td>
                             </tr>
                             <tr>
                                 <td>&nbsp;</td>
@@ -97,7 +117,7 @@ if (isset($_SESSION['email'])){
     <footer>
         <div class="info">
             <p>Author: Andre Alexandrov</p>
-            
+
             <p>All license to me</p>
         </div>
     </footer>

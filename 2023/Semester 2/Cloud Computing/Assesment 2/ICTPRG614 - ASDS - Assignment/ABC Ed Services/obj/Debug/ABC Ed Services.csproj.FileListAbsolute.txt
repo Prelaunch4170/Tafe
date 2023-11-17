@@ -1,0 +1,68 @@
+H:\Archive B Drive\TAfe s2 2008 archive\5MLC\Assessments\Prac Test 1\Prac Test 1 Student files\ABC C# Solution\ABC Ed Services\obj\Debug\ABC Ed Services.exe
+H:\Archive B Drive\TAfe s2 2008 archive\5MLC\Assessments\Prac Test 1\Prac Test 1 Student files\ABC C# Solution\ABC Ed Services\obj\Debug\ABC Ed Services.pdb
+H:\Archive B Drive\TAfe s2 2008 archive\5MLC\Assessments\Prac Test 1\Prac Test 1 Student files\ABC C# Solution\ABC Ed Services\bin\Debug\ABC Ed Services.exe.config
+H:\Archive B Drive\TAfe s2 2008 archive\5MLC\Assessments\Prac Test 1\Prac Test 1 Student files\ABC C# Solution\ABC Ed Services\bin\Debug\ABC Ed Services.exe
+H:\Archive B Drive\TAfe s2 2008 archive\5MLC\Assessments\Prac Test 1\Prac Test 1 Student files\ABC C# Solution\ABC Ed Services\bin\Debug\ABC Ed Services.pdb
+H:\Archive B Drive\TAfe s2 2008 archive\5MLC\Assessments\Prac Test 1\Prac Test 1 Student files\ABC C# Solution\ABC Ed Services\obj\Debug\ResolveAssemblyReference.cache
+H:\Archive B Drive\TAfe s2 2008 archive\5MLC\Assessments\Prac Test 1\Prac Test 1 Student files\ABC C# Solution\ABC Ed Services\obj\Debug\ABC_Ed_Services.frmMain.resources
+H:\Archive B Drive\TAfe s2 2008 archive\5MLC\Assessments\Prac Test 1\Prac Test 1 Student files\ABC C# Solution\ABC Ed Services\obj\Debug\ABC_Ed_Services.frmBilling.resources
+H:\Archive B Drive\TAfe s2 2008 archive\5MLC\Assessments\Prac Test 1\Prac Test 1 Student files\ABC C# Solution\ABC Ed Services\obj\Debug\ABC_Ed_Services.frmCourses.resources
+H:\Archive B Drive\TAfe s2 2008 archive\5MLC\Assessments\Prac Test 1\Prac Test 1 Student files\ABC C# Solution\ABC Ed Services\obj\Debug\ABC_Ed_Services.frmEnroll.resources
+H:\Archive B Drive\TAfe s2 2008 archive\5MLC\Assessments\Prac Test 1\Prac Test 1 Student files\ABC C# Solution\ABC Ed Services\obj\Debug\ABC_Ed_Services.frmNewCourses.resources
+H:\Archive B Drive\TAfe s2 2008 archive\5MLC\Assessments\Prac Test 1\Prac Test 1 Student files\ABC C# Solution\ABC Ed Services\obj\Debug\ABC_Ed_Services.frmNewStudents.resources
+H:\Archive B Drive\TAfe s2 2008 archive\5MLC\Assessments\Prac Test 1\Prac Test 1 Student files\ABC C# Solution\ABC Ed Services\obj\Debug\ABC_Ed_Services.frmStudentTT.resources
+H:\Archive B Drive\TAfe s2 2008 archive\5MLC\Assessments\Prac Test 1\Prac Test 1 Student files\ABC C# Solution\ABC Ed Services\obj\Debug\ABC_Ed_Services.frmViewEnrollments.resources
+H:\Archive B Drive\TAfe s2 2008 archive\5MLC\Assessments\Prac Test 1\Prac Test 1 Student files\ABC C# Solution\ABC Ed Services\obj\Debug\ABC_Ed_Services.Properties.Resources.resources
+H:\Archive B Drive\TAfe s2 2008 archive\5MLC\Assessments\Prac Test 1\Prac Test 1 Student files\ABC C# Solution\ABC Ed Services\obj\Debug\ABC Ed Services.csproj.GenerateResource.Cache
+H:\Archive B Drive\TAfe s2 2008 archive\5MLC\Assessments\Prac Test 1\Prac Test 1 Student files\ABC C# Solution\ABC Ed Services\obj\Debug\ABC_Ed_Services.frmStudents.resources
+K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\bin\Debug\ABC Ed Services.exe.config
+K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\obj\Debug\ABC Ed Services.exe
+K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\obj\Debug\ABC Ed Services.pdb
+K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\obj\Debug\ABC Ed Services.csprojResolveAssemblyReference.cache
+K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\obj\Debug\ABC_Ed_Services.frmMain.resources
+K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\obj\Debug\ABC_Ed_Services.frmBilling.resources
+K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\obj\Debug\ABC_Ed_Services.frmCourses.resources
+K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\obj\Debug\ABC_Ed_Services.frmEnroll.resources
+K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\obj\Debug\ABC_Ed_Services.frmNewCourses.resources
+K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\obj\Debug\ABC_Ed_Services.frmNewStudents.resources
+K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\obj\Debug\ABC_Ed_Services.frmStudents.resources
+K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\obj\Debug\ABC_Ed_Services.frmStudentTT.resources
+K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\obj\Debug\ABC_Ed_Services.frmViewEnrollments.resources
+K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\obj\Debug\ABC_Ed_Services.Properties.Resources.resources
+K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\obj\Debug\ABC Ed Services.csproj.GenerateResource.Cache
+K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\bin\Debug\ABC Ed Services.exe
+K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\bin\Debug\ABC Ed Services.pdb
+G:\TAFE\Cloud Computing Course\Version 2\6CLP Assignment Project\ABC Ed Services\bin\Debug\ABC Ed Services.exe.config
+G:\TAFE\Cloud Computing Course\Version 2\6CLP Assignment Project\ABC Ed Services\obj\Debug\ABC Ed Services.exe
+G:\TAFE\Cloud Computing Course\Version 2\6CLP Assignment Project\ABC Ed Services\obj\Debug\ABC Ed Services.pdb
+G:\TAFE\Cloud Computing Course\Version 2\6CLP Assignment Project\ABC Ed Services\bin\Debug\ABC Ed Services.exe
+G:\TAFE\Cloud Computing Course\Version 2\6CLP Assignment Project\ABC Ed Services\bin\Debug\ABC Ed Services.pdb
+G:\TAFE\Cloud Computing Course\Version 2\6CLP Assignment Project\ABC Ed Services\obj\Debug\ABC Ed Services.csprojResolveAssemblyReference.cache
+G:\TAFE\Cloud Computing Course\Version 2\6CLP Assignment Project\ABC Ed Services\obj\Debug\ABC_Ed_Services.frmMain.resources
+G:\TAFE\Cloud Computing Course\Version 2\6CLP Assignment Project\ABC Ed Services\obj\Debug\ABC_Ed_Services.frmBilling.resources
+G:\TAFE\Cloud Computing Course\Version 2\6CLP Assignment Project\ABC Ed Services\obj\Debug\ABC_Ed_Services.frmCourses.resources
+G:\TAFE\Cloud Computing Course\Version 2\6CLP Assignment Project\ABC Ed Services\obj\Debug\ABC_Ed_Services.frmEnroll.resources
+G:\TAFE\Cloud Computing Course\Version 2\6CLP Assignment Project\ABC Ed Services\obj\Debug\ABC_Ed_Services.frmNewCourses.resources
+G:\TAFE\Cloud Computing Course\Version 2\6CLP Assignment Project\ABC Ed Services\obj\Debug\ABC_Ed_Services.frmNewStudents.resources
+G:\TAFE\Cloud Computing Course\Version 2\6CLP Assignment Project\ABC Ed Services\obj\Debug\ABC_Ed_Services.frmStudents.resources
+G:\TAFE\Cloud Computing Course\Version 2\6CLP Assignment Project\ABC Ed Services\obj\Debug\ABC_Ed_Services.frmStudentTT.resources
+G:\TAFE\Cloud Computing Course\Version 2\6CLP Assignment Project\ABC Ed Services\obj\Debug\ABC_Ed_Services.frmViewEnrollments.resources
+G:\TAFE\Cloud Computing Course\Version 2\6CLP Assignment Project\ABC Ed Services\obj\Debug\ABC_Ed_Services.Properties.Resources.resources
+G:\TAFE\Cloud Computing Course\Version 2\6CLP Assignment Project\ABC Ed Services\obj\Debug\ABC Ed Services.csproj.GenerateResource.Cache
+C:\Users\dalevanh\OneDrive\Tafe\6CLP\6CLP Assignment Specs_and Resources\ABC Ed Services\bin\Debug\ABC Ed Services.exe.config
+C:\Users\dalevanh\OneDrive\Tafe\6CLP\6CLP Assignment Specs_and Resources\ABC Ed Services\obj\Debug\ABC Ed Services.exe
+C:\Users\dalevanh\OneDrive\Tafe\6CLP\6CLP Assignment Specs_and Resources\ABC Ed Services\obj\Debug\ABC Ed Services.pdb
+C:\Users\dalevanh\OneDrive\Tafe\6CLP\6CLP Assignment Specs_and Resources\ABC Ed Services\bin\Debug\ABC Ed Services.exe
+C:\Users\dalevanh\OneDrive\Tafe\6CLP\6CLP Assignment Specs_and Resources\ABC Ed Services\bin\Debug\ABC Ed Services.pdb
+C:\Users\dalevanh\OneDrive\Tafe\6CLP\6CLP Assignment Specs_and Resources\ABC Ed Services\obj\Debug\ABC Ed Services.csprojResolveAssemblyReference.cache
+C:\Users\dalevanh\OneDrive\Tafe\6CLP\6CLP Assignment Specs_and Resources\ABC Ed Services\obj\Debug\ABC_Ed_Services.frmMain.resources
+C:\Users\dalevanh\OneDrive\Tafe\6CLP\6CLP Assignment Specs_and Resources\ABC Ed Services\obj\Debug\ABC_Ed_Services.frmBilling.resources
+C:\Users\dalevanh\OneDrive\Tafe\6CLP\6CLP Assignment Specs_and Resources\ABC Ed Services\obj\Debug\ABC_Ed_Services.frmCourses.resources
+C:\Users\dalevanh\OneDrive\Tafe\6CLP\6CLP Assignment Specs_and Resources\ABC Ed Services\obj\Debug\ABC_Ed_Services.frmEnroll.resources
+C:\Users\dalevanh\OneDrive\Tafe\6CLP\6CLP Assignment Specs_and Resources\ABC Ed Services\obj\Debug\ABC_Ed_Services.frmNewCourses.resources
+C:\Users\dalevanh\OneDrive\Tafe\6CLP\6CLP Assignment Specs_and Resources\ABC Ed Services\obj\Debug\ABC_Ed_Services.frmNewStudents.resources
+C:\Users\dalevanh\OneDrive\Tafe\6CLP\6CLP Assignment Specs_and Resources\ABC Ed Services\obj\Debug\ABC_Ed_Services.frmStudents.resources
+C:\Users\dalevanh\OneDrive\Tafe\6CLP\6CLP Assignment Specs_and Resources\ABC Ed Services\obj\Debug\ABC_Ed_Services.frmStudentTT.resources
+C:\Users\dalevanh\OneDrive\Tafe\6CLP\6CLP Assignment Specs_and Resources\ABC Ed Services\obj\Debug\ABC_Ed_Services.frmViewEnrollments.resources
+C:\Users\dalevanh\OneDrive\Tafe\6CLP\6CLP Assignment Specs_and Resources\ABC Ed Services\obj\Debug\ABC_Ed_Services.Properties.Resources.resources
+C:\Users\dalevanh\OneDrive\Tafe\6CLP\6CLP Assignment Specs_and Resources\ABC Ed Services\obj\Debug\ABC Ed Services.csproj.GenerateResource.Cache

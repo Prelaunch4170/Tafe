@@ -4,9 +4,9 @@ include_once("conn_db.php");
 
 include "Product.php";
 session_start();
-$counter;
+$counter = 0;
 $depth;
-$location;
+$location = 0;
 if (!isset($_SESSION["custID"])) {
     header("Location: ../html/login.php");
     exit();
@@ -50,8 +50,8 @@ if (!isset($_SESSION["custID"])) {
         $cartMd->get_product($location)->add_quantity();
         $_SESSION['cart_array'] = serialize($cartMd);
     }
-    echo $cartMd->get_product(0)->get_prodId(). ' '. $cartMd->get_product(0)->get_quantity()."\n". $location;
+    echo $cartMd->get_product($location)->get_prodId(). ' '. $cartMd->get_product($location)->get_quantity()."\n". $location;
     
-    
+    header("Location: ../html/searchAll.php");
     exit();
 }
