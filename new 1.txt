@@ -58,3 +58,4 @@ INSERT INTO product (productName, productDescription, productImage, productPrice
 VALUES
   ('Widget', 'This is a widget.', '../images/test.jpg', 10.00, 1, 100),
   ('Gadget', 'This is a gadget.', '../images/test1.jpg', 20.00, 2, 50);
+  ('Do hickey', 'This is a gadget.', '../images/test2.jpg', 20.00, 2, 50);

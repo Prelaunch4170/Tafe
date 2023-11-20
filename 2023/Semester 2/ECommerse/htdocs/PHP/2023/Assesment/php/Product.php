@@ -1,8 +1,10 @@
 <?php
 
-class DBproduct{
+class DBproduct
+{
 
-  public function get_productName($prodID){
+  public function get_productName($prodID)
+  {
     include_once("../php/conn_db.php");
     global $mysqli;
     $query = "SELECT * FROM product WHERE (productID = ?)";
@@ -14,7 +16,8 @@ class DBproduct{
     return $row['productName'];
     $mysqli->close();
   }
-  public function get_productPrice($prodID){
+  public function get_productPrice($prodID)
+  {
     include_once("../php/conn_db.php");
     global $mysqli;
     $query = "SELECT * FROM product WHERE (productID = ?)";
@@ -26,34 +29,38 @@ class DBproduct{
     return $row['productPrice'];
     $mysqli->close();
   }
-  
 }
 
 class cart_product
 {
   public $prod_id;
   public $quantity;
-  public function __construct($prod_id, $quantity){
+  public function __construct($prod_id, $quantity)
+  {
     $this->prod_id = $prod_id;
     $this->quantity = $quantity;
   }
-  public function get_quantity(){
+  public function get_quantity()
+  {
     return $this->quantity;
   }
-  public function add_quantity(){
+  public function add_quantity()
+  {
     $this->quantity++;
   }
-  public function add_quantityBy($quantity){
+  public function add_quantityBy($quantity)
+  {
     $this->quantity += $quantity;
   }
 
-  public function remove_quantity($quantity){
+  public function remove_quantity($quantity)
+  {
     $this->quantity--;
   }
-  public function get_prodId(){
+  public function get_prodId()
+  {
     return $this->prod_id;
   }
-  
 }
 
 class cart_product_array
@@ -92,31 +99,27 @@ class cart
 {
   var $cartID;
   var $custID;
-  public function create_cart($product_id)
+  var $query;
+  public function createCart(){
+    $cartID = $_SESSION['cartID'];
+    $custID = $_SESSION['custID'];
+    include("conn_db.php");
+
+    $query = "INSERT INTO cart (cartID, customerID) VALUES (?,?)";
+    $stmt = $mysqli->prepare($query);
+    echo $cartID;
+    $stmt->bind_param("ss", $cartID, $custID);
+    $stmt->execute();
+    $mysqli->close();
+  }
+  public function buyItems($product_id, $quantity)
   {
-    include_once("../php/conn_db.php");
-    session_start();
-    global $mysqli;
-    if (!isset($_SESSION['cartID'])) {
-
-      $cartID = rand();
-      $cartID = md5($cartID);
-      $custID = $_SESSION['custID'];
-      $query = "INSERT INTO cart (cartID, customerID) VALUES (?,?)";
-      $stmt = $mysqli->prepare($query);
-      $stmt->bind_param("ss", $cartID, $custID);
-      $stmt->execute();
-
-      $_SESSION['cartID'] = $cartID;
-
-      $query = "INSERT INTO cart_product (cartID, productID, quantity) VALUES (?,?,1)";
-      $stmt = $mysqli->prepare($query);
-      $stmt->bind_param("ss", $cartID, $product_id);
-      $stmt->execute();
-    } else {
-
-      $cartID = $_SESSION['cartID'];
-      $mysqli->close();
-    }
+    include("conn_db.php");
+    $cartID = $_SESSION['cartID'];
+    $query = "INSERT INTO cart_product (cartID, productID, quantity) VALUES (?,?,?)";
+    $stmt = $mysqli->prepare($query);
+    $stmt->bind_param("sss", $cartID, $product_id, $quantity);
+    $stmt->execute();
+    $mysqli->close();
   }
 }

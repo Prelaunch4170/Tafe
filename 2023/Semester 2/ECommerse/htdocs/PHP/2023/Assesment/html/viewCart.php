@@ -20,20 +20,26 @@ if (isset($_SESSION['email'])) {
     $Signout = '<a href="Logout.php">Sign out</a>';
     $SignedIn = "";
 }
-$counter = 0;
-$counter = $_SESSION["counter"];
-$cart = new cart_product_array();
-$cart = unserialize($_SESSION["cart_array"]);
-$depth = 0;
-$depth = $cart->get_depth();
-$prodID;
-$products;
-$prodName;
-$prodPrice;
-$prodQty;
+if (!isset($_SESSION["counter"])) {
+    header("Location: ../html/login.php");
+    exit();
+} else {
+    $counter = 0;
+    $counter = $_SESSION["counter"];
+    $cart = new cart_product_array();
+    $cart = unserialize($_SESSION["cart_array"]);
+    $depth = 0;
+    $depth = $cart->get_depth();
+    $prodID;
+    $products;
+    $prodName;
+    $prodPrice;
+    $prodQty;
 
-$totalPrice = 0;
-$totalProdPrice;
+    $totalPrice = 0;
+    $totalProdPrice;
+}
+
 ?>
 
 <body>
@@ -52,7 +58,7 @@ $totalProdPrice;
                     <?php
                     for ($i = 0; $i < $depth; $i++) {
                         $products = new DBproduct();
-                        $prodID = $cart-> get_product($i)->get_prodId();
+                        $prodID = $cart->get_product($i)->get_prodId();
                         $prodName = $products->get_productName($prodID);
                         $prodPrice = $products->get_productPrice($prodID);
                         $prodQty = $cart->get_product($i)->get_quantity();
@@ -66,7 +72,7 @@ $totalProdPrice;
                         echo "<div class='prodInfo'>";
                         echo "<table>";
                         echo "<thead>";
-                        if($i<1){
+                        if ($i < 1) {
                             echo "<tr>";
                             echo "<th>Name<br></th>";
                             echo "<th>Price</th>";
@@ -92,7 +98,7 @@ $totalProdPrice;
                 </ul>
             </div>
             <div class="orderSummary">
-                <form>
+                <form action='../php/buyItems.php'>
                     <table>
                         <thead>
                             <tr>
@@ -104,8 +110,18 @@ $totalProdPrice;
                                 <td><?php echo "$$totalPrice" ?></td>
                             </tr>
                             <tr>
-                                <td>&nbsp;</td>
-                                <td>&nbsp;</td>
+                                <td><input type='text' placeholder="Card Number" id="credit" name="credit" /></td>
+                            </tr>
+                            <tr>
+                                <td><input type='text' placeholder="CVV" id="CVV" name="CVV" /></td>
+                            </tr>
+                            <tr>
+                                <td>Expiry:</td>
+                            </tr>
+                            <tr>
+                                <td><input type='date' id="Expr" name="Expr"/></td>
+                            </tr>
+                            <tr>
                                 <td><input type="submit" value="Buy"></td>
                             </tr>
                         </tbody>

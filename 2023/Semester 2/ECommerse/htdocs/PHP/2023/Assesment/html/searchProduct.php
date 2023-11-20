@@ -39,89 +39,31 @@ if (isset($_SESSION['email'])){
             <p>Testing the side panel</p>
             <p>Testing the side panel</p>
         </div>
-        <div class="productView">
-            <div class="card">
-                <img src="../img/testimage.png" alt="Denim Jeans" style="width:100%">
-                <h1>Tailored Jeans</h1>
-                <p class="price">$19.99</p>
-                <p>Some text about the jeans..</p>
-                <p>
-                    <button name="View">View Product</button>
-                </p>
-            </div>
-            <div class="card">
-                <img src="../img/testimage.png" alt="Denim Jeans" style="width:100%">
-                <h1>Tailored Jeans</h1>
-                <p class="price">$19.99</p>
-                <p><span><?php echo $test; ?></span></p>
-                <p>
-                    <button name="View">View Product</button>
-                </p>
-            </div>
-            <div class="card">
-                <img src="../img/testimage.png" alt="Denim Jeans" style="width:100%">
-                <h1>Tailored Jeans</h1>
-                <p class="price">$19.99</p>
-                <p><span><?php echo $test; ?></span></p>
-                <p>
-                    <button name="View">View Product</button>
-                </p>
-            </div>
-            <div class="card">
-                <img src="../img/testimage.png" alt="Denim Jeans" style="width:100%">
-                <h1>Tailored Jeans</h1>
-                <p class="price">$19.99</p>
-                <p><span><?php echo $test; ?></span></p>
-                <p>
-                    <button name="View">View Product</button>
-                </p>
-            </div>
-            <div class="card">
-                <img src="../img/testimage.png" alt="Denim Jeans" style="width:100%">
-                <h1>Tailored Jeans</h1>
-                <p class="price">$19.99</p>
-                <p><span><?php echo $test; ?></span></p>
-                <p>
-                    <button name="View">View Product</button>
-                </p>
-            </div>
-            <div class="card">
-                <img src="../img/testimage.png" alt="Denim Jeans" style="width:100%">
-                <h1>Tailored Jeans</h1>
-                <p class="price">$19.99</p>
-                <p><span><?php echo $test; ?></span></p>
-                <p>
-                    <button name="View">View Product</button>
-                </p>
-            </div>
-            <div class="card">
-                <img src="../img/testimage.png" alt="Denim Jeans" style="width:100%">
-                <h1>Tailored Jeans</h1>
-                <p class="price">$19.99</p>
-                <p><span><?php echo $test; ?></span></p>
-                <p>
-                    <button name="View">View Product</button>
-                </p>
-            </div>
-            <div class="card">
-                <img src="../img/testimage.png" alt="Denim Jeans" style="width:100%">
-                <h1>Tailored Jeans</h1>
-                <p class="price">$19.99</p>
-                <p><span><?php echo $test; ?></span></p>
-                <p>
-                    <button name="View">View Product</button>
-                </p>
-            </div>
-            <div class="card">
-                <img src="../img/testimage.png" alt="Denim Jeans" style="width:100%">
-                <h1>Tailored Jeans</h1>
-                <p class="price">$19.99</p>
-                <p><span><?php echo $test; ?></span></p>
-                <p>
-                    <button name="View">View Product</button>
-                </p>
-            </div>
+        <div class='productView'>
+            <?php
+            while ($row = $result->fetch_assoc()) {
+                //Using the while loop populate all product in a table
+                $product_id = $row["productID"];
+                $product_name = $row["productName"];
+                $unit_price = $row["productPrice"];
+                $qty = $row["productQuantity"];
+                $image = $row["productImage"];
+                $desc = $row["productDescription"];
 
+                echo "<div class='card'>";
+                echo "<div class='card-content'>";
+                echo "<img src='$image' alt='Denim Jeans' style='width:100%'>";
+                echo "<h1>$desc</h1>";
+                echo "<p class='pric'>$unit_price</p>";
+                echo "<p>$desc</p>";
+                echo "</div>";
+                echo "<form action='../php/add_to_cart.php' method='POST'>";
+                echo "<input type='hidden' name='prodID' value='$product_id'>";
+                echo "<p class='viewBtn'> <button type='submit' name='View'>Add to Cart</button> </p>";
+                echo "</form>";
+                echo "</div>";
+            }
+            ?>
         </div>
     </div>
 

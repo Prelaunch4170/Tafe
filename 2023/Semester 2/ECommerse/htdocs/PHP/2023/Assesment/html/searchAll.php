@@ -24,7 +24,12 @@ $query = "SELECT * FROM product";
 $stmt = $mysqli->prepare($query);
 $stmt->execute();
 $result = $stmt->get_result();
+$counter = 0;
+if(!isset($_SESSION['counter'])){
 
+}else{
+    $counter = $_SESSION['counter'];
+}
 
 ?>
 
@@ -33,7 +38,7 @@ $result = $stmt->get_result();
         <div class="links">
             <a class="active">Home</a>
             <a href=<?php echo $SignedIn; ?>><?php echo $account; ?></a>
-            <a href="viewCart.php">View Cart</a>
+            <a href="viewCart.php">View Cart <?php echo $counter; ?></a>
             <?php echo $Signout; ?>
 
         </div>
@@ -69,7 +74,7 @@ $result = $stmt->get_result();
                 echo "</div>";
                 echo "<form action='../php/add_to_cart.php' method='POST'>";
                 echo "<input type='hidden' name='prodID' value='$product_id'>";
-                echo "<p class='viewBtn'> <button type='submit' name='View'>View Product</button> </p>";
+                echo "<p class='viewBtn'> <button type='submit' name='View'>Add to Cart</button> </p>";
                 echo "</form>";
                 echo "</div>";
             }
