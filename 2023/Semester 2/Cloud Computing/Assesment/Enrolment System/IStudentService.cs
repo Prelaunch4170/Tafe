@@ -11,7 +11,41 @@ namespace Enrolment_System
     [ServiceContract]
     public interface IStudentService
     {
+        //Student Methods
         [OperationContract]
-        void DoWork();
+        void newStudent(string studentID, string studentName, DateTime enrollmentDate);
+        [OperationContract]
+        List<Student> getAllStudents();
+        [OperationContract]
+        List<Enrollment> viewStudentEnrollents(string studentID);
+        [OperationContract]
+        Student getStudentDetails(string studentID);
+
+
+
+
+        //----------------------------------------------------
+        //Course methods
+        [OperationContract]
+        List<Course> GetCourses();
+        [OperationContract]
+        List<Enrollment> viewCourseEnrollents(string courseID);
+        [OperationContract]
+        double getCost(string courseID);
+        [OperationContract]
+        List<Course> getCourseList(string studentID);
+        [OperationContract]
+        string addCourse(string courseID, string courseName, double cost);
+
+        [OperationContract]
+        Course getCourseDetails(string courseID);
+
+        //----------------------------------------------------
+        //enrollment methods
+        [OperationContract]
+        List<Enrollment> getEnrollments();
+
+        [OperationContract]
+        string addEnrolment(string studentID, string courseID, string grade);
     }
 }

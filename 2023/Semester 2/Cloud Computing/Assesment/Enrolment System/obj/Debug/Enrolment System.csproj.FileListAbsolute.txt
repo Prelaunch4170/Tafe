@@ -1,0 +1,7 @@
+C:\Users\Andre\Desktop\Tafe-1\2023\Semester 2\Cloud Computing\Assesment\Enrolment System\obj\Debug\Enrolment System.csproj.AssemblyReference.cache
+C:\Users\Andre\Desktop\Tafe-1\2023\Semester 2\Cloud Computing\Assesment\Enrolment System\obj\Debug\Enrolment System.csproj.CoreCompileInputs.cache
+C:\Users\Andre\Desktop\Tafe-1\2023\Semester 2\Cloud Computing\Assesment\Enrolment System\bin\Debug\Enrolment System.dll.config
+C:\Users\Andre\Desktop\Tafe-1\2023\Semester 2\Cloud Computing\Assesment\Enrolment System\bin\Debug\Enrolment System.dll
+C:\Users\Andre\Desktop\Tafe-1\2023\Semester 2\Cloud Computing\Assesment\Enrolment System\bin\Debug\Enrolment System.pdb
+C:\Users\Andre\Desktop\Tafe-1\2023\Semester 2\Cloud Computing\Assesment\Enrolment System\obj\Debug\Enrolment System.dll
+C:\Users\Andre\Desktop\Tafe-1\2023\Semester 2\Cloud Computing\Assesment\Enrolment System\obj\Debug\Enrolment System.pdb
