@@ -1,0 +1,11 @@
+F:\Tafe\2023\Semester 2\Cloud Computing\Enrolment System App\bin\Debug\Enrolment System App.exe.config
+F:\Tafe\2023\Semester 2\Cloud Computing\Enrolment System App\bin\Debug\Enrolment System App.exe
+F:\Tafe\2023\Semester 2\Cloud Computing\Enrolment System App\bin\Debug\Enrolment System App.pdb
+F:\Tafe\2023\Semester 2\Cloud Computing\Enrolment System App\obj\Debug\Enrolment System App.csproj.AssemblyReference.cache
+F:\Tafe\2023\Semester 2\Cloud Computing\Enrolment System App\obj\Debug\Enrolment System App.csproj.SuggestedBindingRedirects.cache
+F:\Tafe\2023\Semester 2\Cloud Computing\Enrolment System App\obj\Debug\Enrolment_System_App.Form1.resources
+F:\Tafe\2023\Semester 2\Cloud Computing\Enrolment System App\obj\Debug\Enrolment_System_App.Properties.Resources.resources
+F:\Tafe\2023\Semester 2\Cloud Computing\Enrolment System App\obj\Debug\Enrolment System App.csproj.GenerateResource.cache
+F:\Tafe\2023\Semester 2\Cloud Computing\Enrolment System App\obj\Debug\Enrolment System App.csproj.CoreCompileInputs.cache
+F:\Tafe\2023\Semester 2\Cloud Computing\Enrolment System App\obj\Debug\Enrolment System App.exe
+F:\Tafe\2023\Semester 2\Cloud Computing\Enrolment System App\obj\Debug\Enrolment System App.pdb

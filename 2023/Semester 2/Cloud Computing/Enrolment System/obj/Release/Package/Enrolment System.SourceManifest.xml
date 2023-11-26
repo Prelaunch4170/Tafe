@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="F:\Tafe\2023\Semester 2\Cloud Computing\Enrolment System\obj\Release\Package\PackageTmp" />
+  <setAcl path="F:\Tafe\2023\Semester 2\Cloud Computing\Enrolment System\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="F:\Tafe\2023\Semester 2\Cloud Computing\Enrolment System\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+</sitemanifest>

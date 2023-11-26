@@ -1,0 +1,7 @@
+F:\Tafe\2023\Semester 2\Cloud Computing\Enrolment System\bin\Enrolment System.dll.config
+F:\Tafe\2023\Semester 2\Cloud Computing\Enrolment System\bin\Enrolment System.dll
+F:\Tafe\2023\Semester 2\Cloud Computing\Enrolment System\bin\Enrolment System.pdb
+F:\Tafe\2023\Semester 2\Cloud Computing\Enrolment System\obj\Release\Enrolment System.csproj.AssemblyReference.cache
+F:\Tafe\2023\Semester 2\Cloud Computing\Enrolment System\obj\Release\Enrolment System.csproj.CoreCompileInputs.cache
+F:\Tafe\2023\Semester 2\Cloud Computing\Enrolment System\obj\Release\Enrolment System.dll
+F:\Tafe\2023\Semester 2\Cloud Computing\Enrolment System\obj\Release\Enrolment System.pdb

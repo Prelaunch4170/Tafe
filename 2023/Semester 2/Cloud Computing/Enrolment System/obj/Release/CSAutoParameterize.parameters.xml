@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="enrolmentSystemConnectionString-Web.config Connection String" description="enrolmentSystemConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=assessment-andrealexandrov.database.windows.net;Initial Catalog=enrolmentSystem;Persist Security Info=True;User ID=Andre;Password=password12-" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="F:\\Tafe\\2023\\Semester\ 2\\Cloud\ Computing\\Enrolment\ System\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='enrolmentSystemConnectionString']/@connectionString" />
+  </parameter>
+  <parameter name="enrolmentSystemConnectionString1-Web.config Connection String" description="enrolmentSystemConnectionString1 Connection String used in web.config by the application to access the database." defaultValue="Data Source=assessment-andrealexandrov.database.windows.net;Initial Catalog=enrolmentSystem;Persist Security Info=True;User ID=Andre;Password=password12-" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="F:\\Tafe\\2023\\Semester\ 2\\Cloud\ Computing\\Enrolment\ System\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='enrolmentSystemConnectionString1']/@connectionString" />
+  </parameter>
+  <parameter name="enrolmentSystemConnectionString2-Web.config Connection String" description="enrolmentSystemConnectionString2 Connection String used in web.config by the application to access the database." defaultValue="Data Source=assessment-andrealexandrov.database.windows.net;Initial Catalog=enrolmentSystem;Persist Security Info=True;User ID=Andre;Password=password12-" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="F:\\Tafe\\2023\\Semester\ 2\\Cloud\ Computing\\Enrolment\ System\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='enrolmentSystemConnectionString2']/@connectionString" />
+  </parameter>
+</parameters>

@@ -834,11 +834,23 @@ SELECT courseID, studentID, grade FROM Enrollment WHERE (courseID = @courseID) A
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitCommandCollection() {
-            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[1];
+            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[3];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[0].Connection = this.Connection;
             this._commandCollection[0].CommandText = "SELECT courseID, studentID, grade FROM dbo.Enrollment";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[1] = new global::System.Data.SqlClient.SqlCommand();
+            this._commandCollection[1].Connection = this.Connection;
+            this._commandCollection[1].CommandText = "SELECT        courseID, studentID, grade\r\nFROM            Enrollment\r\nWHERE      " +
+                "  (courseID = @courseID)";
+            this._commandCollection[1].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[1].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@courseID", global::System.Data.SqlDbType.NVarChar, 50, global::System.Data.ParameterDirection.Input, 0, 0, "courseID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._commandCollection[2] = new global::System.Data.SqlClient.SqlCommand();
+            this._commandCollection[2].Connection = this.Connection;
+            this._commandCollection[2].CommandText = "SELECT        courseID, studentID, grade\r\nFROM            Enrollment\r\nWHERE      " +
+                "  (studentID = @studentID)";
+            this._commandCollection[2].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[2].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@studentID", global::System.Data.SqlDbType.NVarChar, 50, global::System.Data.ParameterDirection.Input, 0, 0, "studentID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -860,6 +872,40 @@ SELECT courseID, studentID, grade FROM Enrollment WHERE (courseID = @courseID) A
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
         public virtual enrollmentSet.EnrollmentDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
+            enrollmentSet.EnrollmentDataTable dataTable = new enrollmentSet.EnrollmentDataTable();
+            this.Adapter.Fill(dataTable);
+            return dataTable;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, false)]
+        public virtual enrollmentSet.EnrollmentDataTable GetDataByCourse(string courseID) {
+            this.Adapter.SelectCommand = this.CommandCollection[1];
+            if ((courseID == null)) {
+                throw new global::System.ArgumentNullException("courseID");
+            }
+            else {
+                this.Adapter.SelectCommand.Parameters[0].Value = ((string)(courseID));
+            }
+            enrollmentSet.EnrollmentDataTable dataTable = new enrollmentSet.EnrollmentDataTable();
+            this.Adapter.Fill(dataTable);
+            return dataTable;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, false)]
+        public virtual enrollmentSet.EnrollmentDataTable GetDataByStudent(string studentID) {
+            this.Adapter.SelectCommand = this.CommandCollection[2];
+            if ((studentID == null)) {
+                throw new global::System.ArgumentNullException("studentID");
+            }
+            else {
+                this.Adapter.SelectCommand.Parameters[0].Value = ((string)(studentID));
+            }
             enrollmentSet.EnrollmentDataTable dataTable = new enrollmentSet.EnrollmentDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;

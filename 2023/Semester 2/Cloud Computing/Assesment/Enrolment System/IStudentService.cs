@@ -13,7 +13,7 @@ namespace Enrolment_System
     {
         //Student Methods
         [OperationContract]
-        void newStudent(string studentID, string studentName, DateTime enrollmentDate);
+        string addStudent(string studentID, string studentName, DateTime enrollmentDate);
         [OperationContract]
         List<Student> getAllStudents();
         [OperationContract]
@@ -27,15 +27,15 @@ namespace Enrolment_System
         //----------------------------------------------------
         //Course methods
         [OperationContract]
-        List<Course> GetCourses();
+        List<Course> getAllCourses();
         [OperationContract]
         List<Enrollment> viewCourseEnrollents(string courseID);
         [OperationContract]
-        double getCost(string courseID);
+        decimal getCost(string courseID);
         [OperationContract]
         List<Course> getCourseList(string studentID);
         [OperationContract]
-        string addCourse(string courseID, string courseName, double cost);
+        string addCourse(string courseID, string courseName, decimal cost);
 
         [OperationContract]
         Course getCourseDetails(string courseID);

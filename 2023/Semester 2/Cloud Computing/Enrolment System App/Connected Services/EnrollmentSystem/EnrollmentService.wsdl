@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" name="EnrollmentService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:61770/EnrollmentService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:61770/EnrollmentService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:61770/EnrollmentService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Enrolment_System" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IEnrollmentService_addStudent_InputMessage">
+    <wsdl:part name="parameters" element="tns:addStudent" />
+  </wsdl:message>
+  <wsdl:message name="IEnrollmentService_addStudent_OutputMessage">
+    <wsdl:part name="parameters" element="tns:addStudentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEnrollmentService_getAllStudents_InputMessage">
+    <wsdl:part name="parameters" element="tns:getAllStudents" />
+  </wsdl:message>
+  <wsdl:message name="IEnrollmentService_getAllStudents_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getAllStudentsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEnrollmentService_viewStudentEnrollents_InputMessage">
+    <wsdl:part name="parameters" element="tns:viewStudentEnrollents" />
+  </wsdl:message>
+  <wsdl:message name="IEnrollmentService_viewStudentEnrollents_OutputMessage">
+    <wsdl:part name="parameters" element="tns:viewStudentEnrollentsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEnrollmentService_getStudentDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:getStudentDetails" />
+  </wsdl:message>
+  <wsdl:message name="IEnrollmentService_getStudentDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getStudentDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEnrollmentService_getAllCourses_InputMessage">
+    <wsdl:part name="parameters" element="tns:getAllCourses" />
+  </wsdl:message>
+  <wsdl:message name="IEnrollmentService_getAllCourses_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getAllCoursesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEnrollmentService_viewCourseEnrollents_InputMessage">
+    <wsdl:part name="parameters" element="tns:viewCourseEnrollents" />
+  </wsdl:message>
+  <wsdl:message name="IEnrollmentService_viewCourseEnrollents_OutputMessage">
+    <wsdl:part name="parameters" element="tns:viewCourseEnrollentsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEnrollmentService_getCost_InputMessage">
+    <wsdl:part name="parameters" element="tns:getCost" />
+  </wsdl:message>
+  <wsdl:message name="IEnrollmentService_getCost_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getCostResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEnrollmentService_getCourseList_InputMessage">
+    <wsdl:part name="parameters" element="tns:getCourseList" />
+  </wsdl:message>
+  <wsdl:message name="IEnrollmentService_getCourseList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getCourseListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEnrollmentService_addCourse_InputMessage">
+    <wsdl:part name="parameters" element="tns:addCourse" />
+  </wsdl:message>
+  <wsdl:message name="IEnrollmentService_addCourse_OutputMessage">
+    <wsdl:part name="parameters" element="tns:addCourseResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEnrollmentService_getCourseDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:getCourseDetails" />
+  </wsdl:message>
+  <wsdl:message name="IEnrollmentService_getCourseDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getCourseDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEnrollmentService_getEnrollments_InputMessage">
+    <wsdl:part name="parameters" element="tns:getEnrollments" />
+  </wsdl:message>
+  <wsdl:message name="IEnrollmentService_getEnrollments_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getEnrollmentsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEnrollmentService_addEnrolment_InputMessage">
+    <wsdl:part name="parameters" element="tns:addEnrolment" />
+  </wsdl:message>
+  <wsdl:message name="IEnrollmentService_addEnrolment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:addEnrolmentResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IEnrollmentService">
+    <wsdl:operation name="addStudent">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEnrollmentService/addStudent" message="tns:IEnrollmentService_addStudent_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEnrollmentService/addStudentResponse" message="tns:IEnrollmentService_addStudent_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllStudents">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEnrollmentService/getAllStudents" message="tns:IEnrollmentService_getAllStudents_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEnrollmentService/getAllStudentsResponse" message="tns:IEnrollmentService_getAllStudents_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="viewStudentEnrollents">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEnrollmentService/viewStudentEnrollents" message="tns:IEnrollmentService_viewStudentEnrollents_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEnrollmentService/viewStudentEnrollentsResponse" message="tns:IEnrollmentService_viewStudentEnrollents_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getStudentDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEnrollmentService/getStudentDetails" message="tns:IEnrollmentService_getStudentDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEnrollmentService/getStudentDetailsResponse" message="tns:IEnrollmentService_getStudentDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllCourses">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEnrollmentService/getAllCourses" message="tns:IEnrollmentService_getAllCourses_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEnrollmentService/getAllCoursesResponse" message="tns:IEnrollmentService_getAllCourses_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="viewCourseEnrollents">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEnrollmentService/viewCourseEnrollents" message="tns:IEnrollmentService_viewCourseEnrollents_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEnrollmentService/viewCourseEnrollentsResponse" message="tns:IEnrollmentService_viewCourseEnrollents_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getCost">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEnrollmentService/getCost" message="tns:IEnrollmentService_getCost_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEnrollmentService/getCostResponse" message="tns:IEnrollmentService_getCost_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getCourseList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEnrollmentService/getCourseList" message="tns:IEnrollmentService_getCourseList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEnrollmentService/getCourseListResponse" message="tns:IEnrollmentService_getCourseList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="addCourse">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEnrollmentService/addCourse" message="tns:IEnrollmentService_addCourse_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEnrollmentService/addCourseResponse" message="tns:IEnrollmentService_addCourse_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getCourseDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEnrollmentService/getCourseDetails" message="tns:IEnrollmentService_getCourseDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEnrollmentService/getCourseDetailsResponse" message="tns:IEnrollmentService_getCourseDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getEnrollments">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEnrollmentService/getEnrollments" message="tns:IEnrollmentService_getEnrollments_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEnrollmentService/getEnrollmentsResponse" message="tns:IEnrollmentService_getEnrollments_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="addEnrolment">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEnrollmentService/addEnrolment" message="tns:IEnrollmentService_addEnrolment_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEnrollmentService/addEnrolmentResponse" message="tns:IEnrollmentService_addEnrolment_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IEnrollmentService" type="tns:IEnrollmentService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="addStudent">
+      <soap:operation soapAction="http://tempuri.org/IEnrollmentService/addStudent" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllStudents">
+      <soap:operation soapAction="http://tempuri.org/IEnrollmentService/getAllStudents" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="viewStudentEnrollents">
+      <soap:operation soapAction="http://tempuri.org/IEnrollmentService/viewStudentEnrollents" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getStudentDetails">
+      <soap:operation soapAction="http://tempuri.org/IEnrollmentService/getStudentDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllCourses">
+      <soap:operation soapAction="http://tempuri.org/IEnrollmentService/getAllCourses" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="viewCourseEnrollents">
+      <soap:operation soapAction="http://tempuri.org/IEnrollmentService/viewCourseEnrollents" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCost">
+      <soap:operation soapAction="http://tempuri.org/IEnrollmentService/getCost" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCourseList">
+      <soap:operation soapAction="http://tempuri.org/IEnrollmentService/getCourseList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addCourse">
+      <soap:operation soapAction="http://tempuri.org/IEnrollmentService/addCourse" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCourseDetails">
+      <soap:operation soapAction="http://tempuri.org/IEnrollmentService/getCourseDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getEnrollments">
+      <soap:operation soapAction="http://tempuri.org/IEnrollmentService/getEnrollments" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addEnrolment">
+      <soap:operation soapAction="http://tempuri.org/IEnrollmentService/addEnrolment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="EnrollmentService">
+    <wsdl:port name="BasicHttpBinding_IEnrollmentService" binding="tns:BasicHttpBinding_IEnrollmentService">
+      <soap:address location="http://localhost:61770/EnrollmentService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -14,6 +14,6 @@ namespace Enrolment_System
         [DataMember]
         public string courseName { get; set; }
         [DataMember]
-        public double cost { get; set; }
+        public decimal cost { get; set; }
     }
 }
