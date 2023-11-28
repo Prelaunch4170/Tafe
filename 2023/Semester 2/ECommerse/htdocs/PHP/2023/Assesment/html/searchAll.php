@@ -25,9 +25,8 @@ $stmt = $mysqli->prepare($query);
 $stmt->execute();
 $result = $stmt->get_result();
 $counter = 0;
-if(!isset($_SESSION['counter'])){
-
-}else{
+if (!isset($_SESSION['counter'])) {
+} else {
     $counter = $_SESSION['counter'];
 }
 
@@ -45,13 +44,17 @@ if(!isset($_SESSION['counter'])){
     </div>
     <div class="viewDiv">
         <div class="sidePanel">
-            <label for="search">Search</label>
-            <input name="search" type="text" size=10 />
-            <p>Testing the side panel</p>
-            <p>Testing the side panel</p>
-            <p>Testing the side panel</p>
-            <p>Testing the side panel</p>
             
+            <form>
+            <label for="search">Search</label>
+                <input name="search" type="text" value="test input" size=10 />
+                <p>Testing the side panel</p>
+                <p>Testing the side panel</p>
+                <p>Testing the side panel</p>
+                <p>Testing the side panel</p>
+                <button type='submit' name='searchBtn'>search</button>
+            </form>
+
         </div>
 
         <div class='productView'>
