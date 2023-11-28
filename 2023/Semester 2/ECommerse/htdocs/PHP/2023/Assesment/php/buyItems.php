@@ -17,3 +17,5 @@ for ($i = 0; $i < $depth; $i++) {
     $quantity = $cartMd->get_product($i)->get_quantity();
     $cartAdd->buyItems($prodID, $quantity);
 }
+include_once("CreateCart.php");
+?>

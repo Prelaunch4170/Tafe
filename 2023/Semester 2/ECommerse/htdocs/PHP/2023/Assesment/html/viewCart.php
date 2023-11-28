@@ -15,7 +15,7 @@ $SignedIn = "Login.php";
 $creditError = "";
 $entered = "";
 include_once("../php/conn_db.php");
-include "../php/Product.php";
+include_once("../php/Product.php");
 session_start();
 if (isset($_SESSION['email'])) {
     $account = $_SESSION['email'];
@@ -129,7 +129,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         echo "<tr>";
                         echo "<td class='prodNameTD'>$prodName &nbsp;</td>";
                         echo "<td>$$prodPrice &nbsp;</td>";
-                        echo "<td><input type='text' size='3' value='$prodQty' readonly/></td>";
+                        echo "<td><input type='text' size='3' value='$prodQty' readonly/><form action='../php/removeItem.php' method='POST'><button type='submit' name='View'>Remove</button><input type='hidden' name='prodID' value='$prodID'> </form></td>";
                         echo "</tr>";
                         echo "</tbody>";
                         echo "</table>";
@@ -183,7 +183,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <div class="info">
             <p>Author: Andre Alexandrov</p>
 
-            <p>All license to me</p>
+            <p>All rights reserved</p>
         </div>
     </footer>
 </body>

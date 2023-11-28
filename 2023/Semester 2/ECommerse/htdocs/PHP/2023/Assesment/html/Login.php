@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
+    <title>Login</title>
     <link rel="stylesheet" href="../css/main.css">
 </head>
 <?php
@@ -91,7 +91,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <div class="info">
             <p>Author: Andre Alexandrov</p>
 
-            <p>All license to me</p>
+            <p>All rights reserved</p>
         </div>
     </footer>
 </body>
