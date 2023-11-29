@@ -231,3 +231,9 @@ th, td, tr {
 .prodNameTD{
     width: 78px;
 }
+@media only Screen and (max-width: 800px){
+    footer{
+        display: none;
+    }
+    
+}
