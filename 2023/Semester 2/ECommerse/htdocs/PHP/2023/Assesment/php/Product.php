@@ -29,6 +29,19 @@ class DBproduct
     return $row['productPrice'];
     $mysqli->close();
   }
+  public function get_productImage($prodID)
+  {
+    include_once("../php/conn_db.php");
+    global $mysqli;
+    $query = "SELECT * FROM product WHERE (productID = ?)";
+    $stmt = $mysqli->prepare($query);
+    $stmt->bind_param("s", $prodID);
+    $stmt->execute();
+    $result = $stmt->get_result();
+    $row = $result->fetch_assoc();
+    return $row['productImage'];
+    $mysqli->close();
+  }
 }
 
 class cart_product

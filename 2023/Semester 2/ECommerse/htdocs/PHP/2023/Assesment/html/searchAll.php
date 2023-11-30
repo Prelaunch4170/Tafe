@@ -82,8 +82,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     
                     echo "<div class='card'>";
                     echo "<div class='card-content'>";
-                    echo "<img src='$image' alt='Denim Jeans' style='width:100%'>";
-                    echo "<h1>$desc</h1>";
+                    echo "<img src='$image' alt='$product_name' style='width:100%'>";
+                    echo "<h1>$product_name </h1>";
                     echo "<p class='pric'>$unit_price</p>";
                     echo "<p>$desc</p>";
                     echo "</div>";

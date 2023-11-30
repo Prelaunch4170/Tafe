@@ -107,12 +107,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         $prodName = $products->get_productName($prodID);
                         $prodPrice = $products->get_productPrice($prodID);
                         $prodQty = $cart->get_product($i)->get_quantity();
+                        $prodimage = $products->get_productImage($prodID);
                         $totalProdPrice = $prodQty * $prodPrice;
                         $totalPrice += $totalProdPrice;
                         echo "<li>";
                         echo "<div class='product'>";
                         echo "<div class='prodImage'>";
-                        echo "<img src='../images/test.jpg' alt='Denim Jeans' style='width:100%'>";
+                        echo "<img src='$prodimage' alt='Image of $prodName' style='width:100%'>";
                         echo "</div>";
                         echo "<div class='prodInfo'>";
                         echo "<table>";
@@ -147,15 +148,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <table>
                         <thead>
                             <tr>
-                                <th>Total<br></th>
+                                <th>Cost<br></th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td><?php echo "$$totalPrice" ?></td>
+                            <td>GST $<?php echo round($totalPrice-($totalPrice/1.1),2)  ?></td>
+                                
+                            </tr>
+                            <tr>
+                            <td><?php echo "Total $$totalPrice" ?></td>
                             </tr>
                             <tr>
                                 <td>
+
                                     <input type='number' value="<?php echo $entered; ?>" placeholder="Card Number" id="credit" name="credit" />
                                     <span class="error" id="userPass-error"><br><?php echo $creditError; ?>
                                     </span>
@@ -163,6 +169,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             </tr>
                             <tr>
                                 <td><input type='text' placeholder="CVV" id="CVV" name="CVV" /></td>
+                            </tr>
+                            <tr>
+                                <td><input type='text' placeholder="Name on Card" id="cardName" name="cardName" /></td>
                             </tr>
                             <tr>
                                 <td>Expiry:</td>
